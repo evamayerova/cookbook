@@ -77,8 +77,42 @@ const defaultRecipes = [
 // State Management
 let recipes = JSON.parse(localStorage.getItem('recipes')) || defaultRecipes;
 
+const defaultCategories = ["Breakfast", "Lunch", "Dinner", "Dessert", "Seafood", "Vegan", "Other"];
+const defaultUnits = ["cup", "tbsp", "tsp", "oz", "lb", "g", "ml", "whole"];
+const defaultIngredients = ["Flour", "Sugar", "Butter", "Eggs", "Milk", "Salt", "Olive Oil", "Water", "Garlic", "Onion", "Salmon", "Chicken", "Beef", "Pasta", "Rice", "Tomatoes", "Cheese", "Mushrooms", "Heavy Cream"];
+
+let customCategories = JSON.parse(localStorage.getItem('customCategories')) || [];
+let customUnits = JSON.parse(localStorage.getItem('customUnits')) || [];
+let customIngredients = JSON.parse(localStorage.getItem('customIngredients')) || [];
+
 function saveRecipes() {
     localStorage.setItem('recipes', JSON.stringify(recipes));
+}
+
+function saveCustomOptions() {
+    localStorage.setItem('customCategories', JSON.stringify(customCategories));
+    localStorage.setItem('customUnits', JSON.stringify(customUnits));
+    localStorage.setItem('customIngredients', JSON.stringify(customIngredients));
+}
+
+function populateDatalists() {
+    const catList = document.getElementById('categoryList');
+    const unitList = document.getElementById('unitList');
+    const ingList = document.getElementById('ingredientList');
+    
+    if (!catList || !unitList || !ingList) return;
+
+    catList.innerHTML = '';
+    unitList.innerHTML = '';
+    ingList.innerHTML = '';
+
+    const allCats = [...new Set([...defaultCategories, ...customCategories])];
+    const allUnits = [...new Set([...defaultUnits, ...customUnits])];
+    const allIngs = [...new Set([...defaultIngredients, ...customIngredients])];
+
+    allCats.forEach(c => catList.appendChild(new Option(c)));
+    allUnits.forEach(u => unitList.appendChild(new Option(u)));
+    allIngs.forEach(i => ingList.appendChild(new Option(i)));
 }
 
 // Unit Conversion Utility
@@ -227,6 +261,7 @@ function renderRecipes(recipesToRender) {
 
 // Initial render
 renderRecipes(recipes);
+populateDatalists();
 
 // Search functionality
 searchInput.addEventListener('input', (e) => {
@@ -304,9 +339,9 @@ addIngredientBtn.addEventListener('click', () => {
     const row = document.createElement('div');
     row.className = 'ingredient-row';
     row.innerHTML = `
-        <input type="text" class="ing-amount" placeholder="e.g. 2" required>
-        <input type="text" class="ing-unit" placeholder="e.g. cups">
-        <input type="text" class="ing-name" placeholder="e.g. Flour" required>
+        <input type="number" step="any" class="ing-amount" placeholder="Qty" required>
+        <input type="text" class="ing-unit" list="unitList" placeholder="Unit">
+        <input type="text" class="ing-name" list="ingredientList" placeholder="Ingredient" required>
         <button type="button" class="remove-row-btn">&times;</button>
     `;
     ingredientsList.appendChild(row);
@@ -368,8 +403,25 @@ addRecipeForm.addEventListener('submit', (e) => {
         steps: newSteps
     };
 
+    // Update custom options
+    if (newRecipe.category && !defaultCategories.includes(newRecipe.category) && !customCategories.includes(newRecipe.category)) {
+        customCategories.push(newRecipe.category);
+    }
+    
+    newIngredients.forEach(ing => {
+        if (ing.unit && !defaultUnits.includes(ing.unit) && !customUnits.includes(ing.unit)) {
+            customUnits.push(ing.unit);
+        }
+        if (ing.name && !defaultIngredients.includes(ing.name) && !customIngredients.includes(ing.name)) {
+            customIngredients.push(ing.name);
+        }
+    });
+
     recipes.push(newRecipe);
     saveRecipes();
+    saveCustomOptions();
+    populateDatalists();
+    
     renderRecipes(recipes);
     closeModal(addRecipeModal);
 });
