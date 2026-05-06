@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gourmet Cookbook | Discover Exquisite Recipes</title>
+    <meta name="description" content="Explore a curated collection of exquisite recipes from around the world. Elevate your culinary skills with Gourmet Cookbook.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Playfair+Display:ital,wght@0,600;1,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="background-elements">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+    </div>
+
+    <header class="glass-header">
+        <div class="container header-content">
+            <h1 class="logo">Gourmet<span>Cookbook</span></h1>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#" class="active">Discover</a></li>
+                    <li><a href="#">Categories</a></li>
+                    <li><a href="#">My Favorites</a></li>
+                </ul>
+            </nav>
+            <button class="btn-primary">Add Recipe</button>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="hero">
+            <div class="hero-text">
+                <h2>Elevate Your Culinary Journey</h2>
+                <p>Discover, create, and share exquisite recipes from master chefs around the globe. Your next masterpiece awaits.</p>
+                <div class="search-bar glass-panel">
+                    <input type="text" placeholder="Search for recipes, ingredients, or chefs..." id="searchInput">
+                    <button id="searchBtn">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <section class="recipes-grid" id="recipesGrid">
+            <!-- Recipe cards will be injected here by JS -->
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
