@@ -1,119 +1,6 @@
-// Default recipes
-const defaultRecipes = [
-    {
-        id: 1,
-        title: "Truffle Mushroom Pasta",
-        description: "A rich and creamy pasta dish infused with the earthy aroma of black truffles, finished with a sprinkle of aged parmesan.",
-        image: "assets/recipe_pasta.png",
-        author: "Chef Luigi",
-        category: "Dinner",
-        time: "30 min",
-        ingredients: [
-            { amount: "1", unit: "lb", name: "Fettuccine pasta" },
-            { amount: "2", unit: "tbsp", name: "Butter" },
-            { amount: "8", unit: "oz", name: "Cremini mushrooms, sliced" },
-            { amount: "1", unit: "cup", name: "Heavy cream" },
-            { amount: "2", unit: "tsp", name: "Truffle oil" }
-        ],
-        steps: [
-            "Boil water and cook the fettuccine pasta according to package directions.",
-            "In a large skillet, melt the butter over medium heat.",
-            "Add the mushrooms and sauté until browned.",
-            "Stir in the heavy cream and let it simmer for 5 minutes until slightly thickened.",
-            "Remove from heat, drizzle with truffle oil, and toss with the cooked pasta."
-        ]
-    },
-    {
-        id: 2,
-        title: "Seared Salmon & Asparagus",
-        description: "Perfectly seared Atlantic salmon served over tender grilled asparagus, drizzled with a delicate lemon butter caper sauce.",
-        image: "assets/recipe_salmon.png",
-        author: "Sarah Jenkins",
-        category: "Seafood",
-        time: "25 min",
-        ingredients: [
-            { amount: "2", unit: "lbs", name: "Salmon fillets" },
-            { amount: "1", unit: "bunch", name: "Asparagus" },
-            { amount: "2", unit: "tbsp", name: "Olive oil" },
-            { amount: "1", unit: "tbsp", name: "Lemon juice" }
-        ],
-        steps: [
-            "Preheat a grill or skillet over medium-high heat.",
-            "Rub the salmon and asparagus with olive oil, salt, and pepper.",
-            "Sear the salmon for 4-5 minutes per side until cooked through.",
-            "Grill the asparagus for 5-7 minutes until tender.",
-            "Drizzle everything with fresh lemon juice before serving."
-        ]
-    },
-    {
-        id: 3,
-        title: "Decadent Chocolate Lava Cake",
-        description: "A rich chocolate cake with a molten center, served warm and complemented by a vibrant, tart raspberry coulis.",
-        image: "assets/recipe_dessert.png",
-        author: "Pastry Chef Mia",
-        category: "Dessert",
-        time: "40 min",
-        ingredients: [
-            { amount: "4", unit: "oz", name: "Semi-sweet chocolate" },
-            { amount: "1/2", unit: "cup", name: "Butter" },
-            { amount: "1", unit: "cup", name: "Powdered sugar" },
-            { amount: "2", unit: "whole", name: "Eggs" },
-            { amount: "2", unit: "whole", name: "Egg yolks" },
-            { amount: "6", unit: "tbsp", name: "All-purpose flour" }
-        ],
-        steps: [
-            "Preheat oven to 425°F (220°C). Grease 4 ramekins.",
-            "Microwave chocolate and butter in a bowl until melted (about 1 minute).",
-            "Stir in powdered sugar until well blended.",
-            "Whisk in eggs and egg yolks.",
-            "Stir in flour.",
-            "Divide batter evenly among ramekins.",
-            "Bake for 13-14 minutes until the sides are firm but the center is soft.",
-            "Let cool for 1 minute, then invert onto a plate."
-        ]
-    }
-];
-
 // State Management
-let recipes = JSON.parse(localStorage.getItem('recipes')) || defaultRecipes;
-
-const defaultCategories = ["Breakfast", "Lunch", "Dinner", "Dessert", "Seafood", "Vegan", "Other"];
-const defaultUnits = ["cup", "tbsp", "tsp", "oz", "lb", "g", "ml", "whole"];
-const defaultIngredients = ["Flour", "Sugar", "Butter", "Eggs", "Milk", "Salt", "Olive Oil", "Water", "Garlic", "Onion", "Salmon", "Chicken", "Beef", "Pasta", "Rice", "Tomatoes", "Cheese", "Mushrooms", "Heavy Cream"];
-
-let customCategories = JSON.parse(localStorage.getItem('customCategories')) || [];
-let customUnits = JSON.parse(localStorage.getItem('customUnits')) || [];
-let customIngredients = JSON.parse(localStorage.getItem('customIngredients')) || [];
-
-function saveRecipes() {
-    localStorage.setItem('recipes', JSON.stringify(recipes));
-}
-
-function saveCustomOptions() {
-    localStorage.setItem('customCategories', JSON.stringify(customCategories));
-    localStorage.setItem('customUnits', JSON.stringify(customUnits));
-    localStorage.setItem('customIngredients', JSON.stringify(customIngredients));
-}
-
-function populateDatalists() {
-    const catList = document.getElementById('categoryList');
-    const unitList = document.getElementById('unitList');
-    const ingList = document.getElementById('ingredientList');
-    
-    if (!catList || !unitList || !ingList) return;
-
-    catList.innerHTML = '';
-    unitList.innerHTML = '';
-    ingList.innerHTML = '';
-
-    const allCats = [...new Set([...defaultCategories, ...customCategories])];
-    const allUnits = [...new Set([...defaultUnits, ...customUnits])];
-    const allIngs = [...new Set([...defaultIngredients, ...customIngredients])];
-
-    allCats.forEach(c => catList.appendChild(new Option(c)));
-    allUnits.forEach(u => unitList.appendChild(new Option(u)));
-    allIngs.forEach(i => ingList.appendChild(new Option(i)));
-}
+// Recipes are now loaded globally from recipes-data.js via window.recipesData
+let recipes = window.recipesData || [];
 
 // Unit Conversion Utility
 function convertUnit(amountStr, unitStr) {
@@ -202,20 +89,8 @@ const recipesGrid = document.getElementById('recipesGrid');
 const searchInput = document.getElementById('searchInput');
 
 // Modal Elements
-const addRecipeModal = document.getElementById('addRecipeModal');
-const addRecipeBtn = document.getElementById('addRecipeBtn');
-const closeAddModal = document.getElementById('closeAddModal');
-const cancelAddBtn = document.getElementById('cancelAddBtn');
-const addRecipeForm = document.getElementById('addRecipeForm');
-
 const viewRecipeModal = document.getElementById('viewRecipeModal');
 const closeViewModal = document.getElementById('closeViewModal');
-
-// Dynamic Form Elements
-const ingredientsList = document.getElementById('ingredientsList');
-const addIngredientBtn = document.getElementById('addIngredientBtn');
-const stepsList = document.getElementById('stepsList');
-const addStepBtn = document.getElementById('addStepBtn');
 
 // Render Grid
 function renderRecipes(recipesToRender) {
@@ -261,7 +136,6 @@ function renderRecipes(recipesToRender) {
 
 // Initial render
 renderRecipes(recipes);
-populateDatalists();
 
 // Search functionality
 searchInput.addEventListener('input', (e) => {
@@ -284,17 +158,9 @@ function closeModal(modal) {
     modal.classList.remove('active');
 }
 
-addRecipeBtn.addEventListener('click', () => {
-    addRecipeForm.reset();
-    openModal(addRecipeModal);
-});
-
-closeAddModal.addEventListener('click', () => closeModal(addRecipeModal));
-cancelAddBtn.addEventListener('click', () => closeModal(addRecipeModal));
 closeViewModal.addEventListener('click', () => closeModal(viewRecipeModal));
 
 window.addEventListener('click', (e) => {
-    if (e.target === addRecipeModal) closeModal(addRecipeModal);
     if (e.target === viewRecipeModal) closeModal(viewRecipeModal);
 });
 

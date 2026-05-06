@@ -1,0 +1,27 @@
+{
+    "id": 3,
+    "title": "Decadent Chocolate Lava Cake",
+    "description": "A rich chocolate cake with a molten center, served warm and complemented by a vibrant, tart raspberry coulis.",
+    "image": "assets/recipe_dessert.png",
+    "author": "Pastry Chef Mia",
+    "category": "Dessert",
+    "time": "40 min",
+    "ingredients": [
+        { "amount": "4", "unit": "oz", "name": "Semi-sweet chocolate" },
+        { "amount": "1/2", "unit": "cup", "name": "Butter" },
+        { "amount": "1", "unit": "cup", "name": "Powdered sugar" },
+        { "amount": "2", "unit": "whole", "name": "Eggs" },
+        { "amount": "2", "unit": "whole", "name": "Egg yolks" },
+        { "amount": "6", "unit": "tbsp", "name": "All-purpose flour" }
+    ],
+    "steps": [
+        "Preheat oven to 425°F (220°C). Grease 4 ramekins.",
+        "Microwave chocolate and butter in a bowl until melted (about 1 minute).",
+        "Stir in powdered sugar until well blended.",
+        "Whisk in eggs and egg yolks.",
+        "Stir in flour.",
+        "Divide batter evenly among ramekins.",
+        "Bake for 13-14 minutes until the sides are firm but the center is soft.",
+        "Let cool for 1 minute, then invert onto a plate."
+    ]
+}

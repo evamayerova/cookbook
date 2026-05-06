@@ -1,0 +1,22 @@
+{
+    "id": 2,
+    "title": "Seared Salmon & Asparagus",
+    "description": "Perfectly seared Atlantic salmon served over tender grilled asparagus, drizzled with a delicate lemon butter caper sauce.",
+    "image": "assets/recipe_salmon.png",
+    "author": "Sarah Jenkins",
+    "category": "Seafood",
+    "time": "25 min",
+    "ingredients": [
+        { "amount": "2", "unit": "lbs", "name": "Salmon fillets" },
+        { "amount": "1", "unit": "bunch", "name": "Asparagus" },
+        { "amount": "2", "unit": "tbsp", "name": "Olive oil" },
+        { "amount": "1", "unit": "tbsp", "name": "Lemon juice" }
+    ],
+    "steps": [
+        "Preheat a grill or skillet over medium-high heat.",
+        "Rub the salmon and asparagus with olive oil, salt, and pepper.",
+        "Sear the salmon for 4-5 minutes per side until cooked through.",
+        "Grill the asparagus for 5-7 minutes until tender.",
+        "Drizzle everything with fresh lemon juice before serving."
+    ]
+}
