@@ -10,6 +10,7 @@ window.recipesData = [
         "author":  "Chef Luigi",
         "category":  "Dinner",
         "time":  "30 min",
+        "portions":  4,
         "ingredients":  [
                             {
                                 "amount":  "1",
@@ -53,6 +54,7 @@ window.recipesData = [
         "author":  "Sarah Jenkins",
         "category":  "Seafood",
         "time":  "25 min",
+        "portions":  4,
         "ingredients":  [
                             {
                                 "amount":  "2",
@@ -91,6 +93,7 @@ window.recipesData = [
         "author":  "Pastry Chef Mia",
         "category":  "Dessert",
         "time":  "40 min",
+        "portions":  4,
         "ingredients":  [
                             {
                                 "amount":  "4",
@@ -142,6 +145,7 @@ window.recipesData = [
         "author":  "chute-sveta.cz",
         "category":  "Dinner",
         "time":  "60 min",
+        "portions":  6,
         "ingredients":  [
                             {
                                 "amount":  "800",

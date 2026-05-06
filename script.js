@@ -2,23 +2,32 @@
 // Recipes are now loaded globally from recipes-data.js via window.recipesData
 let recipes = window.recipesData || [];
 
-// Unit Conversion Utility
-function convertUnit(amountStr, unitStr) {
-    if (!unitStr) return '';
-    const unit = unitStr.toLowerCase().trim();
-
-    // Parse amount to number (handling basic fractions roughly like 1/2 = 0.5)
-    let amount = 0;
-    if (amountStr.includes('/')) {
-        const parts = amountStr.split('/');
-        if (parts.length === 2) {
-            amount = parseFloat(parts[0]) / parseFloat(parts[1]);
+// Parsing and Formatting Utilities
+function parseAmount(amountStr) {
+    if (!amountStr) return 0;
+    const parts = amountStr.toString().trim().split(' ');
+    let total = 0;
+    for (let part of parts) {
+        if (part.includes('/')) {
+            const [num, den] = part.split('/');
+            total += parseFloat(num) / parseFloat(den);
+        } else {
+            total += parseFloat(part);
         }
-    } else {
-        amount = parseFloat(amountStr);
     }
+    return isNaN(total) ? amountStr : total;
+}
 
-    if (isNaN(amount)) return ''; // Cannot convert
+function formatAmount(amountNum) {
+    if (typeof amountNum !== 'number') return amountNum;
+    return Number.isInteger(amountNum) ? amountNum.toString() : parseFloat(amountNum.toFixed(2)).toString();
+}
+
+// Unit Conversion Utility
+function convertUnit(amountNum, unitStr) {
+    if (!unitStr || typeof amountNum !== 'number') return '';
+    const unit = unitStr.toLowerCase().trim();
+    const amount = amountNum;
 
     let metricUnit = '';
     let metricVal = 0;
@@ -169,16 +178,53 @@ if (recipeDetailContainer) {
         const imgUrl = recipe.image || 'https://images.unsplash.com/photo-1495195134817-aeb325a55b65?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80';
         document.getElementById('pageImageContainer').innerHTML = `<img src="${imgUrl}" alt="${recipe.title}" loading="lazy">`;
 
+        let currentPortions = recipe.portions || 4;
+        const originalPortions = recipe.portions || 4;
         const pageIngredients = document.getElementById('pageIngredients');
-        if (recipe.ingredients) {
-            recipe.ingredients.forEach(ing => {
-                const conversion = convertUnit(ing.amount, ing.unit);
-                const unitText = ing.unit ? ` ${ing.unit}` : '';
-                const conversionText = conversion ? ` <span style="color:var(--text-secondary);font-size:0.9em">${conversion}</span>` : '';
+        const portionsDisplay = document.getElementById('portionsDisplay');
+        const btnIncrease = document.getElementById('btnIncreasePortion');
+        const btnDecrease = document.getElementById('btnDecreasePortion');
 
-                const li = document.createElement('li');
-                li.innerHTML = `<strong>${ing.amount}${unitText}</strong>${conversionText} ${ing.name}`;
-                pageIngredients.appendChild(li);
+        function renderIngredients() {
+            pageIngredients.innerHTML = '';
+            portionsDisplay.innerText = `${currentPortions} portion${currentPortions > 1 ? 's' : ''}`;
+            const multiplier = currentPortions / originalPortions;
+
+            if (recipe.ingredients) {
+                recipe.ingredients.forEach(ing => {
+                    const parsedOriginal = parseAmount(ing.amount);
+                    let displayAmount = ing.amount;
+                    let amountForConversion = null;
+
+                    if (typeof parsedOriginal === 'number') {
+                        const newAmount = parsedOriginal * multiplier;
+                        displayAmount = formatAmount(newAmount);
+                        amountForConversion = newAmount;
+                    }
+
+                    const conversion = convertUnit(amountForConversion, ing.unit);
+                    const unitText = ing.unit ? ` ${ing.unit}` : '';
+                    const conversionText = conversion ? ` <span style="color:var(--text-secondary);font-size:0.9em">${conversion}</span>` : '';
+
+                    const li = document.createElement('li');
+                    li.innerHTML = `<strong>${displayAmount}${unitText}</strong>${conversionText} ${ing.name}`;
+                    pageIngredients.appendChild(li);
+                });
+            }
+        }
+
+        renderIngredients();
+
+        if (btnIncrease && btnDecrease) {
+            btnIncrease.addEventListener('click', () => {
+                currentPortions++;
+                renderIngredients();
+            });
+            btnDecrease.addEventListener('click', () => {
+                if (currentPortions > 1) {
+                    currentPortions--;
+                    renderIngredients();
+                }
             });
         }
 

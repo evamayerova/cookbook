@@ -53,9 +53,15 @@
 
             <div class="recipe-layout">
                 <div class="ingredients-section">
-                    <h3>Ingredients</h3>
+                    <div class="ingredients-header">
+                        <h3>Ingredients</h3>
+                        <div class="portions-control">
+                            <button id="btnDecreasePortion" class="portion-btn">-</button>
+                            <span id="portionsDisplay">4 portions</span>
+                            <button id="btnIncreasePortion" class="portion-btn">+</button>
+                        </div>
+                    </div>
                     <ul id="pageIngredients" class="ingredients-list">
-                        <!-- Ingredients injected here -->
                     </ul>
                 </div>
                 <div class="steps-section">

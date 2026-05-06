@@ -6,6 +6,7 @@
     "author": "chute-sveta.cz",
     "category": "Dinner",
     "time": "60 min",
+    "portions": 6,
     "ingredients": [
         {
             "amount": "800",

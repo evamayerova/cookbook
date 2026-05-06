@@ -495,3 +495,51 @@ h4 {
     margin-bottom: 1rem;
     line-height: 1.6;
 }
+
+/* Portion Controls */
+.ingredients-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.ingredients-header h3 {
+    margin-bottom: 0;
+}
+
+.portions-control {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    background: rgba(0, 0, 0, 0.2);
+    padding: 0.25rem;
+    border-radius: 2rem;
+    border: 1px solid var(--glass-border);
+}
+
+.portions-control span {
+    font-size: 0.9rem;
+    min-width: 70px;
+    text-align: center;
+    color: var(--text-primary);
+}
+
+.portion-btn {
+    background: rgba(255, 255, 255, 0.1);
+    border: none;
+    color: var(--accent-color);
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background 0.3s ease;
+}
+
+.portion-btn:hover {
+    background: rgba(255, 255, 255, 0.2);
+}

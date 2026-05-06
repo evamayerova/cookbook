@@ -6,6 +6,7 @@
     "author": "Chef Luigi",
     "category": "Dinner",
     "time": "30 min",
+    "portions": 4,
     "ingredients": [
         { "amount": "1", "unit": "lb", "name": "Fettuccine pasta" },
         { "amount": "2", "unit": "tbsp", "name": "Butter" },

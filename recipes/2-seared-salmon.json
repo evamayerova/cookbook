@@ -6,6 +6,7 @@
     "author": "Sarah Jenkins",
     "category": "Seafood",
     "time": "25 min",
+    "portions": 4,
     "ingredients": [
         { "amount": "2", "unit": "lbs", "name": "Salmon fillets" },
         { "amount": "1", "unit": "bunch", "name": "Asparagus" },
