@@ -1,0 +1,35 @@
+{
+    "id": 4,
+    "title": "Favorite Chili Con Carne",
+    "description": "Hearty chili with beef and beans served with sour cream and grated cheese, known as chili con carne, is the best comfort food. A warming dish perfect for any day.",
+    "image": "assets/recipe_chili.png",
+    "author": "Jarka",
+    "category": "Dinner",
+    "time": "60 min",
+    "ingredients": [
+        { "amount": "2", "unit": "cups", "name": "Dried beans (approx. 400g)" },
+        { "amount": "3", "unit": "tbsp", "name": "Oil" },
+        { "amount": "1", "unit": "lb", "name": "Ground beef (450g)" },
+        { "amount": "1", "unit": "whole", "name": "Medium onion, finely chopped" },
+        { "amount": "3", "unit": "cloves", "name": "Garlic, minced" },
+        { "amount": "1.5", "unit": "tbsp", "name": "Chili powder" },
+        { "amount": "2", "unit": "tsp", "name": "Cumin" },
+        { "amount": "1.5", "unit": "tsp", "name": "Dried oregano" },
+        { "amount": "0.5", "unit": "tsp", "name": "Salt" },
+        { "amount": "2", "unit": "cans", "name": "Diced tomatoes (800g total)" },
+        { "amount": "1", "unit": "cup", "name": "Beef broth (240ml)" },
+        { "amount": "4", "unit": "whole", "name": "Jalapeño peppers, finely chopped" },
+        { "amount": "1.25", "unit": "cups", "name": "Frozen corn (200g)" },
+        { "amount": "1", "unit": "oz", "name": "Dark chocolate (optional)" }
+    ],
+    "steps": [
+        "Soak beans in water overnight, then cook according to instructions until tender the next day.",
+        "Sauté onion in oil until translucent, add garlic and ground beef. Brown the meat for about 5 minutes.",
+        "Cover with a lid and simmer for 30 minutes, stirring occasionally.",
+        "Add chili powder, cumin, oregano and stir well.",
+        "Add cooked beans, tomatoes, beef broth, and jalapeño peppers. Reduce heat and cook uncovered for about 20 minutes.",
+        "Finally, add frozen corn and (optional) break a small piece of dark chocolate into the chili. Cook for another 3-5 minutes.",
+        "Season with salt to taste.",
+        "Serve garnished with sour cream, grated cheese, and fresh cilantro. Best served with cornbread."
+    ]
+}
