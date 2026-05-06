@@ -139,14 +139,14 @@ window.recipesData = [
         "title":  "Favorite Chili Con Carne",
         "description":  "Hearty chili with beef and beans served with sour cream and grated cheese, known as chili con carne, is the best comfort food. A warming dish perfect for any day.",
         "image":  "assets/recipe_chili.png",
-        "author":  "Jarka",
+        "author":  "chute-sveta.cz",
         "category":  "Dinner",
         "time":  "60 min",
         "ingredients":  [
                             {
-                                "amount":  "2",
-                                "unit":  "cups",
-                                "name":  "Dried beans (approx. 400g)"
+                                "amount":  "800",
+                                "unit":  "grams",
+                                "name":  "Canned kidney beans"
                             },
                             {
                                 "amount":  "3",
@@ -154,9 +154,9 @@ window.recipesData = [
                                 "name":  "Oil"
                             },
                             {
-                                "amount":  "1",
-                                "unit":  "lb",
-                                "name":  "Ground beef (450g)"
+                                "amount":  "500",
+                                "unit":  "grams",
+                                "name":  "Ground beef"
                             },
                             {
                                 "amount":  "1",
@@ -189,14 +189,14 @@ window.recipesData = [
                                 "name":  "Salt"
                             },
                             {
-                                "amount":  "2",
-                                "unit":  "cans",
-                                "name":  "Diced tomatoes (800g total)"
+                                "amount":  "800",
+                                "unit":  "grams",
+                                "name":  "Canned chopped tomatoes"
                             },
                             {
-                                "amount":  "1",
-                                "unit":  "cup",
-                                "name":  "Beef broth (240ml)"
+                                "amount":  "240",
+                                "unit":  "ml",
+                                "name":  "Beef broth"
                             },
                             {
                                 "amount":  "4",
@@ -204,25 +204,24 @@ window.recipesData = [
                                 "name":  "JalapeÃ±o peppers, finely chopped"
                             },
                             {
-                                "amount":  "1.25",
-                                "unit":  "cups",
-                                "name":  "Frozen corn (200g)"
+                                "amount":  "200",
+                                "unit":  "grams",
+                                "name":  "Canned corn"
                             },
                             {
-                                "amount":  "1",
-                                "unit":  "oz",
+                                "amount":  "25",
+                                "unit":  "grams",
                                 "name":  "Dark chocolate (optional)"
                             }
                         ],
         "steps":  [
-                      "Soak beans in water overnight, then cook according to instructions until tender the next day.",
                       "SautÃ© onion in oil until translucent, add garlic and ground beef. Brown the meat for about 5 minutes.",
                       "Cover with a lid and simmer for 30 minutes, stirring occasionally.",
                       "Add chili powder, cumin, oregano and stir well.",
-                      "Add cooked beans, tomatoes, beef broth, and jalapeÃ±o peppers. Reduce heat and cook uncovered for about 20 minutes.",
+                      "Add beans, tomatoes, beef broth, and jalapeÃ±o peppers. Reduce heat and cook uncovered for about 20 minutes.",
                       "Finally, add frozen corn and (optional) break a small piece of dark chocolate into the chili. Cook for another 3-5 minutes.",
                       "Season with salt to taste.",
-                      "Serve garnished with sour cream, grated cheese, and fresh cilantro. Best served with cornbread."
+                      "Serve garnished with sour cream, grated cheese, and fresh cilantro. Best served with cornbread or basmati rice."
                   ]
     }
 ];
