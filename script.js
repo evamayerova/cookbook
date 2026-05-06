@@ -376,7 +376,7 @@ addRecipeForm.addEventListener('submit', (e) => {
 
 // Animation Keyframes
 const styleSheet = document.createElement("style");
-styleSheet.innerText = \`
+styleSheet.innerText = `
   @keyframes fadeInUp {
     from {
       opacity: 0;
@@ -387,5 +387,5 @@ styleSheet.innerText = \`
       transform: translateY(0);
     }
   }
-\`;
+`;
 document.head.appendChild(styleSheet);
