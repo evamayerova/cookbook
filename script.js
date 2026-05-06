@@ -126,7 +126,7 @@ function renderRecipes(recipesToRender) {
                         <div class="author-avatar">${recipe.author.charAt(0).toUpperCase()}</div>
                         <span class="author-name">${recipe.author}</span>
                     </div>
-                    <button class="btn-view" onclick="openViewModal(${recipe.id})">View Recipe</button>
+                    <a href="recipe.html?id=${recipe.id}" class="btn-view">View Recipe</a>
                 </div>
             </div>
         `;
@@ -134,71 +134,68 @@ function renderRecipes(recipesToRender) {
     });
 }
 
-// Initial render
-renderRecipes(recipes);
+// Execute index.html specific logic
+if (recipesGrid) {
+    // Initial render
+    renderRecipes(recipes);
 
-// Search functionality
-searchInput.addEventListener('input', (e) => {
-    const searchTerm = e.target.value.toLowerCase();
-    const filteredRecipes = recipes.filter(recipe =>
-        recipe.title.toLowerCase().includes(searchTerm) ||
-        recipe.description.toLowerCase().includes(searchTerm) ||
-        recipe.category.toLowerCase().includes(searchTerm) ||
-        (recipe.ingredients && recipe.ingredients.some(i => i.name.toLowerCase().includes(searchTerm)))
-    );
-    renderRecipes(filteredRecipes);
-});
-
-// Modal Logic
-function openModal(modal) {
-    modal.classList.add('active');
-}
-
-function closeModal(modal) {
-    modal.classList.remove('active');
-}
-
-closeViewModal.addEventListener('click', () => closeModal(viewRecipeModal));
-
-window.addEventListener('click', (e) => {
-    if (e.target === viewRecipeModal) closeModal(viewRecipeModal);
-});
-
-// View Modal Logic
-window.openViewModal = function (id) {
-    const recipe = recipes.find(r => r.id === id);
-    if (!recipe) return;
-
-    document.getElementById('viewTitle').innerText = recipe.title;
-    document.getElementById('viewMeta').innerHTML = `<span>By ${recipe.author}</span><span>${recipe.category}</span><span>⏱ ${recipe.time}</span>`;
-    document.getElementById('viewDesc').innerText = recipe.description;
-
-    const viewIngredients = document.getElementById('viewIngredients');
-    viewIngredients.innerHTML = '';
-    if (recipe.ingredients) {
-        recipe.ingredients.forEach(ing => {
-            const conversion = convertUnit(ing.amount, ing.unit);
-            const unitText = ing.unit ? ` ${ing.unit}` : '';
-            const conversionText = conversion ? ` <span style="color:var(--text-secondary);font-size:0.9em">${conversion}</span>` : '';
-
-            const li = document.createElement('li');
-            li.innerHTML = `<strong>${ing.amount}${unitText}</strong>${conversionText} ${ing.name}`;
-            viewIngredients.appendChild(li);
+    // Search functionality
+    if (searchInput) {
+        searchInput.addEventListener('input', (e) => {
+            const searchTerm = e.target.value.toLowerCase();
+            const filteredRecipes = recipes.filter(recipe =>
+                recipe.title.toLowerCase().includes(searchTerm) ||
+                recipe.description.toLowerCase().includes(searchTerm) ||
+                recipe.category.toLowerCase().includes(searchTerm) ||
+                (recipe.ingredients && recipe.ingredients.some(i => i.name.toLowerCase().includes(searchTerm)))
+            );
+            renderRecipes(filteredRecipes);
         });
     }
+}
 
-    const viewSteps = document.getElementById('viewSteps');
-    viewSteps.innerHTML = '';
-    if (recipe.steps) {
-        recipe.steps.forEach(step => {
-            const li = document.createElement('li');
-            li.innerText = step;
-            viewSteps.appendChild(li);
-        });
+// Execute recipe.html specific logic
+const recipeDetailContainer = document.getElementById('recipeDetailContainer');
+if (recipeDetailContainer) {
+    const urlParams = new URLSearchParams(window.location.search);
+    const recipeId = parseInt(urlParams.get('id'));
+    const recipe = recipes.find(r => r.id === recipeId);
+
+    if (recipe) {
+        document.getElementById('pageTitle').innerText = recipe.title;
+        document.getElementById('pageMeta').innerHTML = `<span>By ${recipe.author}</span><span>${recipe.category}</span><span>⏱ ${recipe.time}</span>`;
+        document.getElementById('pageDesc').innerText = recipe.description;
+        
+        const imgUrl = recipe.image || 'https://images.unsplash.com/photo-1495195134817-aeb325a55b65?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80';
+        document.getElementById('pageImageContainer').innerHTML = `<img src="${imgUrl}" alt="${recipe.title}" loading="lazy">`;
+
+        const pageIngredients = document.getElementById('pageIngredients');
+        if (recipe.ingredients) {
+            recipe.ingredients.forEach(ing => {
+                const conversion = convertUnit(ing.amount, ing.unit);
+                const unitText = ing.unit ? ` ${ing.unit}` : '';
+                const conversionText = conversion ? ` <span style="color:var(--text-secondary);font-size:0.9em">${conversion}</span>` : '';
+
+                const li = document.createElement('li');
+                li.innerHTML = `<strong>${ing.amount}${unitText}</strong>${conversionText} ${ing.name}`;
+                pageIngredients.appendChild(li);
+            });
+        }
+
+        const pageSteps = document.getElementById('pageSteps');
+        if (recipe.steps) {
+            recipe.steps.forEach(step => {
+                const li = document.createElement('li');
+                li.innerText = step;
+                pageSteps.appendChild(li);
+            });
+        }
+
+        recipeDetailContainer.style.display = 'block';
+    } else {
+        document.getElementById('recipeNotFound').style.display = 'block';
     }
-
-    openModal(viewRecipeModal);
-};
+}
 
 
 // Animation Keyframes

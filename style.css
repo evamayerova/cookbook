@@ -384,175 +384,64 @@ h4 {
     }
 }
 
-/* Modals */
-.modal-overlay {
-    position: fixed;
-    top: 0;
-    left: 0;
+/* Full Page Recipe Details */
+.full-page-recipe {
+    padding: 3rem;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+}
+
+.btn-back {
+    display: inline-block;
+    color: var(--accent-color);
+    text-decoration: none;
+    font-weight: 600;
+    margin-top: 2rem;
+    transition: opacity 0.3s ease;
+}
+
+.btn-back:hover {
+    opacity: 0.8;
+}
+
+.recipe-header-full {
+    display: flex;
+    gap: 3rem;
+    margin-bottom: 3rem;
+    align-items: center;
+}
+
+.recipe-image-full {
+    flex: 1;
+    border-radius: 1rem;
+    overflow: hidden;
+    max-height: 400px;
+}
+
+.recipe-image-full img {
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.7);
-    backdrop-filter: blur(5px);
-    -webkit-backdrop-filter: blur(5px);
-    z-index: 1000;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    opacity: 0;
-    visibility: hidden;
-    transition: opacity 0.3s ease, visibility 0.3s ease;
-}
-
-.modal-overlay.active {
-    opacity: 1;
-    visibility: visible;
-}
-
-.modal-content {
-    width: 90%;
-    max-width: 600px;
-    max-height: 90vh;
-    overflow-y: auto;
-    padding: 2rem;
-    position: relative;
-    transform: translateY(20px);
-    transition: transform 0.3s ease;
-}
-
-.modal-overlay.active .modal-content {
-    transform: translateY(0);
-}
-
-.modal-content.view-modal {
-    max-width: 800px;
-}
-
-.modal-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 1.5rem;
-    border-bottom: 1px solid var(--glass-border);
-    padding-bottom: 1rem;
-}
-
-.close-btn {
-    background: none;
-    border: none;
-    color: var(--text-secondary);
-    font-size: 2rem;
-    cursor: pointer;
-    transition: color 0.3s ease;
-    line-height: 1;
-}
-
-.close-btn:hover {
-    color: var(--accent-color);
-}
-
-/* Forms */
-.form-group {
-    margin-bottom: 1.5rem;
-}
-
-.form-row {
-    display: flex;
-    gap: 1rem;
-}
-
-.form-row .form-group {
-    flex: 1;
-}
-
-label {
+    object-fit: cover;
     display: block;
-    margin-bottom: 0.5rem;
-    color: var(--text-secondary);
-    font-size: 0.9rem;
 }
 
-input[type="text"],
-input[type="url"],
-textarea {
-    width: 100%;
-    background: rgba(0, 0, 0, 0.2);
-    border: 1px solid var(--glass-border);
-    border-radius: 0.5rem;
-    padding: 0.75rem 1rem;
-    color: var(--text-primary);
-    font-family: 'Outfit', sans-serif;
-    font-size: 1rem;
-    outline: none;
-    transition: border-color 0.3s ease;
-}
-
-input:focus,
-textarea:focus {
-    border-color: var(--accent-color);
-}
-
-.btn-secondary {
-    background: rgba(255, 255, 255, 0.1);
-    color: var(--text-primary);
-    border: 1px solid var(--glass-border);
-    padding: 0.5rem 1rem;
-    border-radius: 2rem;
-    font-family: 'Outfit', sans-serif;
-    cursor: pointer;
-    transition: all 0.3s ease;
-}
-
-.btn-secondary:hover {
-    background: rgba(255, 255, 255, 0.2);
-}
-
-.form-actions {
-    display: flex;
-    justify-content: flex-end;
-    gap: 1rem;
-    margin-top: 2rem;
-    padding-top: 1.5rem;
-    border-top: 1px solid var(--glass-border);
-}
-
-/* Dynamic Rows */
-.ingredient-row,
-.step-row {
-    display: flex;
-    gap: 0.5rem;
-    margin-bottom: 0.5rem;
-    align-items: center;
-}
-
-.ingredient-row input.ing-amount {
-    flex: 0 0 60px;
-}
-
-.ingredient-row input.ing-unit {
-    flex: 0 0 80px;
-}
-
-.ingredient-row input.ing-name {
+.recipe-title-section {
     flex: 1;
 }
 
-.step-row .step-number {
-    font-weight: bold;
+.recipe-title-section h2 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
     color: var(--accent-color);
-    flex: 0 0 20px;
 }
 
-.step-row textarea.step-desc {
-    flex: 1;
-}
-
-.remove-row-btn {
-    background: none;
-    border: none;
-    color: var(--accent-color);
-    font-size: 1.5rem;
-    cursor: pointer;
-    padding: 0 0.5rem;
+@media (max-width: 768px) {
+    .recipe-header-full {
+        flex-direction: column;
+    }
+    .full-page-recipe {
+        padding: 1.5rem;
+    }
 }
 
 /* View Recipe Detail */
