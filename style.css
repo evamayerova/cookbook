@@ -62,12 +62,20 @@ body {
 }
 
 @keyframes float {
-    0% { transform: translate(0, 0) rotate(0deg); }
-    100% { transform: translate(100px, 50px) rotate(180deg); }
+    0% {
+        transform: translate(0, 0) rotate(0deg);
+    }
+
+    100% {
+        transform: translate(100px, 50px) rotate(180deg);
+    }
 }
 
 /* Typography & Utilities */
-h1, h2, h3, h4 {
+h1,
+h2,
+h3,
+h4 {
     font-family: 'Playfair Display', serif;
 }
 
@@ -130,7 +138,8 @@ h1, h2, h3, h4 {
     position: relative;
 }
 
-.nav-links a:hover, .nav-links a.active {
+.nav-links a:hover,
+.nav-links a.active {
     color: var(--text-primary);
 }
 
@@ -145,7 +154,8 @@ h1, h2, h3, h4 {
     transition: width 0.3s ease;
 }
 
-.nav-links a:hover::after, .nav-links a.active::after {
+.nav-links a:hover::after,
+.nav-links a.active::after {
     width: 100%;
 }
 
@@ -367,8 +377,10 @@ h1, h2, h3, h4 {
     .hero-text h2 {
         font-size: 3rem;
     }
+
     .nav-links {
-        display: none; /* In a real app, we'd add a hamburger menu */
+        display: none;
+        /* In a real app, we'd add a hamburger menu */
     }
 }
 
@@ -474,7 +486,8 @@ textarea {
     transition: border-color 0.3s ease;
 }
 
-input:focus, textarea:focus {
+input:focus,
+textarea:focus {
     border-color: var(--accent-color);
 }
 
@@ -503,7 +516,8 @@ input:focus, textarea:focus {
 }
 
 /* Dynamic Rows */
-.ingredient-row, .step-row {
+.ingredient-row,
+.step-row {
     display: flex;
     gap: 0.5rem;
     margin-bottom: 0.5rem;
@@ -513,9 +527,11 @@ input:focus, textarea:focus {
 .ingredient-row input.ing-amount {
     flex: 0 0 60px;
 }
+
 .ingredient-row input.ing-unit {
     flex: 0 0 80px;
 }
+
 .ingredient-row input.ing-name {
     flex: 1;
 }
@@ -525,6 +541,7 @@ input:focus, textarea:focus {
     color: var(--accent-color);
     flex: 0 0 20px;
 }
+
 .step-row textarea.step-desc {
     flex: 1;
 }
@@ -565,7 +582,8 @@ input:focus, textarea:focus {
     }
 }
 
-.ingredients-section h3, .steps-section h3 {
+.ingredients-section h3,
+.steps-section h3 {
     color: var(--accent-color);
     margin-bottom: 1rem;
     font-family: 'Outfit', sans-serif;
@@ -577,7 +595,7 @@ input:focus, textarea:focus {
 
 .ingredients-list li {
     padding: 0.5rem 0;
-    border-bottom: 1px solid rgba(255,255,255,0.05);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
 }
 
 .steps-list {
@@ -588,4 +606,3 @@ input:focus, textarea:focus {
     margin-bottom: 1rem;
     line-height: 1.6;
 }
-

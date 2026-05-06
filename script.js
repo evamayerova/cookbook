@@ -85,7 +85,7 @@ function saveRecipes() {
 function convertUnit(amountStr, unitStr) {
     if (!unitStr) return '';
     const unit = unitStr.toLowerCase().trim();
-    
+
     // Parse amount to number (handling basic fractions roughly like 1/2 = 0.5)
     let amount = 0;
     if (amountStr.includes('/')) {
@@ -96,7 +96,7 @@ function convertUnit(amountStr, unitStr) {
     } else {
         amount = parseFloat(amountStr);
     }
-    
+
     if (isNaN(amount)) return ''; // Cannot convert
 
     let metricUnit = '';
@@ -159,7 +159,7 @@ function convertUnit(amountStr, unitStr) {
         default:
             return ''; // No conversion for this unit
     }
-    
+
     return `(${Math.round(metricVal)}${metricUnit})`;
 }
 
@@ -186,7 +186,7 @@ const addStepBtn = document.getElementById('addStepBtn');
 // Render Grid
 function renderRecipes(recipesToRender) {
     recipesGrid.innerHTML = '';
-    
+
     if (recipesToRender.length === 0) {
         recipesGrid.innerHTML = '<p style="grid-column: 1/-1; text-align: center; color: var(--text-secondary);">No recipes found.</p>';
         return;
@@ -231,8 +231,8 @@ renderRecipes(recipes);
 // Search functionality
 searchInput.addEventListener('input', (e) => {
     const searchTerm = e.target.value.toLowerCase();
-    const filteredRecipes = recipes.filter(recipe => 
-        recipe.title.toLowerCase().includes(searchTerm) || 
+    const filteredRecipes = recipes.filter(recipe =>
+        recipe.title.toLowerCase().includes(searchTerm) ||
         recipe.description.toLowerCase().includes(searchTerm) ||
         recipe.category.toLowerCase().includes(searchTerm) ||
         (recipe.ingredients && recipe.ingredients.some(i => i.name.toLowerCase().includes(searchTerm)))
@@ -264,7 +264,7 @@ window.addEventListener('click', (e) => {
 });
 
 // View Modal Logic
-window.openViewModal = function(id) {
+window.openViewModal = function (id) {
     const recipe = recipes.find(r => r.id === id);
     if (!recipe) return;
 
@@ -279,7 +279,7 @@ window.openViewModal = function(id) {
             const conversion = convertUnit(ing.amount, ing.unit);
             const unitText = ing.unit ? ` ${ing.unit}` : '';
             const conversionText = conversion ? ` <span style="color:var(--text-secondary);font-size:0.9em">${conversion}</span>` : '';
-            
+
             const li = document.createElement('li');
             li.innerHTML = `<strong>${ing.amount}${unitText}</strong>${conversionText} ${ing.name}`;
             viewIngredients.appendChild(li);
@@ -330,7 +330,7 @@ document.addEventListener('click', (e) => {
         const row = e.target.parentElement;
         const parent = row.parentElement;
         row.remove();
-        
+
         // Recalculate step numbers if a step was removed
         if (parent.id === 'stepsList') {
             Array.from(parent.children).forEach((child, index) => {
