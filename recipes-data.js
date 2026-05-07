@@ -8,7 +8,7 @@ window.recipesData = [
         "description":  "A rich and creamy pasta dish infused with the earthy aroma of black truffles, finished with a sprinkle of aged parmesan.",
         "image":  "assets/recipe_pasta.png",
         "author":  "Chef Luigi",
-        "category":  "Dinner",
+        "category":  "Main dish",
         "time":  "30 min",
         "portions":  4,
         "favorite":  false,
@@ -176,7 +176,7 @@ window.recipesData = [
         "description":  "Hearty chili with beef and beans served with sour cream and grated cheese, known as chili con carne, is the best comfort food. A warming dish perfect for any day.",
         "image":  "assets/recipe_chili.png",
         "author":  "chute-sveta.cz",
-        "category":  "Dinner",
+        "category":  "Main dish",
         "time":  "60 min",
         "portions":  6,
         "favorite":  true,
@@ -287,6 +287,113 @@ window.recipesData = [
                       "Finally, add corn ({corn}) and (optional) break a small piece of dark chocolate ({chocolate}) into the chili. Cook for another 3-5 minutes.",
                       "Season with salt ({salt}) to taste.",
                       "Serve garnished with sour cream, grated cheese, and fresh cilantro. Best served with cornbread or basmati rice."
+                  ]
+    },
+    {
+        "id":  5,
+        "title":  "Chicken Pad Thai",
+        "description":  "A terrific Pad Thai recipe that truly stacks up to great Thai restaurants yet is totally doable for every home cook! Perfectly chewy noodles with a sweet and tangy tamarind sauce.",
+        "image":  "assets/recipe_pad_thai.png",
+        "author":  "RecipeTin Eats",
+        "category":  "Main dish",
+        "time":  "30 min",
+        "portions":  2,
+        "favorite":  true,
+        "ingredients":  [
+                            {
+                                "id":  "tamarind",
+                                "amount":  "3",
+                                "unit":  "tbsp",
+                                "name":  "Tamarind puree",
+                                "group":  "Sauce"
+                            },
+                            {
+                                "id":  "brown_sugar",
+                                "amount":  "3",
+                                "unit":  "tbsp",
+                                "name":  "Brown sugar",
+                                "group":  "Sauce"
+                            },
+                            {
+                                "id":  "fish_sauce",
+                                "amount":  "2",
+                                "unit":  "tbsp",
+                                "name":  "Fish sauce",
+                                "group":  "Sauce"
+                            },
+                            {
+                                "id":  "oyster_sauce",
+                                "amount":  "1.5",
+                                "unit":  "tbsp",
+                                "name":  "Oyster sauce",
+                                "group":  "Sauce"
+                            },
+                            {
+                                "id":  "rice_noodles",
+                                "amount":  "120",
+                                "unit":  "grams",
+                                "name":  "Dried rice stick noodles",
+                                "group":  "Noodles"
+                            },
+                            {
+                                "id":  "chicken",
+                                "amount":  "150",
+                                "unit":  "grams",
+                                "name":  "Chicken breast or thigh, thinly sliced",
+                                "group":  "Protein"
+                            },
+                            {
+                                "id":  "oil",
+                                "amount":  "2",
+                                "unit":  "tbsp",
+                                "name":  "Peanut oil (or vegetable oil)",
+                                "group":  "Other"
+                            },
+                            {
+                                "id":  "garlic",
+                                "amount":  "2",
+                                "unit":  "cloves",
+                                "name":  "Garlic, finely chopped",
+                                "group":  "Vegetables"
+                            },
+                            {
+                                "id":  "egg",
+                                "amount":  "1",
+                                "unit":  "whole",
+                                "name":  "Egg",
+                                "group":  "Dairy \u0026 Eggs"
+                            },
+                            {
+                                "id":  "bean_sprouts",
+                                "amount":  "1.5",
+                                "unit":  "cups",
+                                "name":  "Bean sprouts",
+                                "group":  "Vegetables"
+                            },
+                            {
+                                "id":  "garlic_chives",
+                                "amount":  "0.5",
+                                "unit":  "cup",
+                                "name":  "Garlic chives, cut into pieces",
+                                "group":  "Vegetables"
+                            },
+                            {
+                                "id":  "peanuts",
+                                "amount":  "0.25",
+                                "unit":  "cup",
+                                "name":  "Peanuts, finely chopped",
+                                "group":  "Other"
+                            }
+                        ],
+        "steps":  [
+                      "Mix the tamarind puree ({tamarind}), brown sugar ({brown_sugar}), fish sauce ({fish_sauce}), and oyster sauce ({oyster_sauce}) in a small bowl until the sugar dissolves.",
+                      "Soak or cook the rice noodles ({rice_noodles}) according to packet instructions just until tender. Drain well.",
+                      "Heat the oil ({oil}) in a large non-stick pan or wok over high heat.",
+                      "Add the garlic ({garlic}) and chicken ({chicken}) and stir-fry for 1.5 minutes until the chicken is cooked.",
+                      "Push the chicken to one side of the pan. Crack the egg ({egg}) into the other side and scramble quickly.",
+                      "Add the noodles, sauce, bean sprouts ({bean_sprouts}), garlic chives ({garlic_chives}), and half the peanuts ({peanuts}).",
+                      "Toss continuously for 1.5 minutes until the sauce has absorbed into the noodles.",
+                      "Serve immediately, garnished with the remaining peanuts and a wedge of lime."
                   ]
     }
 ];
