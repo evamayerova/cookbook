@@ -278,7 +278,7 @@ h4 {
 }
 
 .filter-select option {
-    background: var(--bg-color);
+    background: var(--bg-primary);
     color: var(--text-primary);
 }
 
