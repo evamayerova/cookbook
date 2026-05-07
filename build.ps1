@@ -3,7 +3,7 @@ $files = Get-ChildItem -Path $recipesPath -Filter *.json
 $allRecipes = @()
 
 foreach ($file in $files) {
-    $content = Get-Content -Path $file.FullName -Raw | ConvertFrom-Json
+    $content = Get-Content -Path $file.FullName -Raw -Encoding UTF8 | ConvertFrom-Json
     $allRecipes += $content
 }
 

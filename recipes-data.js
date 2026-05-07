@@ -41,7 +41,7 @@ window.recipesData = [
         "steps":  [
                       "Boil water and cook the fettuccine pasta according to package directions.",
                       "In a large skillet, melt the butter over medium heat.",
-                      "Add the mushrooms and sautÃ© until browned.",
+                      "Add the mushrooms and sauté until browned.",
                       "Stir in the heavy cream and let it simmer for 5 minutes until slightly thickened.",
                       "Remove from heat, drizzle with truffle oil, and toss with the cooked pasta."
                   ]
@@ -127,7 +127,7 @@ window.recipesData = [
                             }
                         ],
         "steps":  [
-                      "Preheat oven to 425Â°F (220Â°C). Grease 4 ramekins.",
+                      "Preheat oven to 425°F (220°C). Grease 4 ramekins.",
                       "Microwave chocolate and butter in a bowl until melted (about 1 minute).",
                       "Stir in powdered sugar until well blended.",
                       "Whisk in eggs and egg yolks.",
@@ -205,7 +205,7 @@ window.recipesData = [
                             {
                                 "amount":  "4",
                                 "unit":  "whole",
-                                "name":  "JalapeÃ±o peppers, finely chopped"
+                                "name":  "Jalapeño peppers, finely chopped"
                             },
                             {
                                 "amount":  "200",
@@ -219,10 +219,10 @@ window.recipesData = [
                             }
                         ],
         "steps":  [
-                      "SautÃ© onion in oil until translucent, add garlic and ground beef. Brown the meat for about 5 minutes.",
+                      "Sauté onion in oil until translucent, add garlic and ground beef. Brown the meat for about 5 minutes.",
                       "Cover with a lid and simmer for 30 minutes, stirring occasionally.",
                       "Add chili powder, cumin, oregano and stir well.",
-                      "Add beans, tomatoes, beef broth, and jalapeÃ±o peppers. Reduce heat and cook uncovered for about 20 minutes.",
+                      "Add beans, tomatoes, beef broth, and jalapeño peppers. Reduce heat and cook uncovered for about 20 minutes.",
                       "Finally, add frozen corn and (optional) break a small piece of dark chocolate into the chili. Cook for another 3-5 minutes.",
                       "Season with salt to taste.",
                       "Serve garnished with sour cream, grated cheese, and fresh cilantro. Best served with cornbread or basmati rice."

@@ -110,7 +110,8 @@ h4 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 80px;
+    min-height: 80px;
+    padding: 1rem 0;
 }
 
 .logo {
