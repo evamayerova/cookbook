@@ -591,5 +591,71 @@ window.recipesData = [
                       "Lower the oven temperature to 160°C and bake for 35–45 minutes until the edges are firm and the center has a slight wobble.",
                       "Let the pie cool on the counter for 1 hour, then refrigerate for at least 2 hours to allow the custard and crust to fully set."
                   ]
+    },
+    {
+        "id":  8,
+        "title":  "Vanilla Bean Ice Cream",
+        "description":  "A classic, rich, and creamy vanilla ice cream made with real vanilla bean. Perfect for churning in your Kenwood mixer for that professional \u0027nappe\u0027 consistency.",
+        "image":  "assets/recipe_ice_cream.png",
+        "author":  "Eve",
+        "category":  "Dessert",
+        "time":  "1 hr",
+        "portions":  10,
+        "favorite":  false,
+        "ingredients":  [
+                            {
+                                "id":  "milk",
+                                "amount":  "300",
+                                "unit":  "ml",
+                                "name":  "Whole milk",
+                                "group":  "Dairy \u0026 Eggs"
+                            },
+                            {
+                                "id":  "cream",
+                                "amount":  "150",
+                                "unit":  "ml",
+                                "name":  "Double cream (heavy cream)",
+                                "group":  "Dairy \u0026 Eggs"
+                            },
+                            {
+                                "id":  "sugar",
+                                "amount":  "90",
+                                "unit":  "g",
+                                "name":  "Caster sugar",
+                                "group":  "Dry Ingredients"
+                            },
+                            {
+                                "id":  "egg_yolks",
+                                "amount":  "3",
+                                "unit":  "whole",
+                                "name":  "Large egg yolks",
+                                "group":  "Dairy \u0026 Eggs"
+                            },
+                            {
+                                "id":  "vanilla",
+                                "amount":  "1",
+                                "unit":  "pod",
+                                "name":  "Vanilla pod (or 1.5 tsp vanilla paste)",
+                                "group":  "Seasoning"
+                            },
+                            {
+                                "id":  "salt",
+                                "amount":  "1",
+                                "unit":  "pinch",
+                                "name":  "Fine sea salt",
+                                "group":  "Seasoning"
+                            }
+                        ],
+        "steps":  [
+                      "Combine the milk ({milk}), vanilla seeds/pod ({vanilla}), and half the sugar ({sugar}) in a pan. Heat until steaming (around 70°C–75°C), then remove from heat.",
+                      "In a separate bowl, whisk the egg yolks ({egg_yolks}) with the remaining sugar ({sugar}) until pale.",
+                      "Slowly pour the warm milk mixture into the yolks in a thin stream, whisking constantly to ensure you don\u0027t scramble the eggs.",
+                      "Return the mixture to the pan. Stir over medium-low heat with a wooden spoon until it reaches 80°C–82°C and coats the back of the spoon.",
+                      "Strain the hot custard through a sieve into a bowl, then immediately stir in the cold double cream ({cream}) and salt ({salt}).",
+                      "Cover the surface with cling film and refrigerate until completely cold (ideally 4°C).",
+                      "Assemble the ice cream maker attachment on your mixer. Turn the mixer on to Min Speed before pouring in the mixture.",
+                      "Slowly pour the chilled custard into the bowl while it is rotating. Let it churn for 20–30 minutes until it reaches a soft-serve consistency.",
+                      "Transfer the soft ice cream to a chilled, airtight container and freeze for at least 4 hours to reach a scoopable firm texture."
+                  ]
     }
 ];
