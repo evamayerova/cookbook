@@ -481,5 +481,115 @@ window.recipesData = [
                       "Pour the batter onto your hot waffle iron and cook according to manufacturer\u0027s directions until golden and crisp.",
                       "Serve immediately with butter, syrup, powdered sugar or your favorite toppings."
                   ]
+    },
+    {
+        "id":  7,
+        "title":  "Keto Rhubarb Pie",
+        "description":  "A low-carb, keto-friendly pie with a perfectly crisp almond flour crust and a creamy custard-rhubarb filling. Delightfully tart and sweet without the sugar.",
+        "image":  "assets/recipe_rhubarb_pie.png",
+        "author":  "Eve",
+        "category":  "Dessert",
+        "time":  "1 hr",
+        "portions":  8,
+        "favorite":  false,
+        "ingredients":  [
+                            {
+                                "id":  "almond_flour",
+                                "amount":  "250",
+                                "unit":  "g",
+                                "name":  "Almond flour",
+                                "group":  "Dry Ingredients"
+                            },
+                            {
+                                "id":  "coconut_flour",
+                                "amount":  "40",
+                                "unit":  "g",
+                                "name":  "Coconut flour",
+                                "group":  "Dry Ingredients"
+                            },
+                            {
+                                "id":  "butter_crust",
+                                "amount":  "115",
+                                "unit":  "g",
+                                "name":  "Cold butter, cubed",
+                                "group":  "Dairy \u0026 Eggs"
+                            },
+                            {
+                                "id":  "egg_crust",
+                                "amount":  "1",
+                                "unit":  "whole",
+                                "name":  "Large egg",
+                                "group":  "Dairy \u0026 Eggs"
+                            },
+                            {
+                                "id":  "egg_white_crust",
+                                "amount":  "1",
+                                "unit":  "whole",
+                                "name":  "Egg white",
+                                "group":  "Dairy \u0026 Eggs"
+                            },
+                            {
+                                "id":  "salt_crust",
+                                "amount":  "1",
+                                "unit":  "pinch",
+                                "name":  "Salt",
+                                "group":  "Seasoning"
+                            },
+                            {
+                                "id":  "rhubarb",
+                                "amount":  "500",
+                                "unit":  "g",
+                                "name":  "Rhubarb, chopped (1 cm pieces)",
+                                "group":  "Vegetables"
+                            },
+                            {
+                                "id":  "cream",
+                                "amount":  "240",
+                                "unit":  "ml",
+                                "name":  "Heavy cream",
+                                "group":  "Dairy \u0026 Eggs"
+                            },
+                            {
+                                "id":  "egg_yolks_filling",
+                                "amount":  "3",
+                                "unit":  "whole",
+                                "name":  "Egg yolks",
+                                "group":  "Dairy \u0026 Eggs"
+                            },
+                            {
+                                "id":  "sweetener",
+                                "amount":  "100",
+                                "unit":  "g",
+                                "name":  "Granulated sweetener (Erythritol/Allulose)",
+                                "group":  "Dry Ingredients"
+                            },
+                            {
+                                "id":  "vanilla",
+                                "amount":  "1",
+                                "unit":  "tsp",
+                                "name":  "Vanilla extract",
+                                "group":  "Seasoning"
+                            },
+                            {
+                                "id":  "spices",
+                                "amount":  "0.25",
+                                "unit":  "tsp",
+                                "name":  "Nutmeg or Ginger (optional)",
+                                "group":  "Seasoning"
+                            }
+                        ],
+        "steps":  [
+                      "Preheat your oven to 175°C.",
+                      "Mix the almond flour ({almond_flour}), coconut flour ({coconut_flour}), and salt ({salt_crust}) in a large bowl.",
+                      "Work in the cold butter ({butter_crust}) using a pastry cutter or two forks until the mixture looks like coarse sand.",
+                      "Stir in the whole egg ({egg_crust}) and the extra egg white ({egg_white_crust}) until a dough forms.",
+                      "Place the dough in the center of your pie dish and press it out with your fingers to cover the bottom and sides evenly.",
+                      "Freeze the crust for 15 minutes, then blind-bake for 10–12 minutes.",
+                      "Remove from oven and place the chopped rhubarb ({rhubarb}) directly into the warm, par-baked crust.",
+                      "In a separate bowl, whisk the cream ({cream}), egg yolks ({egg_yolks_filling}), sweetener ({sweetener}), vanilla ({vanilla}), and spices ({spices}) together until smooth.",
+                      "Pour the custard mixture over the rhubarb.",
+                      "Lower the oven temperature to 160°C and bake for 35–45 minutes until the edges are firm and the center has a slight wobble.",
+                      "Let the pie cool on the counter for 1 hour, then refrigerate for at least 2 hours to allow the custard and crust to fully set."
+                  ]
     }
 ];
