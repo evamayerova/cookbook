@@ -280,14 +280,34 @@ if (recipeDetailContainer) {
                 }
             }
 
+            // Preserve checked states
+            const checkedIndices = Array.from(pageSteps.querySelectorAll('.step-checkbox'))
+                .map((cb, i) => cb.checked ? i : null)
+                .filter(i => i !== null);
+
+            pageSteps.innerHTML = '';
             if (recipe.steps) {
-                recipe.steps.forEach(step => {
+                recipe.steps.forEach((step, index) => {
                     let parsedStep = step.replace(/\{([^}]+)\}/g, (match, id) => {
                         return scaledIngredients[id] ? scaledIngredients[id] : match;
                     });
                     
+                    const isChecked = checkedIndices.includes(index);
                     const li = document.createElement('li');
-                    li.innerHTML = parsedStep;
+                    li.className = 'step-item';
+                    li.innerHTML = `
+                        <label class="step-checkbox-container ${isChecked ? 'completed' : ''}">
+                            <input type="checkbox" class="step-checkbox" ${isChecked ? 'checked' : ''}>
+                            <span class="checkbox-custom"></span>
+                            <span class="step-text">${parsedStep}</span>
+                        </label>
+                    `;
+
+                    // Add listener for visual feedback
+                    li.querySelector('.step-checkbox').addEventListener('change', function() {
+                        this.closest('.step-checkbox-container').classList.toggle('completed', this.checked);
+                    });
+
                     pageSteps.appendChild(li);
                 });
             }

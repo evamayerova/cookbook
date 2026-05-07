@@ -542,12 +542,73 @@ h4 {
 }
 
 .steps-list {
-    padding-left: 1.5rem;
+    list-style: none;
+    padding-left: 0;
 }
 
-.steps-list li {
-    margin-bottom: 1rem;
+.step-item {
+    margin-bottom: 1.2rem;
+}
+
+.step-checkbox-container {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    padding: 0.5rem;
+    border-radius: 0.8rem;
+}
+
+.step-checkbox-container:hover {
+    background: rgba(255, 255, 255, 0.03);
+}
+
+.step-checkbox {
+    display: none;
+}
+
+.checkbox-custom {
+    flex-shrink: 0;
+    width: 22px;
+    height: 22px;
+    border: 2px solid var(--accent-color);
+    border-radius: 6px;
+    position: relative;
+    margin-top: 2px;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.step-checkbox:checked + .checkbox-custom {
+    background: var(--accent-color);
+}
+
+.step-checkbox:checked + .checkbox-custom::after {
+    content: '✓';
+    position: absolute;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.step-text {
     line-height: 1.6;
+    color: var(--text-primary);
+    transition: all 0.3s ease;
+}
+
+.step-checkbox-container.completed .step-text {
+    color: var(--text-secondary);
+    text-decoration: line-through;
+    opacity: 0.6;
+}
+
+.step-checkbox-container.completed .checkbox-custom {
+    border-color: var(--text-secondary);
+    opacity: 0.6;
 }
 
 /* Portion Controls */
