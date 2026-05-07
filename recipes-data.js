@@ -177,7 +177,7 @@ window.recipesData = [
         "image":  "assets/recipe_chili.png",
         "author":  "chute-sveta.cz",
         "category":  "Main dish",
-        "time":  "60 min",
+        "time":  "30 min",
         "portions":  6,
         "favorite":  true,
         "ingredients":  [

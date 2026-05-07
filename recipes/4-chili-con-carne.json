@@ -5,24 +5,108 @@
     "image": "assets/recipe_chili.png",
     "author": "chute-sveta.cz",
     "category": "Main dish",
-    "time": "60 min",
+    "time": "30 min",
     "portions": 6,
     "favorite": true,
     "ingredients": [
-        { "id": "beans", "amount": "800", "unit": "grams", "name": "Canned kidney beans", "group": "Protein" },
-        { "id": "oil", "amount": "3", "unit": "tbsp", "name": "Oil", "group": "Other" },
-        { "id": "beef", "amount": "500", "unit": "grams", "name": "Ground beef", "group": "Protein" },
-        { "id": "onion", "amount": "1", "unit": "whole", "name": "Medium onion, finely chopped", "group": "Vegetables" },
-        { "id": "garlic", "amount": "3", "unit": "cloves", "name": "Garlic, minced", "group": "Vegetables" },
-        { "id": "chili_powder", "amount": "1.5", "unit": "tbsp", "name": "Chili powder", "group": "Seasoning" },
-        { "id": "cumin", "amount": "2", "unit": "tsp", "name": "Cumin", "group": "Seasoning" },
-        { "id": "oregano", "amount": "1.5", "unit": "tsp", "name": "Dried oregano", "group": "Seasoning" },
-        { "id": "salt", "amount": "0.5", "unit": "tsp", "name": "Salt", "group": "Seasoning" },
-        { "id": "tomatoes", "amount": "800", "unit": "grams", "name": "Canned chopped tomatoes", "group": "Vegetables" },
-        { "id": "broth", "amount": "240", "unit": "ml", "name": "Beef broth", "group": "Other" },
-        { "id": "jalapeno", "amount": "4", "unit": "whole", "name": "Jalapeño peppers, finely chopped", "group": "Vegetables" },
-        { "id": "corn", "amount": "200", "unit": "grams", "name": "Canned corn", "group": "Vegetables" },
-        { "id": "chocolate", "amount": "25", "unit": "grams", "name": "Dark chocolate (optional)", "group": "Other" }
+        {
+            "id": "beans",
+            "amount": "800",
+            "unit": "grams",
+            "name": "Canned kidney beans",
+            "group": "Protein"
+        },
+        {
+            "id": "oil",
+            "amount": "3",
+            "unit": "tbsp",
+            "name": "Oil",
+            "group": "Other"
+        },
+        {
+            "id": "beef",
+            "amount": "500",
+            "unit": "grams",
+            "name": "Ground beef",
+            "group": "Protein"
+        },
+        {
+            "id": "onion",
+            "amount": "1",
+            "unit": "whole",
+            "name": "Medium onion, finely chopped",
+            "group": "Vegetables"
+        },
+        {
+            "id": "garlic",
+            "amount": "3",
+            "unit": "cloves",
+            "name": "Garlic, minced",
+            "group": "Vegetables"
+        },
+        {
+            "id": "chili_powder",
+            "amount": "1.5",
+            "unit": "tbsp",
+            "name": "Chili powder",
+            "group": "Seasoning"
+        },
+        {
+            "id": "cumin",
+            "amount": "2",
+            "unit": "tsp",
+            "name": "Cumin",
+            "group": "Seasoning"
+        },
+        {
+            "id": "oregano",
+            "amount": "1.5",
+            "unit": "tsp",
+            "name": "Dried oregano",
+            "group": "Seasoning"
+        },
+        {
+            "id": "salt",
+            "amount": "0.5",
+            "unit": "tsp",
+            "name": "Salt",
+            "group": "Seasoning"
+        },
+        {
+            "id": "tomatoes",
+            "amount": "800",
+            "unit": "grams",
+            "name": "Canned chopped tomatoes",
+            "group": "Vegetables"
+        },
+        {
+            "id": "broth",
+            "amount": "240",
+            "unit": "ml",
+            "name": "Beef broth",
+            "group": "Other"
+        },
+        {
+            "id": "jalapeno",
+            "amount": "4",
+            "unit": "whole",
+            "name": "Jalapeño peppers, finely chopped",
+            "group": "Vegetables"
+        },
+        {
+            "id": "corn",
+            "amount": "200",
+            "unit": "grams",
+            "name": "Canned corn",
+            "group": "Vegetables"
+        },
+        {
+            "id": "chocolate",
+            "amount": "25",
+            "unit": "grams",
+            "name": "Dark chocolate (optional)",
+            "group": "Other"
+        }
     ],
     "steps": [
         "Sauté onion ({onion}) in oil ({oil}) until translucent, add garlic ({garlic}) and ground beef ({beef}). Brown the meat (about 5 minutes).",
