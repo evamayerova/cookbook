@@ -404,7 +404,7 @@ window.recipesData = [
         "author":  "The Salty Marshmallow",
         "category":  "Breakfast",
         "time":  "35 min",
-        "portions":  4,
+        "portions":  6,
         "favorite":  false,
         "ingredients":  [
                             {
