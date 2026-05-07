@@ -395,5 +395,91 @@ window.recipesData = [
                       "Toss continuously for 1.5 minutes until the sauce has absorbed into the noodles.",
                       "Serve immediately, garnished with the remaining peanuts and a wedge of lime."
                   ]
+    },
+    {
+        "id":  6,
+        "title":  "Homemade Belgian Waffles",
+        "description":  "Perfectly crisp and golden on the outside while being light and fluffy on the inside. A classic breakfast staple that is easy to make at home.",
+        "image":  "assets/recipe_waffles.png",
+        "author":  "The Salty Marshmallow",
+        "category":  "Breakfast",
+        "time":  "35 min",
+        "portions":  4,
+        "favorite":  false,
+        "ingredients":  [
+                            {
+                                "id":  "flour",
+                                "amount":  "2.25",
+                                "unit":  "cups",
+                                "name":  "All Purpose Flour",
+                                "group":  "Dry Ingredients"
+                            },
+                            {
+                                "id":  "baking_powder",
+                                "amount":  "1",
+                                "unit":  "tbsp",
+                                "name":  "Baking Powder",
+                                "group":  "Dry Ingredients"
+                            },
+                            {
+                                "id":  "sugar",
+                                "amount":  "3",
+                                "unit":  "tbsp",
+                                "name":  "Sugar",
+                                "group":  "Dry Ingredients"
+                            },
+                            {
+                                "id":  "salt",
+                                "amount":  "0.5",
+                                "unit":  "tsp",
+                                "name":  "Salt",
+                                "group":  "Dry Ingredients"
+                            },
+                            {
+                                "id":  "cinnamon",
+                                "amount":  "1",
+                                "unit":  "tsp",
+                                "name":  "Cinnamon",
+                                "group":  "Dry Ingredients"
+                            },
+                            {
+                                "id":  "eggs",
+                                "amount":  "2",
+                                "unit":  "whole",
+                                "name":  "Large Eggs, separated",
+                                "group":  "Dairy \u0026 Eggs"
+                            },
+                            {
+                                "id":  "milk",
+                                "amount":  "2",
+                                "unit":  "cups",
+                                "name":  "Milk",
+                                "group":  "Dairy \u0026 Eggs"
+                            },
+                            {
+                                "id":  "oil",
+                                "amount":  "0.5",
+                                "unit":  "cup",
+                                "name":  "Vegetable Oil",
+                                "group":  "Wet Ingredients"
+                            },
+                            {
+                                "id":  "vanilla",
+                                "amount":  "1",
+                                "unit":  "tsp",
+                                "name":  "Vanilla Extract",
+                                "group":  "Wet Ingredients"
+                            }
+                        ],
+        "steps":  [
+                      "Preheat your waffle iron and spray with non-stick cooking spray.",
+                      "In a large bowl, whisk together the flour ({flour}), baking powder ({baking_powder}), sugar ({sugar}), salt ({salt}), and cinnamon ({cinnamon}).",
+                      "In a medium bowl, beat the egg whites ({eggs}) with a hand mixer until stiff peaks form. Set aside.",
+                      "In a separate medium bowl, mix together the egg yolks ({eggs}), vegetable oil ({oil}), milk ({milk}), and vanilla extract ({vanilla}).",
+                      "Add the egg yolk mixture to the dry ingredients and mix well.",
+                      "Gently fold in the beaten egg whites until just combined.",
+                      "Pour the batter onto your hot waffle iron and cook according to manufacturer\u0027s directions until golden and crisp.",
+                      "Serve immediately with butter, syrup, powdered sugar or your favorite toppings."
+                  ]
     }
 ];
