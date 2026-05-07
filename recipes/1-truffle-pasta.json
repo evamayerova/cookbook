@@ -7,6 +7,7 @@
     "category": "Dinner",
     "time": "30 min",
     "portions": 4,
+    "favorite": false,
     "ingredients": [
         { "amount": "1", "unit": "lb", "name": "Fettuccine pasta" },
         { "amount": "2", "unit": "tbsp", "name": "Butter" },

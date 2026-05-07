@@ -7,6 +7,7 @@
     "category": "Dessert",
     "time": "40 min",
     "portions": 4,
+    "favorite": false,
     "ingredients": [
         { "amount": "4", "unit": "oz", "name": "Semi-sweet chocolate" },
         { "amount": "1/2", "unit": "cup", "name": "Butter" },

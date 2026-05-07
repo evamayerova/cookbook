@@ -11,6 +11,7 @@ window.recipesData = [
         "category":  "Dinner",
         "time":  "30 min",
         "portions":  4,
+        "favorite":  false,
         "ingredients":  [
                             {
                                 "amount":  "1",
@@ -55,6 +56,7 @@ window.recipesData = [
         "category":  "Seafood",
         "time":  "25 min",
         "portions":  4,
+        "favorite":  false,
         "ingredients":  [
                             {
                                 "amount":  "2",
@@ -94,6 +96,7 @@ window.recipesData = [
         "category":  "Dessert",
         "time":  "40 min",
         "portions":  4,
+        "favorite":  false,
         "ingredients":  [
                             {
                                 "amount":  "4",
@@ -146,6 +149,7 @@ window.recipesData = [
         "category":  "Dinner",
         "time":  "60 min",
         "portions":  6,
+        "favorite":  true,
         "ingredients":  [
                             {
                                 "amount":  "800",

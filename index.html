@@ -27,8 +27,6 @@
             <nav>
                 <ul class="nav-links">
                     <li><a href="#" class="active">Discover</a></li>
-                    <li><a href="#" onclick="alert('Categories are coming soon!')">Categories</a></li>
-                    <li><a href="#" onclick="alert('Favorites are coming soon!')">My Favorites</a></li>
                 </ul>
             </nav>
         </div>
@@ -48,6 +46,23 @@
                             <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
                         </svg>
                     </button>
+                </div>
+                
+                <div class="filter-bar glass-panel">
+                    <select id="categoryFilter" class="filter-select">
+                        <option value="All">All Categories</option>
+                    </select>
+                    
+                    <select id="timeFilter" class="filter-select">
+                        <option value="All">Any Duration</option>
+                        <option value="30">30 min or less</option>
+                        <option value="60">60 min or less</option>
+                    </select>
+                    
+                    <label class="favorite-toggle">
+                        <input type="checkbox" id="favoriteFilter">
+                        <span class="toggle-text">Show Favorites Only</span>
+                    </label>
                 </div>
             </div>
         </section>

@@ -127,6 +127,7 @@ function renderRecipes(recipesToRender) {
                 <div class="recipe-meta">
                     <span>${recipe.category}</span>
                     <span>⏱ ${recipe.time}</span>
+                    ${recipe.favorite ? '<span title="Favorite">❤️</span>' : ''}
                 </div>
                 <h3 class="recipe-title">${recipe.title}</h3>
                 <p class="recipe-desc">${recipe.description}</p>
@@ -145,22 +146,63 @@ function renderRecipes(recipesToRender) {
 
 // Execute index.html specific logic
 if (recipesGrid) {
-    // Initial render
-    renderRecipes(recipes);
+    const categoryFilter = document.getElementById('categoryFilter');
+    const timeFilter = document.getElementById('timeFilter');
+    const favoriteFilter = document.getElementById('favoriteFilter');
 
-    // Search functionality
-    if (searchInput) {
-        searchInput.addEventListener('input', (e) => {
-            const searchTerm = e.target.value.toLowerCase();
-            const filteredRecipes = recipes.filter(recipe =>
+    // Populate category filter
+    if (categoryFilter) {
+        const categories = [...new Set(recipes.map(r => r.category))].filter(Boolean);
+        categories.forEach(cat => {
+            const option = document.createElement('option');
+            option.value = cat;
+            option.textContent = cat;
+            categoryFilter.appendChild(option);
+        });
+    }
+
+    function applyFilters() {
+        const searchTerm = searchInput ? searchInput.value.toLowerCase() : '';
+        const selectedCategory = categoryFilter ? categoryFilter.value : 'All';
+        const selectedTime = timeFilter ? timeFilter.value : 'All';
+        const showFavorites = favoriteFilter ? favoriteFilter.checked : false;
+
+        const filteredRecipes = recipes.filter(recipe => {
+            // Search filter
+            const matchesSearch = !searchTerm || 
                 recipe.title.toLowerCase().includes(searchTerm) ||
                 recipe.description.toLowerCase().includes(searchTerm) ||
                 recipe.category.toLowerCase().includes(searchTerm) ||
-                (recipe.ingredients && recipe.ingredients.some(i => i.name.toLowerCase().includes(searchTerm)))
-            );
-            renderRecipes(filteredRecipes);
+                (recipe.ingredients && recipe.ingredients.some(i => i.name.toLowerCase().includes(searchTerm)));
+
+            // Category filter
+            const matchesCategory = selectedCategory === 'All' || recipe.category === selectedCategory;
+
+            // Time filter
+            let matchesTime = true;
+            if (selectedTime !== 'All') {
+                const recipeTimeNum = parseInt(recipe.time);
+                if (!isNaN(recipeTimeNum)) {
+                    matchesTime = recipeTimeNum <= parseInt(selectedTime);
+                }
+            }
+
+            // Favorite filter
+            const matchesFavorite = !showFavorites || recipe.favorite === true;
+
+            return matchesSearch && matchesCategory && matchesTime && matchesFavorite;
         });
+
+        renderRecipes(filteredRecipes);
     }
+
+    if (searchInput) searchInput.addEventListener('input', applyFilters);
+    if (categoryFilter) categoryFilter.addEventListener('change', applyFilters);
+    if (timeFilter) timeFilter.addEventListener('change', applyFilters);
+    if (favoriteFilter) favoriteFilter.addEventListener('change', applyFilters);
+
+    // Initial render
+    applyFilters();
 }
 
 // Execute recipe.html specific logic
