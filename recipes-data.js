@@ -657,5 +657,177 @@ window.recipesData = [
                       "Slowly pour the chilled custard into the bowl while it is rotating. Let it churn for 20–30 minutes until it reaches a soft-serve consistency.",
                       "Transfer the soft ice cream to a chilled, airtight container and freeze for at least 4 hours to reach a scoopable firm texture."
                   ]
+    },
+    {
+        "id":  9,
+        "title":  "Paneer Tikka Masala",
+        "description":  "A rich and creamy Indian classic featuring marinated paneer cheese baked to perfection and served in a deeply flavorful tomato and spice gravy.",
+        "image":  "assets/recipe_paneer.png",
+        "author":  "Harris Kallitsis / KitchenSync",
+        "category":  "Main dish",
+        "time":  "45 min",
+        "portions":  1,
+        "favorite":  false,
+        "ingredients":  [
+                            {
+                                "id":  "paneer",
+                                "amount":  "150",
+                                "unit":  "g",
+                                "name":  "Paneer cheese",
+                                "group":  "Protein"
+                            },
+                            {
+                                "id":  "paneer_garam",
+                                "amount":  "0.5",
+                                "unit":  "tsp",
+                                "name":  "Garam masala (for marinade)",
+                                "group":  "Seasoning"
+                            },
+                            {
+                                "id":  "paneer_turmeric",
+                                "amount":  "0.25",
+                                "unit":  "tsp",
+                                "name":  "Turmeric powder (for marinade)",
+                                "group":  "Seasoning"
+                            },
+                            {
+                                "id":  "paneer_cumin",
+                                "amount":  "0.25",
+                                "unit":  "tsp",
+                                "name":  "Cumin powder (for marinade)",
+                                "group":  "Seasoning"
+                            },
+                            {
+                                "id":  "paneer_chili",
+                                "amount":  "0.125",
+                                "unit":  "tsp",
+                                "name":  "Chili powder (for marinade)",
+                                "group":  "Seasoning"
+                            },
+                            {
+                                "id":  "paneer_salt",
+                                "amount":  "0.25",
+                                "unit":  "tsp",
+                                "name":  "Salt (for marinade)",
+                                "group":  "Seasoning"
+                            },
+                            {
+                                "id":  "paneer_oil",
+                                "amount":  "1",
+                                "unit":  "Tbsp",
+                                "name":  "Sunflower oil",
+                                "group":  "Other"
+                            },
+                            {
+                                "id":  "onion",
+                                "amount":  "0.5",
+                                "unit":  "whole",
+                                "name":  "White onion",
+                                "group":  "Vegetables"
+                            },
+                            {
+                                "id":  "bell_pepper",
+                                "amount":  "0.25",
+                                "unit":  "whole",
+                                "name":  "Bell pepper",
+                                "group":  "Vegetables"
+                            },
+                            {
+                                "id":  "sauce_fat",
+                                "amount":  "1",
+                                "unit":  "Tbsp",
+                                "name":  "Butter or oil",
+                                "group":  "Dairy \u0026 Eggs"
+                            },
+                            {
+                                "id":  "garlic",
+                                "amount":  "1.5",
+                                "unit":  "cloves",
+                                "name":  "Garlic cloves",
+                                "group":  "Vegetables"
+                            },
+                            {
+                                "id":  "ginger",
+                                "amount":  "1",
+                                "unit":  "Tbsp",
+                                "name":  "Ginger",
+                                "group":  "Vegetables"
+                            },
+                            {
+                                "id":  "sauce_garam",
+                                "amount":  "0.5",
+                                "unit":  "tsp",
+                                "name":  "Garam masala (for sauce)",
+                                "group":  "Seasoning"
+                            },
+                            {
+                                "id":  "sauce_cumin",
+                                "amount":  "0.5",
+                                "unit":  "tsp",
+                                "name":  "Cumin powder (for sauce)",
+                                "group":  "Seasoning"
+                            },
+                            {
+                                "id":  "sauce_turmeric",
+                                "amount":  "0.25",
+                                "unit":  "tsp",
+                                "name":  "Turmeric powder (for sauce)",
+                                "group":  "Seasoning"
+                            },
+                            {
+                                "id":  "sauce_coriander",
+                                "amount":  "0.25",
+                                "unit":  "tsp",
+                                "name":  "Coriander powder (for sauce)",
+                                "group":  "Seasoning"
+                            },
+                            {
+                                "id":  "sauce_chili",
+                                "amount":  "0.25",
+                                "unit":  "tsp",
+                                "name":  "Chili powder (for sauce)",
+                                "group":  "Seasoning"
+                            },
+                            {
+                                "id":  "tomato_juice",
+                                "amount":  "100",
+                                "unit":  "g",
+                                "name":  "Tomato juice",
+                                "group":  "Vegetables"
+                            },
+                            {
+                                "id":  "tomato_paste",
+                                "amount":  "1",
+                                "unit":  "tsp",
+                                "name":  "Tomato paste",
+                                "group":  "Vegetables"
+                            },
+                            {
+                                "id":  "cream",
+                                "amount":  "50",
+                                "unit":  "ml",
+                                "name":  "Heavy cream or Greek yoghurt",
+                                "group":  "Dairy \u0026 Eggs"
+                            },
+                            {
+                                "id":  "sugar",
+                                "amount":  "0.5",
+                                "unit":  "tsp",
+                                "name":  "Brown sugar",
+                                "group":  "Dry Ingredients"
+                            }
+                        ],
+        "steps":  [
+                      "Preheat the oven to 190°C (no steam!).",
+                      "Marinate the paneer cheese ({paneer}) with the garam masala ({paneer_garam}), turmeric ({paneer_turmeric}), cumin ({paneer_cumin}), chili powder ({paneer_chili}), salt ({paneer_salt}), and sunflower oil ({paneer_oil}).",
+                      "Place the marinated paneer on a tray with baking paper. Bake for 10-15 minutes.",
+                      "Add oil or butter ({sauce_fat}) to a pot on medium-high heat. Fry the onions ({onion}) until soft (about 3 minutes) while scraping up any browned bits. Add bell pepper ({bell_pepper}) and fry for 3 more minutes.",
+                      "Add garlic ({garlic}) and ginger ({ginger}) and sauté for 1 minute until fragrant.",
+                      "Add tomato paste ({tomato_paste}) and all sauce spices ({sauce_garam}, {sauce_cumin}, {sauce_turmeric}, {sauce_coriander}, {sauce_chili}). Fry for about 20-40 seconds while stirring.",
+                      "Pour in the tomato juice ({tomato_juice}), brown sugar ({sugar}), and salt. Let simmer for about 10 minutes, stirring occasionally until the sauce thickens and becomes a deep brown-red colour.",
+                      "Stir in the cream or yoghurt ({cream}) through the sauce.",
+                      "Add the baked paneer cheese back into the pot for about 5 minutes until the sauce is thick and bubbling. (Tip: Thin with vegetable stock or water if needed).",
+                      "Adjust flavor with salt or chili powder. Garnish with coriander leaves and serve with basmati rice or naan bread."
+                  ]
     }
 ];
