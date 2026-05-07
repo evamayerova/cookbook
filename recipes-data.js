@@ -678,37 +678,37 @@ window.recipesData = [
                             },
                             {
                                 "id":  "paneer_garam",
-                                "amount":  "1",
+                                "amount":  "0.5",
                                 "unit":  "tsp",
-                                "name":  "Garam masala",
+                                "name":  "Garam masala (for marinade)",
                                 "group":  "Seasoning"
                             },
                             {
                                 "id":  "paneer_turmeric",
-                                "amount":  "0.5",
+                                "amount":  "0.25",
                                 "unit":  "tsp",
-                                "name":  "Turmeric powder",
+                                "name":  "Turmeric powder (for marinade)",
                                 "group":  "Seasoning"
                             },
                             {
                                 "id":  "paneer_cumin",
-                                "amount":  "0.75",
+                                "amount":  "0.25",
                                 "unit":  "tsp",
-                                "name":  "Cumin powder",
+                                "name":  "Cumin powder (for marinade)",
                                 "group":  "Seasoning"
                             },
                             {
                                 "id":  "paneer_chili",
-                                "amount":  "0.375",
+                                "amount":  "0.125",
                                 "unit":  "tsp",
-                                "name":  "Chili powder",
+                                "name":  "Chili powder (for marinade)",
                                 "group":  "Seasoning"
                             },
                             {
                                 "id":  "paneer_salt",
                                 "amount":  "0.25",
                                 "unit":  "tsp",
-                                "name":  "Salt",
+                                "name":  "Salt (for marinade)",
                                 "group":  "Seasoning"
                             },
                             {
@@ -754,10 +754,38 @@ window.recipesData = [
                                 "group":  "Vegetables"
                             },
                             {
+                                "id":  "sauce_garam",
+                                "amount":  "0.5",
+                                "unit":  "tsp",
+                                "name":  "Garam masala (for sauce)",
+                                "group":  "Seasoning"
+                            },
+                            {
+                                "id":  "sauce_cumin",
+                                "amount":  "0.5",
+                                "unit":  "tsp",
+                                "name":  "Cumin powder (for sauce)",
+                                "group":  "Seasoning"
+                            },
+                            {
+                                "id":  "sauce_turmeric",
+                                "amount":  "0.25",
+                                "unit":  "tsp",
+                                "name":  "Turmeric powder (for sauce)",
+                                "group":  "Seasoning"
+                            },
+                            {
                                 "id":  "sauce_coriander",
                                 "amount":  "0.25",
                                 "unit":  "tsp",
-                                "name":  "Coriander powder",
+                                "name":  "Coriander powder (for sauce)",
+                                "group":  "Seasoning"
+                            },
+                            {
+                                "id":  "sauce_chili",
+                                "amount":  "0.25",
+                                "unit":  "tsp",
+                                "name":  "Chili powder (for sauce)",
                                 "group":  "Seasoning"
                             },
                             {
