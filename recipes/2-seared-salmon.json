@@ -9,16 +9,16 @@
     "portions": 4,
     "favorite": false,
     "ingredients": [
-        { "amount": "2", "unit": "lbs", "name": "Salmon fillets" },
-        { "amount": "1", "unit": "bunch", "name": "Asparagus" },
-        { "amount": "2", "unit": "tbsp", "name": "Olive oil" },
-        { "amount": "1", "unit": "tbsp", "name": "Lemon juice" }
+        { "id": "salmon", "amount": "2", "unit": "lbs", "name": "Salmon fillets", "group": "Seafood" },
+        { "id": "asparagus", "amount": "1", "unit": "bunch", "name": "Asparagus", "group": "Vegetables" },
+        { "id": "oil", "amount": "2", "unit": "tbsp", "name": "Olive oil", "group": "Seasoning" },
+        { "id": "lemon", "amount": "1", "unit": "tbsp", "name": "Lemon juice", "group": "Seasoning" }
     ],
     "steps": [
         "Preheat a grill or skillet over medium-high heat.",
-        "Rub the salmon and asparagus with olive oil, salt, and pepper.",
+        "Rub the salmon ({salmon}) and asparagus ({asparagus}) with olive oil ({oil}), salt, and pepper.",
         "Sear the salmon for 4-5 minutes per side until cooked through.",
         "Grill the asparagus for 5-7 minutes until tender.",
-        "Drizzle everything with fresh lemon juice before serving."
+        "Drizzle everything with fresh lemon juice ({lemon}) before serving."
     ]
 }

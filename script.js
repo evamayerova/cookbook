@@ -226,56 +226,85 @@ if (recipeDetailContainer) {
         const portionsDisplay = document.getElementById('portionsDisplay');
         const btnIncrease = document.getElementById('btnIncreasePortion');
         const btnDecrease = document.getElementById('btnDecreasePortion');
+        const pageSteps = document.getElementById('pageSteps');
 
-        function renderIngredients() {
+        function renderIngredientsAndSteps() {
             pageIngredients.innerHTML = '';
+            pageSteps.innerHTML = '';
             portionsDisplay.innerText = `${currentPortions} portion${currentPortions > 1 ? 's' : ''}`;
             const multiplier = currentPortions / originalPortions;
 
-            if (recipe.ingredients) {
-                recipe.ingredients.forEach(ing => {
-                    const parsedOriginal = parseAmount(ing.amount);
-                    let displayAmount = ing.amount;
-                    let amountForConversion = null;
+            // Cache scaled amounts for steps templating
+            const scaledIngredients = {};
 
-                    if (typeof parsedOriginal === 'number') {
-                        const newAmount = parsedOriginal * multiplier;
-                        displayAmount = formatAmount(newAmount);
-                        amountForConversion = newAmount;
+            if (recipe.ingredients) {
+                // Group ingredients
+                const grouped = {};
+                recipe.ingredients.forEach(ing => {
+                    const group = ing.group || 'Other';
+                    if (!grouped[group]) grouped[group] = [];
+                    grouped[group].push(ing);
+                });
+
+                for (const [groupName, ings] of Object.entries(grouped)) {
+                    if (Object.keys(grouped).length > 1) {
+                        const groupHeader = document.createElement('h4');
+                        groupHeader.className = 'ingredient-group-header';
+                        groupHeader.innerText = groupName;
+                        pageIngredients.appendChild(groupHeader);
                     }
 
-                    const conversion = convertUnit(amountForConversion, ing.unit);
-                    const unitText = ing.unit ? ` ${ing.unit}` : '';
-                    const conversionText = conversion ? ` <span style="color:var(--text-secondary);font-size:0.9em">${conversion}</span>` : '';
+                    ings.forEach(ing => {
+                        const parsedOriginal = parseAmount(ing.amount);
+                        let displayAmount = ing.amount;
+                        let amountForConversion = null;
 
+                        if (typeof parsedOriginal === 'number') {
+                            const newAmount = parsedOriginal * multiplier;
+                            displayAmount = formatAmount(newAmount);
+                            amountForConversion = newAmount;
+                        }
+
+                        const conversion = convertUnit(amountForConversion, ing.unit);
+                        const unitText = ing.unit ? ` ${ing.unit}` : '';
+                        const conversionText = conversion ? ` <span style="color:var(--text-secondary);font-size:0.9em">${conversion}</span>` : '';
+
+                        if (ing.id) {
+                            scaledIngredients[ing.id] = `${displayAmount}${unitText}${conversion ? ` / ${conversion}` : ''}`;
+                        }
+
+                        const li = document.createElement('li');
+                        li.innerHTML = `<strong>${displayAmount}${unitText}</strong>${conversionText} ${ing.name}`;
+                        pageIngredients.appendChild(li);
+                    });
+                }
+            }
+
+            if (recipe.steps) {
+                recipe.steps.forEach(step => {
+                    let parsedStep = step.replace(/\{([^}]+)\}/g, (match, id) => {
+                        return scaledIngredients[id] ? scaledIngredients[id] : match;
+                    });
+                    
                     const li = document.createElement('li');
-                    li.innerHTML = `<strong>${displayAmount}${unitText}</strong>${conversionText} ${ing.name}`;
-                    pageIngredients.appendChild(li);
+                    li.innerHTML = parsedStep;
+                    pageSteps.appendChild(li);
                 });
             }
         }
 
-        renderIngredients();
+        renderIngredientsAndSteps();
 
         if (btnIncrease && btnDecrease) {
             btnIncrease.addEventListener('click', () => {
                 currentPortions++;
-                renderIngredients();
+                renderIngredientsAndSteps();
             });
             btnDecrease.addEventListener('click', () => {
                 if (currentPortions > 1) {
                     currentPortions--;
-                    renderIngredients();
+                    renderIngredientsAndSteps();
                 }
-            });
-        }
-
-        const pageSteps = document.getElementById('pageSteps');
-        if (recipe.steps) {
-            recipe.steps.forEach(step => {
-                const li = document.createElement('li');
-                li.innerText = step;
-                pageSteps.appendChild(li);
             });
         }
 

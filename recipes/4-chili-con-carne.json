@@ -9,83 +9,27 @@
     "portions": 6,
     "favorite": true,
     "ingredients": [
-        {
-            "amount": "800",
-            "unit": "grams",
-            "name": "Canned kidney beans"
-        },
-        {
-            "amount": "3",
-            "unit": "tbsp",
-            "name": "Oil"
-        },
-        {
-            "amount": "500",
-            "unit": "grams",
-            "name": "Ground beef"
-        },
-        {
-            "amount": "1",
-            "unit": "whole",
-            "name": "Medium onion, finely chopped"
-        },
-        {
-            "amount": "3",
-            "unit": "cloves",
-            "name": "Garlic, minced"
-        },
-        {
-            "amount": "1.5",
-            "unit": "tbsp",
-            "name": "Chili powder"
-        },
-        {
-            "amount": "2",
-            "unit": "tsp",
-            "name": "Cumin"
-        },
-        {
-            "amount": "1.5",
-            "unit": "tsp",
-            "name": "Dried oregano"
-        },
-        {
-            "amount": "0.5",
-            "unit": "tsp",
-            "name": "Salt"
-        },
-        {
-            "amount": "800",
-            "unit": "grams",
-            "name": "Canned chopped tomatoes"
-        },
-        {
-            "amount": "240",
-            "unit": "ml",
-            "name": "Beef broth"
-        },
-        {
-            "amount": "4",
-            "unit": "whole",
-            "name": "Jalapeño peppers, finely chopped"
-        },
-        {
-            "amount": "200",
-            "unit": "grams",
-            "name": "Canned corn"
-        },
-        {
-            "amount": "25",
-            "unit": "grams",
-            "name": "Dark chocolate (optional)"
-        }
+        { "id": "beans", "amount": "800", "unit": "grams", "name": "Canned kidney beans", "group": "Protein" },
+        { "id": "oil", "amount": "3", "unit": "tbsp", "name": "Oil", "group": "Other" },
+        { "id": "beef", "amount": "500", "unit": "grams", "name": "Ground beef", "group": "Protein" },
+        { "id": "onion", "amount": "1", "unit": "whole", "name": "Medium onion, finely chopped", "group": "Vegetables" },
+        { "id": "garlic", "amount": "3", "unit": "cloves", "name": "Garlic, minced", "group": "Vegetables" },
+        { "id": "chili_powder", "amount": "1.5", "unit": "tbsp", "name": "Chili powder", "group": "Seasoning" },
+        { "id": "cumin", "amount": "2", "unit": "tsp", "name": "Cumin", "group": "Seasoning" },
+        { "id": "oregano", "amount": "1.5", "unit": "tsp", "name": "Dried oregano", "group": "Seasoning" },
+        { "id": "salt", "amount": "0.5", "unit": "tsp", "name": "Salt", "group": "Seasoning" },
+        { "id": "tomatoes", "amount": "800", "unit": "grams", "name": "Canned chopped tomatoes", "group": "Vegetables" },
+        { "id": "broth", "amount": "240", "unit": "ml", "name": "Beef broth", "group": "Other" },
+        { "id": "jalapeno", "amount": "4", "unit": "whole", "name": "Jalapeño peppers, finely chopped", "group": "Vegetables" },
+        { "id": "corn", "amount": "200", "unit": "grams", "name": "Canned corn", "group": "Vegetables" },
+        { "id": "chocolate", "amount": "25", "unit": "grams", "name": "Dark chocolate (optional)", "group": "Other" }
     ],
     "steps": [
-        "Sauté onion in oil until translucent, add garlic and ground beef. Brown the meat (about 5 minutes).",
-        "Add chili powder, cumin, oregano and stir well.",
-        "Add beans, tomatoes, beef broth, and jalapeño peppers. Cook for about 20 minutes until the liquid thickens.",
-        "Finally, add corn and (optional) break a small piece of dark chocolate into the chili. Cook for another 3-5 minutes.",
-        "Season with salt to taste.",
+        "Sauté onion ({onion}) in oil ({oil}) until translucent, add garlic ({garlic}) and ground beef ({beef}). Brown the meat (about 5 minutes).",
+        "Add chili powder ({chili_powder}), cumin ({cumin}), oregano ({oregano}) and stir well.",
+        "Add beans ({beans}), tomatoes ({tomatoes}), beef broth ({broth}), and jalapeño peppers ({jalapeno}). Cook for about 20 minutes until the liquid thickens.",
+        "Finally, add corn ({corn}) and (optional) break a small piece of dark chocolate ({chocolate}) into the chili. Cook for another 3-5 minutes.",
+        "Season with salt ({salt}) to taste.",
         "Serve garnished with sour cream, grated cheese, and fresh cilantro. Best served with cornbread or basmati rice."
     ]
 }

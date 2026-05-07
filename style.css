@@ -523,6 +523,15 @@ h4 {
     font-family: 'Outfit', sans-serif;
 }
 
+.ingredient-group-header {
+    color: var(--text-primary);
+    font-family: 'Outfit', sans-serif;
+    margin: 1.5rem 0 0.5rem 0;
+    font-size: 1.1rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    padding-bottom: 0.25rem;
+}
+
 .ingredients-list {
     list-style: none;
 }
