@@ -131,6 +131,8 @@ function convertUnit(amountNum, unitStr, ingName) {
 
     if (!isVolumeUnit) return '';
 
+    const volumeMl = volumeCups * 240;
+
     // Check if dry ingredient with specific density for grams conversion
     let matchedDensity = null;
     if (name) {
@@ -146,15 +148,12 @@ function convertUnit(amountNum, unitStr, ingName) {
     }
 
     if (matchedDensity) {
-        metricVal = volumeCups * matchedDensity;
-        metricUnit = 'g';
+        const weightGrams = volumeCups * matchedDensity;
+        return `(${Math.round(weightGrams)}g / ${Math.round(volumeMl)}ml)`;
     } else {
         // Standard liquid volume conversion (1 cup = 240 ml)
-        metricVal = volumeCups * 240;
-        metricUnit = 'ml';
+        return `(${Math.round(volumeMl)}ml)`;
     }
-
-    return `(${Math.round(metricVal)}${metricUnit})`;
 }
 
 // DOM Elements
