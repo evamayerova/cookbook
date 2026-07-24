@@ -350,3 +350,122 @@ styleSheet.innerText = `
   }
 `;
 document.head.appendChild(styleSheet);
+
+// ==========================================
+// Cook Mode & Screen Wake Lock Functionality
+// ==========================================
+let cookModeActive = localStorage.getItem('cookModeEnabled') === 'true';
+let wakeLockObj = null;
+
+async function requestWakeLock() {
+    if ('wakeLock' in navigator) {
+        try {
+            wakeLockObj = await navigator.wakeLock.request('screen');
+            wakeLockObj.addEventListener('release', () => {
+                wakeLockObj = null;
+                // Re-request wake lock if cook mode is active and page is visible
+                if (cookModeActive && document.visibilityState === 'visible') {
+                    requestWakeLock();
+                }
+            });
+        } catch (err) {
+            console.warn('Screen Wake Lock error:', err);
+        }
+    }
+}
+
+async function releaseWakeLock() {
+    if (wakeLockObj !== null) {
+        try {
+            await wakeLockObj.release();
+            wakeLockObj = null;
+        } catch (err) {
+            console.warn('Screen Wake Lock release error:', err);
+        }
+    }
+}
+
+function showToast(message, icon = '🍳') {
+    let container = document.querySelector('.toast-container');
+    if (!container) {
+        container = document.createElement('div');
+        container.className = 'toast-container';
+        document.body.appendChild(container);
+    }
+
+    const toast = document.createElement('div');
+    toast.className = 'toast';
+    toast.innerHTML = `<span class="toast-icon">${icon}</span><span>${message}</span>`;
+    container.appendChild(toast);
+
+    setTimeout(() => {
+        toast.style.opacity = '0';
+        toast.style.transition = 'opacity 0.4s ease';
+        setTimeout(() => toast.remove(), 400);
+    }, 2800);
+}
+
+async function toggleCookMode(forcedState) {
+    if (typeof forcedState === 'boolean') {
+        cookModeActive = forcedState;
+    } else {
+        cookModeActive = !cookModeActive;
+    }
+
+    localStorage.setItem('cookModeEnabled', cookModeActive ? 'true' : 'false');
+    updateCookModeUI();
+
+    if (cookModeActive) {
+        if (!('wakeLock' in navigator)) {
+            showToast('Cook Mode ON (Note: Screen wake lock not supported in this browser)', '⚠️');
+        } else {
+            await requestWakeLock();
+            showToast('Cook Mode ON: Screen will stay awake while cooking', '🍳');
+        }
+    } else {
+        await releaseWakeLock();
+        showToast('Cook Mode OFF: Normal screen timeout restored', '🌙');
+    }
+}
+
+function updateCookModeUI() {
+    const cookBtns = document.querySelectorAll('.btn-cook-mode');
+    cookBtns.forEach(btn => {
+        if (cookModeActive) {
+            btn.classList.add('active');
+            btn.setAttribute('aria-pressed', 'true');
+        } else {
+            btn.classList.remove('active');
+            btn.setAttribute('aria-pressed', 'false');
+        }
+    });
+}
+
+function initCookMode() {
+    const cookBtns = document.querySelectorAll('.btn-cook-mode');
+    cookBtns.forEach(btn => {
+        btn.addEventListener('click', (e) => {
+            e.preventDefault();
+            toggleCookMode();
+        });
+    });
+
+    updateCookModeUI();
+
+    if (cookModeActive) {
+        requestWakeLock();
+    }
+
+    // Re-acquire lock when switching back to tab
+    document.addEventListener('visibilitychange', async () => {
+        if (cookModeActive && document.visibilityState === 'visible') {
+            await requestWakeLock();
+        }
+    });
+}
+
+if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initCookMode);
+} else {
+    initCookMode();
+}

@@ -5,8 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gourmet Cookbook | Recipe Details</title>
-    <meta name="description"
-        content="Read full recipe details and instructions.">
+    <meta name="description" content="Read full recipe details and instructions.">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -27,6 +26,14 @@
             <nav>
                 <ul class="nav-links">
                     <li><a href="index.html">Discover</a></li>
+                    <li>
+                        <button id="cookModeBtn" class="btn-cook-mode" title="Keep screen awake while cooking"
+                            aria-label="Toggle Cook Mode">
+                            <span class="cook-icon">🍳</span>
+                            <span class="cook-text">Cook Mode</span>
+                            <span class="cook-status-dot"></span>
+                        </button>
+                    </li>
                 </ul>
             </nav>
         </div>
@@ -34,7 +41,7 @@
 
     <main class="container">
         <a href="index.html" class="btn-back">← Back to recipes</a>
-        
+
         <div id="recipeDetailContainer" class="glass-panel full-page-recipe" style="display: none;">
             <div class="recipe-header-full">
                 <div class="recipe-image-full" id="pageImageContainer">
