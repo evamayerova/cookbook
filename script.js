@@ -149,7 +149,7 @@ function convertUnit(amountNum, unitStr, ingName) {
 
     if (matchedDensity) {
         const weightGrams = volumeCups * matchedDensity;
-        return `(${Math.round(weightGrams)}g / ${Math.round(volumeMl)}ml)`;
+        return `(${Math.round(weightGrams)}g)`;
     } else {
         // Standard liquid volume conversion (1 cup = 240 ml)
         return `(${Math.round(volumeMl)}ml)`;
