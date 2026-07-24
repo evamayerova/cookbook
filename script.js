@@ -174,7 +174,8 @@ function renderRecipes(recipesToRender) {
     }
 
     recipesToRender.forEach((recipe, index) => {
-        const card = document.createElement('article');
+        const card = document.createElement('a');
+        card.href = `recipe.html?id=${recipe.id}`;
         card.className = 'recipe-card';
         card.style.animation = `fadeInUp 0.5s ease forwards ${index * 0.1}s`;
         card.style.opacity = '0';
@@ -199,7 +200,6 @@ function renderRecipes(recipesToRender) {
                         <div class="author-avatar">${recipe.author.charAt(0).toUpperCase()}</div>
                         <span class="author-name">${recipe.author}</span>
                     </div>
-                    <a href="recipe.html?id=${recipe.id}" class="btn-view">View Recipe</a>
                 </div>
             </div>
         `;
