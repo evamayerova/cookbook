@@ -1,0 +1,197 @@
+{
+    "id": 10,
+    "title": "Classic Butter Chicken",
+    "description": "Marion Grasby's classic Butter Chicken featuring tender marinated chicken cooked in a rich, velvety tomato and cream sauce spiced with garam masala, Kashmiri chili, and fenugreek.",
+    "image": "assets/recipe_butter_chicken.png",
+    "author": "Marion's Kitchen",
+    "category": "Main dish",
+    "time": "40 min",
+    "portions": 8,
+    "favorite": true,
+    "ingredients": [
+        {
+            "id": "chicken",
+            "amount": "1600",
+            "unit": "grams",
+            "name": "Chicken thighs, cut into bite-sized pieces",
+            "group": "Protein"
+        },
+        {
+            "id": "yogurt",
+            "amount": "1",
+            "unit": "cup",
+            "name": "Greek yogurt",
+            "group": "Marinade"
+        },
+        {
+            "id": "marinade_garlic",
+            "amount": "2",
+            "unit": "tbsp",
+            "name": "Garlic, finely grated",
+            "group": "Marinade"
+        },
+        {
+            "id": "marinade_ginger",
+            "amount": "2",
+            "unit": "tbsp",
+            "name": "Ginger, finely grated",
+            "group": "Marinade"
+        },
+        {
+            "id": "lemon_juice",
+            "amount": "2",
+            "unit": "tbsp",
+            "name": "Lemon juice",
+            "group": "Marinade"
+        },
+        {
+            "id": "marinade_garam",
+            "amount": "2",
+            "unit": "tsp",
+            "name": "Garam masala",
+            "group": "Marinade"
+        },
+        {
+            "id": "marinade_cumin",
+            "amount": "2",
+            "unit": "tsp",
+            "name": "Ground cumin",
+            "group": "Marinade"
+        },
+        {
+            "id": "marinade_chili",
+            "amount": "2",
+            "unit": "tsp",
+            "name": "Kashmiri chili powder",
+            "group": "Marinade"
+        },
+        {
+            "id": "marinade_salt",
+            "amount": "2",
+            "unit": "tsp",
+            "name": "Salt",
+            "group": "Marinade"
+        },
+        {
+            "id": "ghee",
+            "amount": "4",
+            "unit": "tbsp",
+            "name": "Ghee or vegetable oil",
+            "group": "Sauce"
+        },
+        {
+            "id": "butter",
+            "amount": "100",
+            "unit": "g",
+            "name": "Unsalted butter, cut into cubes",
+            "group": "Sauce"
+        },
+        {
+            "id": "onion",
+            "amount": "2",
+            "unit": "whole",
+            "name": "Medium yellow onions, finely diced",
+            "group": "Sauce"
+        },
+        {
+            "id": "sauce_garlic",
+            "amount": "2",
+            "unit": "tbsp",
+            "name": "Garlic, finely grated",
+            "group": "Sauce"
+        },
+        {
+            "id": "sauce_ginger",
+            "amount": "2",
+            "unit": "tbsp",
+            "name": "Ginger, finely grated",
+            "group": "Sauce"
+        },
+        {
+            "id": "sauce_garam",
+            "amount": "2",
+            "unit": "tsp",
+            "name": "Garam masala",
+            "group": "Sauce"
+        },
+        {
+            "id": "sauce_cumin",
+            "amount": "2",
+            "unit": "tsp",
+            "name": "Ground cumin",
+            "group": "Sauce"
+        },
+        {
+            "id": "coriander",
+            "amount": "2",
+            "unit": "tsp",
+            "name": "Ground coriander",
+            "group": "Sauce"
+        },
+        {
+            "id": "sauce_chili",
+            "amount": "2",
+            "unit": "tsp",
+            "name": "Kashmiri chili powder",
+            "group": "Sauce"
+        },
+        {
+            "id": "passata",
+            "amount": "2",
+            "unit": "cups",
+            "name": "Tomato passata (puree)",
+            "group": "Sauce"
+        },
+        {
+            "id": "tomato_paste",
+            "amount": "2",
+            "unit": "tbsp",
+            "name": "Tomato paste",
+            "group": "Sauce"
+        },
+        {
+            "id": "cream",
+            "amount": "1",
+            "unit": "cup",
+            "name": "Heavy cream",
+            "group": "Sauce"
+        },
+        {
+            "id": "sugar",
+            "amount": "2",
+            "unit": "tbsp",
+            "name": "Brown sugar or honey",
+            "group": "Sauce"
+        },
+        {
+            "id": "fenugreek",
+            "amount": "2",
+            "unit": "tbsp",
+            "name": "Dried fenugreek leaves (kasoori methi), crushed",
+            "group": "Sauce"
+        },
+        {
+            "id": "salt",
+            "amount": "1",
+            "unit": "tsp",
+            "name": "Salt (to taste)",
+            "group": "Sauce"
+        },
+        {
+            "id": "cilantro",
+            "amount": "0.5",
+            "unit": "cup",
+            "name": "Fresh cilantro, roughly chopped",
+            "group": "Garnish"
+        }
+    ],
+    "steps": [
+        "In a large bowl, combine chicken ({chicken}), Greek yogurt ({yogurt}), grated garlic ({marinade_garlic}), grated ginger ({marinade_ginger}), lemon juice ({lemon_juice}), garam masala ({marinade_garam}), cumin ({marinade_cumin}), Kashmiri chili powder ({marinade_chili}), and salt ({marinade_salt}). Mix well and marinate for at least 30 minutes.",
+        "Heat ghee ({ghee}) in a large skillet or wok over high heat. Sear the marinated chicken in batches for 3-4 minutes until golden browned. Remove chicken and set aside.",
+        "In the same pan over medium heat, melt half the butter ({butter}) and add diced onions ({onion}). Sauté for 5-6 minutes until soft and golden.",
+        "Add garlic ({sauce_garlic}), ginger ({sauce_ginger}), garam masala ({sauce_garam}), cumin ({sauce_cumin}), coriander ({coriander}), and chili powder ({sauce_chili}). Stir-fry for 1 minute until fragrant.",
+        "Stir in tomato passata ({passata}) and tomato paste ({tomato_paste}). Simmer for 10 minutes until the sauce thickens and oil begins to separate.",
+        "Return the seared chicken and any accumulated juices to the pan. Reduce heat to low, stir in heavy cream ({cream}), remaining butter, sugar ({sugar}), crushed fenugreek leaves ({fenugreek}), and salt ({salt}). Simmer gently for 8-10 minutes.",
+        "Garnish with fresh cilantro ({cilantro}) and serve hot with basmati rice and warm garlic naan bread."
+    ]
+}
