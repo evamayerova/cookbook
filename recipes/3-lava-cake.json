@@ -1,5 +1,5 @@
 {
-    "id": 3,
+    "id": 103,
     "title": "Decadent Chocolate Lava Cake",
     "description": "A rich chocolate cake with a molten center, served warm and complemented by a vibrant, tart raspberry coulis.",
     "image": "assets/recipe_dessert.png",
@@ -9,12 +9,48 @@
     "portions": 4,
     "favorite": false,
     "ingredients": [
-        { "id": "chocolate", "amount": "4", "unit": "oz", "name": "Semi-sweet chocolate", "group": "Chocolate" },
-        { "id": "butter", "amount": "1/2", "unit": "cup", "name": "Butter", "group": "Dairy & Eggs" },
-        { "id": "sugar", "amount": "1", "unit": "cup", "name": "Powdered sugar", "group": "Dry Ingredients" },
-        { "id": "eggs", "amount": "2", "unit": "whole", "name": "Eggs", "group": "Dairy & Eggs" },
-        { "id": "yolks", "amount": "2", "unit": "whole", "name": "Egg yolks", "group": "Dairy & Eggs" },
-        { "id": "flour", "amount": "6", "unit": "tbsp", "name": "All-purpose flour", "group": "Dry Ingredients" }
+        {
+            "id": "chocolate",
+            "amount": "4",
+            "unit": "oz",
+            "name": "Semi-sweet chocolate",
+            "group": "Chocolate"
+        },
+        {
+            "id": "butter",
+            "amount": "1/2",
+            "unit": "cup",
+            "name": "Butter",
+            "group": "Dairy & Eggs"
+        },
+        {
+            "id": "sugar",
+            "amount": "1",
+            "unit": "cup",
+            "name": "Powdered sugar",
+            "group": "Dry Ingredients"
+        },
+        {
+            "id": "eggs",
+            "amount": "2",
+            "unit": "whole",
+            "name": "Eggs",
+            "group": "Dairy & Eggs"
+        },
+        {
+            "id": "yolks",
+            "amount": "2",
+            "unit": "whole",
+            "name": "Egg yolks",
+            "group": "Dairy & Eggs"
+        },
+        {
+            "id": "flour",
+            "amount": "6",
+            "unit": "tbsp",
+            "name": "All-purpose flour",
+            "group": "Dry Ingredients"
+        }
     ],
     "steps": [
         "Preheat oven to 425°F (220°C). Grease 4 ramekins.",

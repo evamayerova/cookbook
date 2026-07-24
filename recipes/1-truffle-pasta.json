@@ -1,5 +1,5 @@
 {
-    "id": 1,
+    "id": 101,
     "title": "Truffle Mushroom Pasta",
     "description": "A rich and creamy pasta dish infused with the earthy aroma of black truffles, finished with a sprinkle of aged parmesan.",
     "image": "assets/recipe_pasta.png",
@@ -9,11 +9,41 @@
     "portions": 4,
     "favorite": false,
     "ingredients": [
-        { "id": "pasta", "amount": "1", "unit": "lb", "name": "Fettuccine pasta", "group": "Main" },
-        { "id": "butter", "amount": "2", "unit": "tbsp", "name": "Butter", "group": "Dairy" },
-        { "id": "mushrooms", "amount": "8", "unit": "oz", "name": "Cremini mushrooms, sliced", "group": "Vegetables" },
-        { "id": "cream", "amount": "1", "unit": "cup", "name": "Heavy cream", "group": "Dairy" },
-        { "id": "truffle_oil", "amount": "2", "unit": "tsp", "name": "Truffle oil", "group": "Seasoning" }
+        {
+            "id": "pasta",
+            "amount": "1",
+            "unit": "lb",
+            "name": "Fettuccine pasta",
+            "group": "Main"
+        },
+        {
+            "id": "butter",
+            "amount": "2",
+            "unit": "tbsp",
+            "name": "Butter",
+            "group": "Dairy"
+        },
+        {
+            "id": "mushrooms",
+            "amount": "8",
+            "unit": "oz",
+            "name": "Cremini mushrooms, sliced",
+            "group": "Vegetables"
+        },
+        {
+            "id": "cream",
+            "amount": "1",
+            "unit": "cup",
+            "name": "Heavy cream",
+            "group": "Dairy"
+        },
+        {
+            "id": "truffle_oil",
+            "amount": "2",
+            "unit": "tsp",
+            "name": "Truffle oil",
+            "group": "Seasoning"
+        }
     ],
     "steps": [
         "Boil water and cook the fettuccine pasta ({pasta}) according to package directions.",
