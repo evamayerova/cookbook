@@ -297,89 +297,89 @@ window.recipesData = [
         "author":  "RecipeTin Eats",
         "category":  "Main dish",
         "time":  "30 min",
-        "portions":  2,
+        "portions":  8,
         "favorite":  true,
         "ingredients":  [
                             {
                                 "id":  "tamarind",
-                                "amount":  "3",
+                                "amount":  "12",
                                 "unit":  "tbsp",
                                 "name":  "Tamarind puree",
                                 "group":  "Sauce"
                             },
                             {
                                 "id":  "brown_sugar",
-                                "amount":  "3",
+                                "amount":  "12",
                                 "unit":  "tbsp",
                                 "name":  "Brown sugar",
                                 "group":  "Sauce"
                             },
                             {
                                 "id":  "fish_sauce",
-                                "amount":  "2",
+                                "amount":  "8",
                                 "unit":  "tbsp",
                                 "name":  "Fish sauce",
                                 "group":  "Sauce"
                             },
                             {
                                 "id":  "oyster_sauce",
-                                "amount":  "1.5",
+                                "amount":  "6",
                                 "unit":  "tbsp",
                                 "name":  "Oyster sauce",
                                 "group":  "Sauce"
                             },
                             {
                                 "id":  "rice_noodles",
-                                "amount":  "120",
+                                "amount":  "480",
                                 "unit":  "grams",
                                 "name":  "Dried rice stick noodles",
                                 "group":  "Noodles"
                             },
                             {
                                 "id":  "chicken",
-                                "amount":  "150",
+                                "amount":  "600",
                                 "unit":  "grams",
                                 "name":  "Chicken breast or thigh, thinly sliced",
                                 "group":  "Protein"
                             },
                             {
                                 "id":  "oil",
-                                "amount":  "2",
+                                "amount":  "8",
                                 "unit":  "tbsp",
                                 "name":  "Peanut oil (or vegetable oil)",
                                 "group":  "Other"
                             },
                             {
                                 "id":  "garlic",
-                                "amount":  "2",
+                                "amount":  "8",
                                 "unit":  "cloves",
                                 "name":  "Garlic, finely chopped",
                                 "group":  "Vegetables"
                             },
                             {
                                 "id":  "egg",
-                                "amount":  "1",
+                                "amount":  "4",
                                 "unit":  "whole",
                                 "name":  "Egg",
                                 "group":  "Dairy \u0026 Eggs"
                             },
                             {
                                 "id":  "bean_sprouts",
-                                "amount":  "1.5",
+                                "amount":  "6",
                                 "unit":  "cups",
                                 "name":  "Bean sprouts",
                                 "group":  "Vegetables"
                             },
                             {
                                 "id":  "garlic_chives",
-                                "amount":  "0.5",
-                                "unit":  "cup",
+                                "amount":  "2",
+                                "unit":  "cups",
                                 "name":  "Garlic chives, cut into pieces",
                                 "group":  "Vegetables"
                             },
                             {
                                 "id":  "peanuts",
-                                "amount":  "0.25",
+                                "amount":  "1",
                                 "unit":  "cup",
                                 "name":  "Peanuts, finely chopped",
                                 "group":  "Other"
