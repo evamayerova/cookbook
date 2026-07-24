@@ -23,71 +23,135 @@ function formatAmount(amountNum) {
     return Number.isInteger(amountNum) ? amountNum.toString() : parseFloat(amountNum.toFixed(2)).toString();
 }
 
+// Density table in grams per 1 US Cup (240 ml) for dry/solid ingredients
+const DENSITIES = [
+    // Flour & Starches
+    { keywords: ['all purpose flour', 'plain flour', 'wheat flour', 'bread flour', 'cake flour'], gPerCup: 125 },
+    { keywords: ['almond flour', 'almond meal'], gPerCup: 112 },
+    { keywords: ['coconut flour'], gPerCup: 115 },
+    { keywords: ['flour'], gPerCup: 125 },
+    { keywords: ['cornstarch', 'corn flour', 'tapioca starch'], gPerCup: 110 },
+    { keywords: ['baking powder', 'baking soda', 'bicarb'], gPerCup: 220 },
+
+    // Sugars & Sweeteners
+    { keywords: ['granulated sugar', 'white sugar', 'caster sugar', 'sweetener', 'erythritol', 'allulose'], gPerCup: 200 },
+    { keywords: ['brown sugar', 'muscovado sugar', 'demerara sugar'], gPerCup: 220 },
+    { keywords: ['powdered sugar', 'icing sugar', 'confectioners'], gPerCup: 120 },
+    { keywords: ['sugar'], gPerCup: 200 },
+
+    // Fats & Dairy (Solid)
+    { keywords: ['butter', 'margarine', 'lard', 'shortening'], gPerCup: 227 },
+    { keywords: ['cheese', 'parmesan', 'cheddar', 'mozzarella', 'paneer'], gPerCup: 100 },
+
+    // Cocoa, Chocolate, Nuts & Seeds
+    { keywords: ['cocoa', 'cacao'], gPerCup: 100 },
+    { keywords: ['chocolate chips', 'chocolate', 'choc'], gPerCup: 170 },
+    { keywords: ['peanuts', 'almonds', 'walnuts', 'pecans', 'cashews', 'hazelnuts', 'nuts', 'seeds'], gPerCup: 140 },
+
+    // Grains, Pasta, Beans & Produce (Solid/Chopped)
+    { keywords: ['oats', 'rolled oats', 'oatmeal'], gPerCup: 90 },
+    { keywords: ['rice'], gPerCup: 185 },
+    { keywords: ['breadcrumbs'], gPerCup: 110 },
+    { keywords: ['bean sprouts', 'sprouts'], gPerCup: 70 },
+    { keywords: ['garlic chives', 'chives', 'scallions', 'spring onion', 'herbs', 'cilantro', 'parsley'], gPerCup: 50 },
+    { keywords: ['rhubarb', 'berry', 'berries', 'fruit', 'apple'], gPerCup: 120 },
+
+    // Spices & Salt
+    { keywords: ['salt', 'sea salt'], gPerCup: 280 },
+    { keywords: ['cinnamon', 'cumin', 'turmeric', 'chili powder', 'paprika', 'nutmeg', 'garam masala', 'coriander', 'spice'], gPerCup: 120 }
+];
+
+// Liquid keywords that should be converted to volume (ml) rather than weight (g)
+const LIQUID_KEYWORDS = [
+    'water', 'milk', 'cream', 'oil', 'vinegar', 'wine', 'broth', 'stock',
+    'juice', 'sauce', 'puree', 'extract', 'essence', 'tamari', 'syrup', 'yoghurt', 'yogurt'
+];
+
 // Unit Conversion Utility
-function convertUnit(amountNum, unitStr) {
+function convertUnit(amountNum, unitStr, ingName) {
     if (!unitStr || typeof amountNum !== 'number') return '';
     const unit = unitStr.toLowerCase().trim();
     const amount = amountNum;
+    const name = (ingName || '').toLowerCase().trim();
 
     let metricUnit = '';
     let metricVal = 0;
 
+    // Weight units (oz, lb) directly convert to grams
+    if (['oz', 'ounce', 'ounces'].includes(unit)) {
+        return `(${Math.round(amount * 28.35)}g)`;
+    }
+    if (['lb', 'lbs', 'pound', 'pounds'].includes(unit)) {
+        return `(${Math.round(amount * 453.6)}g)`;
+    }
+
+    // Volume units: cup, tbsp, tsp, fl oz, pt, qt, gal
+    let volumeCups = 0;
+    let isVolumeUnit = true;
+
     switch (unit) {
         case 'cup':
         case 'cups':
-            metricVal = amount * 240;
-            metricUnit = 'ml';
-            break;
-        case 'oz':
-        case 'ounce':
-        case 'ounces':
-            metricVal = amount * 28;
-            metricUnit = 'g';
-            break;
-        case 'lb':
-        case 'lbs':
-        case 'pound':
-        case 'pounds':
-            metricVal = amount * 453;
-            metricUnit = 'g';
+            volumeCups = amount;
             break;
         case 'tbsp':
         case 'tablespoon':
         case 'tablespoons':
-            metricVal = amount * 15;
-            metricUnit = 'ml';
+            volumeCups = amount / 16;
             break;
         case 'tsp':
         case 'teaspoon':
         case 'teaspoons':
-            metricVal = amount * 5;
-            metricUnit = 'ml';
+            volumeCups = amount / 48;
             break;
         case 'fl oz':
         case 'fluid ounce':
-            metricVal = amount * 30;
-            metricUnit = 'ml';
+        case 'fluid ounces':
+            volumeCups = amount / 8;
             break;
         case 'pt':
         case 'pint':
         case 'pints':
-            metricVal = amount * 473;
-            metricUnit = 'ml';
+            volumeCups = amount * 1.97;
             break;
         case 'qt':
         case 'quart':
         case 'quarts':
-            metricVal = amount * 946;
-            metricUnit = 'ml';
+            volumeCups = amount * 3.94;
             break;
         case 'gal':
         case 'gallon':
         case 'gallons':
-            metricVal = amount * 3785;
-            metricUnit = 'ml';
+            volumeCups = amount * 15.77;
             break;
         default:
-            return ''; // No conversion for this unit
+            isVolumeUnit = false;
+            break;
+    }
+
+    if (!isVolumeUnit) return '';
+
+    // Check if dry ingredient with specific density for grams conversion
+    let matchedDensity = null;
+    if (name) {
+        const isLiquid = LIQUID_KEYWORDS.some(kw => name.includes(kw));
+        if (!isLiquid) {
+            for (const item of DENSITIES) {
+                if (item.keywords.some(kw => name.includes(kw))) {
+                    matchedDensity = item.gPerCup;
+                    break;
+                }
+            }
+        }
+    }
+
+    if (matchedDensity) {
+        metricVal = volumeCups * matchedDensity;
+        metricUnit = 'g';
+    } else {
+        // Standard liquid volume conversion (1 cup = 240 ml)
+        metricVal = volumeCups * 240;
+        metricUnit = 'ml';
     }
 
     return `(${Math.round(metricVal)}${metricUnit})`;
@@ -265,7 +329,7 @@ if (recipeDetailContainer) {
                             amountForConversion = newAmount;
                         }
 
-                        const conversion = convertUnit(amountForConversion, ing.unit);
+                        const conversion = convertUnit(amountForConversion, ing.unit, ing.name);
                         const unitText = ing.unit ? ` ${ing.unit}` : '';
                         const conversionText = conversion ? ` <span style="color:var(--text-secondary);font-size:0.9em">${conversion}</span>` : '';
 

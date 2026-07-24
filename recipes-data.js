@@ -330,14 +330,14 @@ window.recipesData = [
                             },
                             {
                                 "id":  "rice_noodles",
-                                "amount":  "480",
+                                "amount":  "500",
                                 "unit":  "grams",
                                 "name":  "Dried rice stick noodles",
                                 "group":  "Noodles"
                             },
                             {
                                 "id":  "chicken",
-                                "amount":  "600",
+                                "amount":  "800",
                                 "unit":  "grams",
                                 "name":  "Chicken breast or thigh, thinly sliced",
                                 "group":  "Protein"
@@ -358,7 +358,7 @@ window.recipesData = [
                             },
                             {
                                 "id":  "egg",
-                                "amount":  "4",
+                                "amount":  "8",
                                 "unit":  "whole",
                                 "name":  "Egg",
                                 "group":  "Dairy \u0026 Eggs"
