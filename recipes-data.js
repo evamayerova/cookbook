@@ -665,7 +665,7 @@ window.recipesData = [
     {
         "id":  10,
         "title":  "Classic Butter Chicken",
-        "description":  "Marion Grasby\u0027s classic Butter Chicken featuring tender marinated chicken cooked in a rich, velvety tomato and cream sauce spiced with garam masala, Kashmiri chili, and fenugreek.",
+        "description":  "Marion Grasby\u0027s classic Butter Chicken featuring tender spiced marinated chicken cooked in a velvety, rich tomato and cream sauce with cardamom, cinnamon, and kasoori methi.",
         "image":  "assets/recipe_butter_chicken.png",
         "author":  "Marion\u0027s Kitchen",
         "category":  "Main dish",
@@ -675,16 +675,51 @@ window.recipesData = [
         "ingredients":  [
                             {
                                 "id":  "chicken",
-                                "amount":  "1600",
+                                "amount":  "1000",
                                 "unit":  "grams",
-                                "name":  "Chicken thighs, cut into bite-sized pieces",
+                                "name":  "Chicken thigh fillets, cut into large, bite-sized pieces",
                                 "group":  "Protein"
+                            },
+                            {
+                                "id":  "lemon_juice",
+                                "amount":  "2",
+                                "unit":  "tbsp",
+                                "name":  "Lemon juice",
+                                "group":  "Marinade"
+                            },
+                            {
+                                "id":  "marinade_chili",
+                                "amount":  "4",
+                                "unit":  "tsp",
+                                "name":  "Kashmiri red chilli powder",
+                                "group":  "Marinade"
+                            },
+                            {
+                                "id":  "marinade_paprika",
+                                "amount":  "1",
+                                "unit":  "tbsp",
+                                "name":  "Sweet paprika",
+                                "group":  "Marinade"
+                            },
+                            {
+                                "id":  "marinade_salt",
+                                "amount":  "2",
+                                "unit":  "tsp",
+                                "name":  "Sea salt",
+                                "group":  "Marinade"
                             },
                             {
                                 "id":  "yogurt",
                                 "amount":  "1",
                                 "unit":  "cup",
-                                "name":  "Greek yogurt",
+                                "name":  "Natural yoghurt",
+                                "group":  "Marinade"
+                            },
+                            {
+                                "id":  "marinade_ginger",
+                                "amount":  "1",
+                                "unit":  "tbsp",
+                                "name":  "Ginger, finely grated",
                                 "group":  "Marinade"
                             },
                             {
@@ -695,73 +730,45 @@ window.recipesData = [
                                 "group":  "Marinade"
                             },
                             {
-                                "id":  "marinade_ginger",
-                                "amount":  "2",
-                                "unit":  "tbsp",
-                                "name":  "Ginger, finely grated",
-                                "group":  "Marinade"
-                            },
-                            {
-                                "id":  "lemon_juice",
-                                "amount":  "2",
-                                "unit":  "tbsp",
-                                "name":  "Lemon juice",
-                                "group":  "Marinade"
-                            },
-                            {
-                                "id":  "marinade_garam",
-                                "amount":  "2",
+                                "id":  "garam_masala",
+                                "amount":  "4",
                                 "unit":  "tsp",
                                 "name":  "Garam masala",
                                 "group":  "Marinade"
                             },
                             {
-                                "id":  "marinade_cumin",
+                                "id":  "oil",
                                 "amount":  "2",
-                                "unit":  "tsp",
-                                "name":  "Ground cumin",
-                                "group":  "Marinade"
-                            },
-                            {
-                                "id":  "marinade_chili",
-                                "amount":  "2",
-                                "unit":  "tsp",
-                                "name":  "Kashmiri chili powder",
-                                "group":  "Marinade"
-                            },
-                            {
-                                "id":  "marinade_salt",
-                                "amount":  "2",
-                                "unit":  "tsp",
-                                "name":  "Salt",
-                                "group":  "Marinade"
-                            },
-                            {
-                                "id":  "ghee",
-                                "amount":  "4",
                                 "unit":  "tbsp",
-                                "name":  "Ghee or vegetable oil",
-                                "group":  "Sauce"
+                                "name":  "Vegetable oil",
+                                "group":  "Marinade"
+                            },
+                            {
+                                "id":  "marinade_butter",
+                                "amount":  "2",
+                                "unit":  "tbsp",
+                                "name":  "Melted butter",
+                                "group":  "Marinade"
                             },
                             {
                                 "id":  "butter",
                                 "amount":  "100",
                                 "unit":  "g",
-                                "name":  "Unsalted butter, cut into cubes",
+                                "name":  "Butter",
                                 "group":  "Sauce"
                             },
                             {
-                                "id":  "onion",
+                                "id":  "cardamom",
+                                "amount":  "6",
+                                "unit":  "whole",
+                                "name":  "Green cardamom pods, lightly crushed",
+                                "group":  "Sauce"
+                            },
+                            {
+                                "id":  "cinnamon",
                                 "amount":  "2",
                                 "unit":  "whole",
-                                "name":  "Medium yellow onions, finely diced",
-                                "group":  "Sauce"
-                            },
-                            {
-                                "id":  "sauce_garlic",
-                                "amount":  "2",
-                                "unit":  "tbsp",
-                                "name":  "Garlic, finely grated",
+                                "name":  "Cinnamon sticks",
                                 "group":  "Sauce"
                             },
                             {
@@ -772,91 +779,78 @@ window.recipesData = [
                                 "group":  "Sauce"
                             },
                             {
-                                "id":  "sauce_garam",
-                                "amount":  "2",
-                                "unit":  "tsp",
-                                "name":  "Garam masala",
-                                "group":  "Sauce"
-                            },
-                            {
-                                "id":  "sauce_cumin",
-                                "amount":  "2",
-                                "unit":  "tsp",
-                                "name":  "Ground cumin",
-                                "group":  "Sauce"
-                            },
-                            {
-                                "id":  "coriander",
-                                "amount":  "2",
-                                "unit":  "tsp",
-                                "name":  "Ground coriander",
-                                "group":  "Sauce"
-                            },
-                            {
-                                "id":  "sauce_chili",
-                                "amount":  "2",
-                                "unit":  "tsp",
-                                "name":  "Kashmiri chili powder",
+                                "id":  "sauce_garlic",
+                                "amount":  "4",
+                                "unit":  "cloves",
+                                "name":  "Garlic cloves, finely grated",
                                 "group":  "Sauce"
                             },
                             {
                                 "id":  "passata",
                                 "amount":  "2",
                                 "unit":  "cups",
-                                "name":  "Tomato passata (puree)",
+                                "name":  "Tomato puree or tomato passata",
                                 "group":  "Sauce"
                             },
                             {
-                                "id":  "tomato_paste",
-                                "amount":  "2",
-                                "unit":  "tbsp",
-                                "name":  "Tomato paste",
-                                "group":  "Sauce"
-                            },
-                            {
-                                "id":  "cream",
+                                "id":  "sauce_chili",
                                 "amount":  "1",
-                                "unit":  "cup",
-                                "name":  "Heavy cream",
+                                "unit":  "tbsp",
+                                "name":  "Kashmiri red chilli powder",
+                                "group":  "Sauce"
+                            },
+                            {
+                                "id":  "sauce_paprika",
+                                "amount":  "2",
+                                "unit":  "tsp",
+                                "name":  "Sweet paprika",
                                 "group":  "Sauce"
                             },
                             {
                                 "id":  "sugar",
                                 "amount":  "2",
                                 "unit":  "tbsp",
-                                "name":  "Brown sugar or honey",
-                                "group":  "Sauce"
-                            },
-                            {
-                                "id":  "fenugreek",
-                                "amount":  "2",
-                                "unit":  "tbsp",
-                                "name":  "Dried fenugreek leaves (kasoori methi), crushed",
+                                "name":  "Sugar",
                                 "group":  "Sauce"
                             },
                             {
                                 "id":  "salt",
-                                "amount":  "1",
+                                "amount":  "2",
                                 "unit":  "tsp",
-                                "name":  "Salt (to taste)",
+                                "name":  "Sea salt",
                                 "group":  "Sauce"
                             },
                             {
-                                "id":  "cilantro",
-                                "amount":  "0.5",
+                                "id":  "cream",
+                                "amount":  "1",
                                 "unit":  "cup",
-                                "name":  "Fresh cilantro, roughly chopped",
-                                "group":  "Garnish"
+                                "name":  "Cream",
+                                "group":  "Sauce"
+                            },
+                            {
+                                "id":  "garnish_yogurt",
+                                "amount":  "4",
+                                "unit":  "tbsp",
+                                "name":  "Natural yoghurt mixed with 4 tsp water",
+                                "group":  "Garnish \u0026 Serving"
+                            },
+                            {
+                                "id":  "methi",
+                                "amount":  "1",
+                                "unit":  "tbsp",
+                                "name":  "Dried mint or kasoori methi",
+                                "group":  "Garnish \u0026 Serving"
                             }
                         ],
         "steps":  [
-                      "In a large bowl, combine chicken ({chicken}), Greek yogurt ({yogurt}), grated garlic ({marinade_garlic}), grated ginger ({marinade_ginger}), lemon juice ({lemon_juice}), garam masala ({marinade_garam}), cumin ({marinade_cumin}), Kashmiri chili powder ({marinade_chili}), and salt ({marinade_salt}). Mix well and marinate for at least 30 minutes.",
-                      "Heat ghee ({ghee}) in a large skillet or wok over high heat. Sear the marinated chicken in batches for 3-4 minutes until golden browned. Remove chicken and set aside.",
-                      "In the same pan over medium heat, melt half the butter ({butter}) and add diced onions ({onion}). Sauté for 5-6 minutes until soft and golden.",
-                      "Add garlic ({sauce_garlic}), ginger ({sauce_ginger}), garam masala ({sauce_garam}), cumin ({sauce_cumin}), coriander ({coriander}), and chili powder ({sauce_chili}). Stir-fry for 1 minute until fragrant.",
-                      "Stir in tomato passata ({passata}) and tomato paste ({tomato_paste}). Simmer for 10 minutes until the sauce thickens and oil begins to separate.",
-                      "Return the seared chicken and any accumulated juices to the pan. Reduce heat to low, stir in heavy cream ({cream}), remaining butter, sugar ({sugar}), crushed fenugreek leaves ({fenugreek}), and salt ({salt}). Simmer gently for 8-10 minutes.",
-                      "Garnish with fresh cilantro ({cilantro}) and serve hot with basmati rice and warm garlic naan bread."
+                      "In a large bowl, mix chicken ({chicken}) with lemon juice ({lemon_juice}), Kashmiri red chilli powder ({marinade_chili}), sweet paprika ({marinade_paprika}), and sea salt ({marinade_salt}).",
+                      "Add natural yoghurt ({yogurt}), finely grated ginger ({marinade_ginger}), finely grated garlic ({marinade_garlic}), garam masala ({garam_masala}), vegetable oil ({oil}), and melted butter ({marinade_butter}). Stir well and marinate for at least 30 minutes.",
+                      "Melt butter ({butter}) in a large pan over medium-high heat. Add crushed green cardamom pods ({cardamom}) and cinnamon sticks ({cinnamon}), cooking for 30 seconds until aromatic.",
+                      "Add finely grated ginger ({sauce_ginger}) and garlic cloves ({sauce_garlic}), sautéing for 1 minute.",
+                      "Add tomato passata ({passata}), Kashmiri red chilli powder ({sauce_chili}), sweet paprika ({sauce_paprika}), sugar ({sugar}), and sea salt ({salt}). Simmer on medium-low for 10-12 minutes until sauce darkens and thickens.",
+                      "Sear or grill the marinated chicken in batches over high heat until charred and cooked through.",
+                      "Transfer cooked chicken into the sauce along with cream ({cream}). Simmer together for 5 minutes.",
+                      "Serve hot garnished with drizzled yoghurt ({garnish_yogurt}), dried mint or kasoori methi ({methi}), red onion slices, green chillies, lime wedges, and warm naan or roti bread."
                   ]
     },
     {
