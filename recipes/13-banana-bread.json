@@ -1,0 +1,100 @@
+{
+    "id": 13,
+    "title": "Best Banana Bread",
+    "description": "Super-moist and buttery with rich banana and brown sugar flavors and an ultra-soft crumb. An undeniably popular recipe from Sally's Baking Addiction.",
+    "image": "assets/recipe_banana_bread.png",
+    "author": "Sally McKenney",
+    "category": "Breakfast",
+    "time": "65 min",
+    "portions": 10,
+    "favorite": false,
+    "ingredients": [
+        {
+            "id": "bananas",
+            "amount": "345",
+            "unit": "g",
+            "name": "Mashed ripe bananas (about 3–4 bananas)",
+            "group": "Fruit"
+        },
+        {
+            "id": "flour",
+            "amount": "250",
+            "unit": "g",
+            "name": "All-purpose flour (spooned & leveled)",
+            "group": "Dry Ingredients"
+        },
+        {
+            "id": "sugar",
+            "amount": "100",
+            "unit": "g",
+            "name": "Packed light or dark brown sugar",
+            "group": "Dry Ingredients"
+        },
+        {
+            "id": "baking_soda",
+            "amount": "1",
+            "unit": "tsp",
+            "name": "Baking soda",
+            "group": "Dry Ingredients"
+        },
+        {
+            "id": "butter",
+            "amount": "113",
+            "unit": "g",
+            "name": "Unsalted butter, softened to room temperature",
+            "group": "Dairy & Eggs"
+        },
+        {
+            "id": "eggs",
+            "amount": "2",
+            "unit": "whole",
+            "name": "Large eggs, at room temperature",
+            "group": "Dairy & Eggs"
+        },
+        {
+            "id": "yogurt",
+            "amount": "80",
+            "unit": "g",
+            "name": "Plain Greek yogurt or sour cream, room temperature",
+            "group": "Dairy & Eggs"
+        },
+        {
+            "id": "cinnamon",
+            "amount": "0.5",
+            "unit": "tsp",
+            "name": "Ground cinnamon",
+            "group": "Seasoning"
+        },
+        {
+            "id": "vanilla",
+            "amount": "1",
+            "unit": "tsp",
+            "name": "Pure vanilla extract",
+            "group": "Seasoning"
+        },
+        {
+            "id": "salt",
+            "amount": "0.25",
+            "unit": "tsp",
+            "name": "Salt",
+            "group": "Seasoning"
+        },
+        {
+            "id": "add_ins",
+            "amount": "90",
+            "unit": "g",
+            "name": "Chopped pecans, walnuts, or chocolate chips (optional)",
+            "group": "Add-ins"
+        }
+    ],
+    "steps": [
+        "Adjust your oven rack to the lower third position and preheat to 350°F (177°C). Grease a 9x5-inch loaf pan with nonstick cooking spray.",
+        "In a medium bowl, whisk together the flour ({flour}), baking soda ({baking_soda}), salt ({salt}), and ground cinnamon ({cinnamon}). Set aside.",
+        "In a large bowl using an electric hand mixer or stand mixer fitted with a paddle attachment, beat the softened butter ({butter}) and brown sugar ({sugar}) on medium-high speed until light and creamy (about 3 minutes).",
+        "With the mixer running on medium speed, add the eggs ({eggs}) one at a time, beating well after each addition.",
+        "Beat in the mashed bananas ({bananas}), Greek yogurt or sour cream ({yogurt}), and vanilla extract ({vanilla}) until combined.",
+        "Add the dry ingredients to the wet ingredients and beat on low speed just until combined—do not overmix. Gently fold in the nuts or chocolate chips ({add_ins}), if using.",
+        "Pour and spread the batter into the prepared loaf pan. Bake at 177°C (350°F) for 60–65 minutes, loosely covering with foil halfway through to prevent over-browning.",
+        "The bread is done when a toothpick inserted in the center comes out clean with only a few moist crumbs. Cool in the pan on a wire rack for 1 hour, then remove from the pan to cool completely before slicing."
+    ]
+}
