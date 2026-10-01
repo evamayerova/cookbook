@@ -230,7 +230,7 @@ window.recipesData = [
     },
     {
         "id":  6,
-        "title":  "Homemade Belgian Waffles",
+        "title":  "Belgian Waffles",
         "description":  "Perfectly crisp and golden on the outside while being light and fluffy on the inside. A classic breakfast staple that is easy to make at home.",
         "image":  "assets/recipe_waffles.png",
         "author":  "The Salty Marshmallow",
@@ -664,7 +664,7 @@ window.recipesData = [
     },
     {
         "id":  10,
-        "title":  "Classic Butter Chicken",
+        "title":  "Butter Chicken",
         "description":  "Marion Grasby\u0027s classic Butter Chicken featuring tender spiced marinated chicken cooked in a velvety, rich tomato and cream sauce with cardamom, cinnamon, and kasoori methi.",
         "image":  "assets/recipe_butter_chicken.png",
         "author":  "Marion\u0027s Kitchen",
@@ -855,7 +855,7 @@ window.recipesData = [
     },
     {
         "id":  11,
-        "title":  "Ultimate Spaghetti Carbonara",
+        "title":  "Spaghetti Carbonara",
         "description":  "Discover how to make traditional Italian spaghetti carbonara. This classic dish combines a silky cheese and egg sauce with crisp pancetta and freshly cracked black pepper.",
         "image":  "assets/recipe_carbonara.png",
         "author":  "Angela Nilsen",
@@ -938,7 +938,7 @@ window.recipesData = [
     },
     {
         "id":  12,
-        "title":  "Ultimate Fudgy Chocolate Brownies",
+        "title":  "Chocolate Brownies",
         "description":  "Rich, intensely chocolatey, and wonderfully fudgy brownies with a shiny crinkled crust. Made with melted dark chocolate, real butter, and Dutch cocoa for the ultimate texture.",
         "image":  "assets/recipe_brownies.png",
         "author":  "Eve",
@@ -1017,11 +1017,11 @@ window.recipesData = [
     },
     {
         "id":  13,
-        "title":  "Best Banana Bread",
+        "title":  "Banana bread",
         "description":  "Super-moist and buttery with rich banana and brown sugar flavors and an ultra-soft crumb. An undeniably popular recipe from Sally\u0027s Baking Addiction.",
         "image":  "assets/recipe_banana_bread.png",
         "author":  "Sally McKenney",
-        "category":  "Breakfast",
+        "category":  "Dessert",
         "time":  "65 min",
         "portions":  10,
         "favorite":  false,
