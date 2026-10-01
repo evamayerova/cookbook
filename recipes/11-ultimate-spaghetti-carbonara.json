@@ -1,0 +1,83 @@
+{
+    "id": 11,
+    "title": "Ultimate Spaghetti Carbonara",
+    "description": "Discover how to make traditional Italian spaghetti carbonara. This classic dish combines a silky cheese and egg sauce with crisp pancetta and freshly cracked black pepper.",
+    "image": "assets/recipe_carbonara.png",
+    "author": "Angela Nilsen",
+    "category": "Main dish",
+    "time": "35 min",
+    "portions": 4,
+    "favorite": false,
+    "ingredients": [
+        {
+            "id": "pancetta",
+            "amount": "100",
+            "unit": "g",
+            "name": "Pancetta, finely chopped (rind removed)",
+            "group": "Meat"
+        },
+        {
+            "id": "pecorino",
+            "amount": "50",
+            "unit": "g",
+            "name": "Pecorino cheese, finely grated",
+            "group": "Dairy & Cheese"
+        },
+        {
+            "id": "parmesan",
+            "amount": "50",
+            "unit": "g",
+            "name": "Parmesan cheese, finely grated",
+            "group": "Dairy & Cheese"
+        },
+        {
+            "id": "eggs",
+            "amount": "3",
+            "unit": "whole",
+            "name": "Large eggs",
+            "group": "Dairy & Cheese"
+        },
+        {
+            "id": "spaghetti",
+            "amount": "350",
+            "unit": "g",
+            "name": "Spaghetti",
+            "group": "Main"
+        },
+        {
+            "id": "garlic",
+            "amount": "2",
+            "unit": "cloves",
+            "name": "Plump garlic cloves, peeled and bruised",
+            "group": "Vegetables"
+        },
+        {
+            "id": "butter",
+            "amount": "50",
+            "unit": "g",
+            "name": "Unsalted butter",
+            "group": "Dairy & Cheese"
+        },
+        {
+            "id": "seasoning",
+            "amount": "1",
+            "unit": "pinch",
+            "name": "Sea salt and freshly ground black pepper",
+            "group": "Seasoning"
+        }
+    ],
+    "steps": [
+        "Bring a large saucepan of water to a boil.",
+        "Finely chop pancetta ({pancetta}), removing any rind. Finely grate pecorino ({pecorino}) and parmesan ({parmesan}) and mix them together.",
+        "Beat the eggs ({eggs}) in a medium bowl and season with freshly ground black pepper ({seasoning}). Set aside.",
+        "Add 1 tsp salt to the boiling water, add spaghetti ({spaghetti}), and cook at a constant simmer for 10 minutes until al dente.",
+        "Bruise garlic cloves ({garlic}) with the flat blade of a knife.",
+        "While spaghetti cooks, melt unsalted butter ({butter}) in a large frying pan or wok over medium heat. Add pancetta ({pancetta}) and garlic ({garlic}).",
+        "Cook for about 5 minutes until pancetta is golden and crisp. Remove and discard garlic cloves ({garlic}) with a slotted spoon. Turn heat to low.",
+        "When spaghetti is ready, lift it into the frying pan with the pancetta (reserving pasta water).",
+        "Mix most of the grated cheese ({pecorino}, {parmesan}) into the beaten eggs ({eggs}), reserving a small handful for serving.",
+        "Take the pan off the heat and quickly pour in the egg and cheese mixture. Toss spaghetti vigorously using tongs so the eggs thicken into a silky sauce without scrambling.",
+        "Add a few tablespoons of warm pasta water to keep the sauce glossy and moist.",
+        "Twist onto serving plates. Sprinkle with reserved cheese and extra black pepper before serving."
+    ]
+}

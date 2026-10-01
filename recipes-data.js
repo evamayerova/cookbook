@@ -854,6 +854,168 @@ window.recipesData = [
                   ]
     },
     {
+        "id":  11,
+        "title":  "Ultimate Spaghetti Carbonara",
+        "description":  "Discover how to make traditional Italian spaghetti carbonara. This classic dish combines a silky cheese and egg sauce with crisp pancetta and freshly cracked black pepper.",
+        "image":  "assets/recipe_carbonara.png",
+        "author":  "Angela Nilsen",
+        "category":  "Main dish",
+        "time":  "35 min",
+        "portions":  4,
+        "favorite":  false,
+        "ingredients":  [
+                            {
+                                "id":  "pancetta",
+                                "amount":  "100",
+                                "unit":  "g",
+                                "name":  "Pancetta, finely chopped (rind removed)",
+                                "group":  "Meat"
+                            },
+                            {
+                                "id":  "pecorino",
+                                "amount":  "50",
+                                "unit":  "g",
+                                "name":  "Pecorino cheese, finely grated",
+                                "group":  "Dairy \u0026 Cheese"
+                            },
+                            {
+                                "id":  "parmesan",
+                                "amount":  "50",
+                                "unit":  "g",
+                                "name":  "Parmesan cheese, finely grated",
+                                "group":  "Dairy \u0026 Cheese"
+                            },
+                            {
+                                "id":  "eggs",
+                                "amount":  "3",
+                                "unit":  "whole",
+                                "name":  "Large eggs",
+                                "group":  "Dairy \u0026 Cheese"
+                            },
+                            {
+                                "id":  "spaghetti",
+                                "amount":  "350",
+                                "unit":  "g",
+                                "name":  "Spaghetti",
+                                "group":  "Main"
+                            },
+                            {
+                                "id":  "garlic",
+                                "amount":  "2",
+                                "unit":  "cloves",
+                                "name":  "Plump garlic cloves, peeled and bruised",
+                                "group":  "Vegetables"
+                            },
+                            {
+                                "id":  "butter",
+                                "amount":  "50",
+                                "unit":  "g",
+                                "name":  "Unsalted butter",
+                                "group":  "Dairy \u0026 Cheese"
+                            },
+                            {
+                                "id":  "seasoning",
+                                "amount":  "1",
+                                "unit":  "pinch",
+                                "name":  "Sea salt and freshly ground black pepper",
+                                "group":  "Seasoning"
+                            }
+                        ],
+        "steps":  [
+                      "Bring a large saucepan of water to a boil.",
+                      "Finely chop pancetta ({pancetta}), removing any rind. Finely grate pecorino ({pecorino}) and parmesan ({parmesan}) and mix them together.",
+                      "Beat the eggs ({eggs}) in a medium bowl and season with freshly ground black pepper ({seasoning}). Set aside.",
+                      "Add 1 tsp salt to the boiling water, add spaghetti ({spaghetti}), and cook at a constant simmer for 10 minutes until al dente.",
+                      "Bruise garlic cloves ({garlic}) with the flat blade of a knife.",
+                      "While spaghetti cooks, melt unsalted butter ({butter}) in a large frying pan or wok over medium heat. Add pancetta ({pancetta}) and garlic ({garlic}).",
+                      "Cook for about 5 minutes until pancetta is golden and crisp. Remove and discard garlic cloves ({garlic}) with a slotted spoon. Turn heat to low.",
+                      "When spaghetti is ready, lift it into the frying pan with the pancetta (reserving pasta water).",
+                      "Mix most of the grated cheese ({pecorino}, {parmesan}) into the beaten eggs ({eggs}), reserving a small handful for serving.",
+                      "Take the pan off the heat and quickly pour in the egg and cheese mixture. Toss spaghetti vigorously using tongs so the eggs thicken into a silky sauce without scrambling.",
+                      "Add a few tablespoons of warm pasta water to keep the sauce glossy and moist.",
+                      "Twist onto serving plates. Sprinkle with reserved cheese and extra black pepper before serving."
+                  ]
+    },
+    {
+        "id":  12,
+        "title":  "Ultimate Fudgy Chocolate Brownies",
+        "description":  "Rich, intensely chocolatey, and wonderfully fudgy brownies with a shiny crinkled crust. Made with melted dark chocolate, real butter, and Dutch cocoa for the ultimate texture.",
+        "image":  "assets/recipe_brownies.png",
+        "author":  "Eve",
+        "category":  "Dessert",
+        "time":  "35 min",
+        "portions":  16,
+        "favorite":  false,
+        "ingredients":  [
+                            {
+                                "id":  "dark_chocolate",
+                                "amount":  "200",
+                                "unit":  "g",
+                                "name":  "Quality dark chocolate, chopped",
+                                "group":  "Chocolate"
+                            },
+                            {
+                                "id":  "butter",
+                                "amount":  "150",
+                                "unit":  "g",
+                                "name":  "Unsalted butter",
+                                "group":  "Dairy \u0026 Eggs"
+                            },
+                            {
+                                "id":  "sugar",
+                                "amount":  "160",
+                                "unit":  "g",
+                                "name":  "Granulated or cane sugar",
+                                "group":  "Dry Ingredients"
+                            },
+                            {
+                                "id":  "eggs",
+                                "amount":  "3",
+                                "unit":  "whole",
+                                "name":  "Large eggs (room temperature)",
+                                "group":  "Dairy \u0026 Eggs"
+                            },
+                            {
+                                "id":  "flour",
+                                "amount":  "60",
+                                "unit":  "g",
+                                "name":  "Plain all-purpose flour",
+                                "group":  "Dry Ingredients"
+                            },
+                            {
+                                "id":  "cocoa",
+                                "amount":  "30",
+                                "unit":  "g",
+                                "name":  "Dutch-process cocoa powder",
+                                "group":  "Dry Ingredients"
+                            },
+                            {
+                                "id":  "vanilla",
+                                "amount":  "1",
+                                "unit":  "tsp",
+                                "name":  "Vanilla extract",
+                                "group":  "Seasoning"
+                            },
+                            {
+                                "id":  "salt",
+                                "amount":  "1",
+                                "unit":  "pinch",
+                                "name":  "Fine sea salt",
+                                "group":  "Seasoning"
+                            }
+                        ],
+        "steps":  [
+                      "Preheat your oven to 175°C (350°F) and line an 8x8 inch (20x20 cm) baking pan with parchment paper.",
+                      "Melt the chopped dark chocolate ({dark_chocolate}) and butter ({butter}) together in a heatproof bowl set over a pot of gently simmering water (or in short microwave bursts). Set aside to cool slightly.",
+                      "In a separate mixing bowl, vigorously whisk the eggs ({eggs}), sugar ({sugar}), and vanilla extract ({vanilla}) together for 3 to 5 minutes until pale, thickened, and foamy (this creates the signature shiny, crinkly crust!).",
+                      "Slowly pour the cooled melted chocolate and butter mixture into the whipped eggs while gently whisking to combine.",
+                      "Sift in the flour ({flour}), cocoa powder ({cocoa}), and salt ({salt}). Fold gently with a spatula just until combined—do not overmix to preserve the dense fudgy texture.",
+                      "Pour the batter into the prepared pan and smooth the top evenly.",
+                      "Bake at 175°C for 22 to 25 minutes until the edges are set and a toothpick inserted in the center comes out with moist fudgy crumbs.",
+                      "Allow to cool completely in the pan to room temperature before lifting out with the parchment paper and slicing into squares."
+                  ]
+    },
+    {
         "id":  101,
         "title":  "Truffle Mushroom Pasta",
         "description":  "A rich and creamy pasta dish infused with the earthy aroma of black truffles, finished with a sprinkle of aged parmesan.",
