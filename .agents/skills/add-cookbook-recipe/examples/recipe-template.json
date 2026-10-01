@@ -1,0 +1,69 @@
+{
+    "id": 999,
+    "title": "Example Recipe Title",
+    "description": "Appetizing description of the dish explaining its key flavors, textures, and appeal.",
+    "image": "assets/recipe_example.png",
+    "author": "Eve",
+    "category": "Main dish",
+    "time": "45 min",
+    "portions": 4,
+    "favorite": false,
+    "ingredients": [
+        {
+            "id": "main_protein",
+            "amount": "500",
+            "unit": "g",
+            "name": "Chicken breast or firm tofu, cubed",
+            "group": "Protein"
+        },
+        {
+            "id": "onion",
+            "amount": "1",
+            "unit": "whole",
+            "name": "Yellow onion, finely chopped",
+            "group": "Vegetables"
+        },
+        {
+            "id": "garlic",
+            "amount": "3",
+            "unit": "cloves",
+            "name": "Garlic, minced",
+            "group": "Vegetables"
+        },
+        {
+            "id": "olive_oil",
+            "amount": "2",
+            "unit": "tbsp",
+            "name": "Olive oil",
+            "group": "Other"
+        },
+        {
+            "id": "cream",
+            "amount": "200",
+            "unit": "ml",
+            "name": "Heavy cream",
+            "group": "Dairy & Eggs"
+        },
+        {
+            "id": "salt",
+            "amount": "0.5",
+            "unit": "tsp",
+            "name": "Sea salt",
+            "group": "Seasoning"
+        },
+        {
+            "id": "black_pepper",
+            "amount": "0.25",
+            "unit": "tsp",
+            "name": "Freshly ground black pepper",
+            "group": "Seasoning"
+        }
+    ],
+    "steps": [
+        "Heat the olive oil ({olive_oil}) in a large skillet over medium-high heat.",
+        "Add the chopped onion ({onion}) and minced garlic ({garlic}) and sauté until translucent and aromatic, about 3 minutes.",
+        "Add the cubed protein ({main_protein}) seasoned with salt ({salt}) and pepper ({black_pepper}), searing on all sides until golden brown.",
+        "Reduce heat to medium-low, pour in the heavy cream ({cream}), and gently simmer for 5–7 minutes until the sauce slightly thickens.",
+        "Taste and adjust seasoning if needed, then serve hot with your favorite side dish."
+    ]
+}

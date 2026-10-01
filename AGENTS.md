@@ -1,0 +1,19 @@
+# Cookbook Repository Guidelines
+
+Welcome to the **Cookbook** repository! This is a static, Git-driven web application hosted on GitHub Pages.
+
+## Core Rules for Agents
+
+1. **Recipe Management Skill**:
+   - For all tasks involving adding, importing, translating, or modifying recipes, refer to and follow the specialized skill at [`.agents/skills/add-cookbook-recipe/SKILL.md`](./.agents/skills/add-cookbook-recipe/SKILL.md).
+
+2. **Never Edit `recipes-data.js` Directly**:
+   - `recipes-data.js` is an auto-generated bundle produced by `build.ps1`.
+   - All source recipes are individual `.json` files inside the `recipes/` directory (`recipes/<id>-<slug>.json`).
+   - After creating or editing any recipe JSON, always run `.\build.ps1` to rebuild the bundle.
+
+3. **Recipe Standards**:
+   - **Language**: English (translate source recipes from other languages).
+   - **Dynamic Portions**: All ingredients in the `steps` array must use `{ingredient_id}` templates matching an ingredient `id` so the frontend portion-scaling engine works.
+   - **Ingredient Groups**: Categorize ingredients into standard groups (`"Dry Ingredients"`, `"Dairy & Eggs"`, `"Vegetables"`, `"Protein"`, `"Seasoning"`, `"Fruit"`, `"Chocolate"`, `"Other"`, etc.).
+   - **Assets**: Generate high-quality food photography for new recipes using the image generation tool and place in `assets/recipe_<slug>.png`.
