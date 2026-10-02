@@ -1,0 +1,77 @@
+{
+    "id": 20,
+    "title": "Thai Red Curry Fish Cakes (Tod Mun Pla)",
+    "description": "Dense, bouncy, and aromatic Thai fish cakes packed with red curry, kaffir lime leaves, and crisp green beans. High in protein and delicious served warm or cold.",
+    "image": "assets/recipe_thai_fish_cakes.png",
+    "author": "Eve",
+    "category": "Snacks",
+    "time": "25 min",
+    "portions": 15,
+    "favorite": false,
+    "ingredients": [
+        {
+            "id": "fish",
+            "amount": "350",
+            "unit": "g",
+            "name": "Firm white fish fillets (cod, haddock, or salmon), chilled and patted dry",
+            "group": "Protein"
+        },
+        {
+            "id": "curry_paste",
+            "amount": "20",
+            "unit": "g",
+            "name": "Thai red curry paste",
+            "group": "Seasoning"
+        },
+        {
+            "id": "egg",
+            "amount": "1",
+            "unit": "whole",
+            "name": "Large egg",
+            "group": "Dairy & Eggs"
+        },
+        {
+            "id": "fish_sauce",
+            "amount": "15",
+            "unit": "ml",
+            "name": "Fish sauce",
+            "group": "Seasoning"
+        },
+        {
+            "id": "coconut_cream",
+            "amount": "30",
+            "unit": "ml",
+            "name": "Full-fat coconut cream",
+            "group": "Pantry"
+        },
+        {
+            "id": "green_beans",
+            "amount": "40",
+            "unit": "g",
+            "name": "Fresh green beans, thinly sliced into rounds",
+            "group": "Vegetables"
+        },
+        {
+            "id": "lime_leaves",
+            "amount": "4",
+            "unit": "whole",
+            "name": "Kaffir lime leaves, finely shredded (or zest of 1 lime)",
+            "group": "Produce"
+        },
+        {
+            "id": "coconut_oil",
+            "amount": "15",
+            "unit": "ml",
+            "name": "Coconut oil (for frying)",
+            "group": "Pantry"
+        }
+    ],
+    "steps": [
+        "Cut the white fish ({fish}) into chunks and add to a food processor along with the red curry paste ({curry_paste}), egg ({egg}), fish sauce ({fish_sauce}), and coconut cream ({coconut_cream}).",
+        "Pulse and blend until a thick, sticky, well-emulsified paste forms.",
+        "Transfer the mixture to a bowl and fold in the sliced green beans ({green_beans}) and shredded lime leaves ({lime_leaves}).",
+        "Lightly oil your hands and shape the mixture into 15 flat round discs (about 4 cm wide and 1.5 cm thick).",
+        "Heat the coconut oil ({coconut_oil}) in a non-stick skillet over medium-high heat.",
+        "Fry the fish cakes for 2 to 3 minutes per side until deeply golden brown and cooked through. Drain on paper towels and enjoy warm or cold."
+    ]
+}

@@ -1,0 +1,69 @@
+{
+    "id": 22,
+    "title": "Mini Guacamole & Carnitas Bites",
+    "description": "Fresh, crisp cucumber rounds loaded with zesty citrus guacamole and savory crisped pork carnitas. High in protein, healthy fats, and full of bright Mexican flavors.",
+    "image": "assets/recipe_guacamole_carnitas_bites.png",
+    "author": "Eve",
+    "category": "Snacks",
+    "time": "15 min",
+    "portions": 12,
+    "favorite": false,
+    "ingredients": [
+        {
+            "id": "carnitas",
+            "amount": "150",
+            "unit": "g",
+            "name": "Cooked pork carnitas, shredded",
+            "group": "Protein"
+        },
+        {
+            "id": "cucumber",
+            "amount": "1",
+            "unit": "whole",
+            "name": "English cucumber (or jicama/black radish), sliced into 1 cm rounds",
+            "group": "Produce"
+        },
+        {
+            "id": "avocado",
+            "amount": "1",
+            "unit": "whole",
+            "name": "Medium ripe avocado (approx. 150 g flesh)",
+            "group": "Produce"
+        },
+        {
+            "id": "lime_juice",
+            "amount": "15",
+            "unit": "ml",
+            "name": "Fresh lime juice",
+            "group": "Produce"
+        },
+        {
+            "id": "chili",
+            "amount": "1",
+            "unit": "whole",
+            "name": "Serrano or jalapeño pepper, finely minced",
+            "group": "Produce"
+        },
+        {
+            "id": "cilantro",
+            "amount": "15",
+            "unit": "g",
+            "name": "Fresh cilantro leaves, chopped",
+            "group": "Produce"
+        },
+        {
+            "id": "salt",
+            "amount": "0.5",
+            "unit": "tsp",
+            "name": "Fine sea salt",
+            "group": "Seasoning"
+        }
+    ],
+    "steps": [
+        "In a dry skillet over medium-high heat, toss the shredded carnitas ({carnitas}) for 2–3 minutes until heated through and crisp at the edges.",
+        "In a bowl, mash the avocado ({avocado}) with lime juice ({lime_juice}), minced chili ({chili}), chopped cilantro ({cilantro}), and sea salt ({salt}) until chunky-smooth.",
+        "Arrange the thick cucumber rounds ({cucumber}) on a serving board or plate.",
+        "Top each cucumber disc with a generous spoonful of guacamole.",
+        "Finish each bite with a cluster of crispy carnitas and serve immediately for peak crunch and freshness."
+    ]
+}

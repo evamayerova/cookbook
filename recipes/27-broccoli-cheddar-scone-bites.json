@@ -1,0 +1,70 @@
+{
+    "id": 27,
+    "title": "Broccoli, Cheddar & Almond Flour Scone Bites",
+    "description": "Low-carb, high-calcium mini baked savory scone bites that hold together cleanly without crumbs. Loaded with steamed broccoli and mature sharp cheddar.",
+    "image": "assets/recipe_broccoli_cheddar_scones.png",
+    "author": "Eve",
+    "category": "Snacks",
+    "time": "25 min",
+    "portions": 12,
+    "favorite": false,
+    "ingredients": [
+        {
+            "id": "broccoli",
+            "amount": "150",
+            "unit": "g",
+            "name": "Fresh broccoli florets",
+            "group": "Produce"
+        },
+        {
+            "id": "almond_flour",
+            "amount": "100",
+            "unit": "g",
+            "name": "Blanched almond flour",
+            "group": "Dry Ingredients"
+        },
+        {
+            "id": "cheddar",
+            "amount": "100",
+            "unit": "g",
+            "name": "Sharp mature cheddar cheese, finely grated",
+            "group": "Dairy & Cheese"
+        },
+        {
+            "id": "eggs",
+            "amount": "2",
+            "unit": "whole",
+            "name": "Large eggs",
+            "group": "Dairy & Eggs"
+        },
+        {
+            "id": "baking_powder",
+            "amount": "0.5",
+            "unit": "tsp",
+            "name": "Baking powder",
+            "group": "Dry Ingredients"
+        },
+        {
+            "id": "garlic_powder",
+            "amount": "0.5",
+            "unit": "tsp",
+            "name": "Garlic powder",
+            "group": "Seasoning"
+        },
+        {
+            "id": "salt",
+            "amount": "0.5",
+            "unit": "tsp",
+            "name": "Fine sea salt",
+            "group": "Seasoning"
+        }
+    ],
+    "steps": [
+        "Steam the broccoli florets ({broccoli}) for 4–5 minutes until tender. Wrap in a clean kitchen towel, squeeze out all excess liquid, and chop finely.",
+        "In a bowl, whisk the eggs ({eggs}), salt ({salt}), garlic powder ({garlic_powder}), and baking powder ({baking_powder}).",
+        "Fold in the almond flour ({almond_flour}), grated cheddar cheese ({cheddar}), and chopped broccoli until a thick dough forms.",
+        "Preheat oven to 180°C (350°F) and line a baking sheet with parchment paper.",
+        "Scoop 12 rounded mounds onto the parchment sheet using a spoon or small cookie scoop.",
+        "Bake for 16 to 18 minutes until golden brown around the edges and firm to the touch. Serve warm or cold."
+    ]
+}

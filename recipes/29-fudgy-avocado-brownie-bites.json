@@ -1,0 +1,91 @@
+{
+    "id": 29,
+    "title": "Fudgy Avocado & Walnut Brownie Bites",
+    "description": "Deep cocoa flavor, fudgy rich texture, and healthy fats that mask any avocado flavor entirely. Sugar-free, grain-free bite-sized brownies loaded with crunchy walnuts and dark chocolate chunks.",
+    "image": "assets/recipe_avocado_brownie_bites.png",
+    "author": "Eve",
+    "category": "Snacks",
+    "time": "25 min",
+    "portions": 16,
+    "favorite": false,
+    "ingredients": [
+        {
+            "id": "avocado",
+            "amount": "150",
+            "unit": "g",
+            "name": "Medium ripe avocado, peeled flesh",
+            "group": "Produce"
+        },
+        {
+            "id": "eggs",
+            "amount": "2",
+            "unit": "whole",
+            "name": "Large eggs",
+            "group": "Dairy & Eggs"
+        },
+        {
+            "id": "cocoa",
+            "amount": "40",
+            "unit": "g",
+            "name": "Unsweetened Dutch-process cocoa powder",
+            "group": "Dry Ingredients"
+        },
+        {
+            "id": "erythritol",
+            "amount": "50",
+            "unit": "g",
+            "name": "Powdered erythritol",
+            "group": "Dry Ingredients"
+        },
+        {
+            "id": "almond_flour",
+            "amount": "30",
+            "unit": "g",
+            "name": "Fine almond flour",
+            "group": "Dry Ingredients"
+        },
+        {
+            "id": "vanilla",
+            "amount": "5",
+            "unit": "ml",
+            "name": "Pure vanilla extract",
+            "group": "Seasoning"
+        },
+        {
+            "id": "baking_soda",
+            "amount": "0.5",
+            "unit": "tsp",
+            "name": "Baking soda",
+            "group": "Dry Ingredients"
+        },
+        {
+            "id": "salt",
+            "amount": "1",
+            "unit": "pinch",
+            "name": "Fine salt",
+            "group": "Seasoning"
+        },
+        {
+            "id": "walnuts",
+            "amount": "40",
+            "unit": "g",
+            "name": "Raw walnuts, roughly chopped",
+            "group": "Nuts"
+        },
+        {
+            "id": "dark_chocolate",
+            "amount": "30",
+            "unit": "g",
+            "name": "85%+ dark chocolate, chopped into small chunks",
+            "group": "Chocolate"
+        }
+    ],
+    "steps": [
+        "Preheat your oven to 175°C (350°F) and line an 8x8 inch (20x20 cm) square pan with parchment paper.",
+        "In a food processor, blend the avocado flesh ({avocado}), eggs ({eggs}), cocoa powder ({cocoa}), powdered erythritol ({erythritol}), almond flour ({almond_flour}), vanilla ({vanilla}), baking soda ({baking_soda}), and salt ({salt}) until silky and smooth.",
+        "Using a spatula, gently fold the chopped walnuts ({walnuts}) and dark chocolate chunks ({dark_chocolate}) into the batter.",
+        "Spread the batter into the prepared pan, smoothing the surface evenly.",
+        "Bake for 16 to 18 minutes (do not overbake, the center sets firmly upon cooling).",
+        "Cool completely to room temperature, then refrigerate for at least 2 hours before slicing into 16 fudgy squares."
+    ]
+}

@@ -1,0 +1,63 @@
+{
+    "id": 26,
+    "title": "Ham, Gruyère & Cornichon Pinwheels",
+    "description": "Zero cooking required: savory, sharp, and crunchy French bistro bites made with sliced cooked ham, whole-grain mustard cream cheese, aged Gruyère cheese, and tangy cornichons.",
+    "image": "assets/recipe_ham_gruyere_pinwheels.png",
+    "author": "Eve",
+    "category": "Snacks",
+    "time": "15 min",
+    "portions": 15,
+    "favorite": false,
+    "ingredients": [
+        {
+            "id": "ham",
+            "amount": "200",
+            "unit": "g",
+            "name": "Quality cooked ham (or prosciutto cotto), medium-thick rectangular slices",
+            "group": "Protein"
+        },
+        {
+            "id": "cream_cheese",
+            "amount": "80",
+            "unit": "g",
+            "name": "Cream cheese, softened",
+            "group": "Dairy & Cheese"
+        },
+        {
+            "id": "dijon",
+            "amount": "15",
+            "unit": "g",
+            "name": "Coarse whole-grain Dijon mustard",
+            "group": "Seasoning"
+        },
+        {
+            "id": "gruyere",
+            "amount": "80",
+            "unit": "g",
+            "name": "Aged Gruyère cheese, sliced into thin matchsticks",
+            "group": "Dairy & Cheese"
+        },
+        {
+            "id": "cornichons",
+            "amount": "10",
+            "unit": "whole",
+            "name": "Mini cornichons (French gherkins), dried on paper towels",
+            "group": "Pantry"
+        },
+        {
+            "id": "black_pepper",
+            "amount": "0.25",
+            "unit": "tsp",
+            "name": "Freshly cracked black pepper",
+            "group": "Seasoning"
+        }
+    ],
+    "steps": [
+        "In a small bowl, stir the softened cream cheese ({cream_cheese}), whole-grain mustard ({dijon}), and cracked black pepper ({black_pepper}) until smooth.",
+        "Lay half of the ham slices ({ham}) overlapping slightly on a sheet of plastic wrap.",
+        "Spread half of the seasoned cream cheese evenly over the ham.",
+        "Lay a horizontal line of Gruyère cheese matchsticks ({gruyere}) and whole cornichons ({cornichons}) along the bottom third of the ham.",
+        "Roll up tightly into a firm cylindrical log using the plastic wrap to guide. Repeat with the remaining ingredients to make two logs.",
+        "Chill in the refrigerator for at least 1 hour to set, then slice into 2 cm rounds and serve chilled."
+    ]
+}

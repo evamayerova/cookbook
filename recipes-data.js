@@ -1784,6 +1784,837 @@ window.recipesData = [
                   ]
     },
     {
+        "id":  20,
+        "title":  "Thai Red Curry Fish Cakes (Tod Mun Pla)",
+        "description":  "Dense, bouncy, and aromatic Thai fish cakes packed with red curry, kaffir lime leaves, and crisp green beans. High in protein and delicious served warm or cold.",
+        "image":  "assets/recipe_thai_fish_cakes.png",
+        "author":  "Eve",
+        "category":  "Snacks",
+        "time":  "25 min",
+        "portions":  15,
+        "favorite":  false,
+        "ingredients":  [
+                            {
+                                "id":  "fish",
+                                "amount":  "350",
+                                "unit":  "g",
+                                "name":  "Firm white fish fillets (cod, haddock, or salmon), chilled and patted dry",
+                                "group":  "Protein"
+                            },
+                            {
+                                "id":  "curry_paste",
+                                "amount":  "20",
+                                "unit":  "g",
+                                "name":  "Thai red curry paste",
+                                "group":  "Seasoning"
+                            },
+                            {
+                                "id":  "egg",
+                                "amount":  "1",
+                                "unit":  "whole",
+                                "name":  "Large egg",
+                                "group":  "Dairy \u0026 Eggs"
+                            },
+                            {
+                                "id":  "fish_sauce",
+                                "amount":  "15",
+                                "unit":  "ml",
+                                "name":  "Fish sauce",
+                                "group":  "Seasoning"
+                            },
+                            {
+                                "id":  "coconut_cream",
+                                "amount":  "30",
+                                "unit":  "ml",
+                                "name":  "Full-fat coconut cream",
+                                "group":  "Pantry"
+                            },
+                            {
+                                "id":  "green_beans",
+                                "amount":  "40",
+                                "unit":  "g",
+                                "name":  "Fresh green beans, thinly sliced into rounds",
+                                "group":  "Vegetables"
+                            },
+                            {
+                                "id":  "lime_leaves",
+                                "amount":  "4",
+                                "unit":  "whole",
+                                "name":  "Kaffir lime leaves, finely shredded (or zest of 1 lime)",
+                                "group":  "Produce"
+                            },
+                            {
+                                "id":  "coconut_oil",
+                                "amount":  "15",
+                                "unit":  "ml",
+                                "name":  "Coconut oil (for frying)",
+                                "group":  "Pantry"
+                            }
+                        ],
+        "steps":  [
+                      "Cut the white fish ({fish}) into chunks and add to a food processor along with the red curry paste ({curry_paste}), egg ({egg}), fish sauce ({fish_sauce}), and coconut cream ({coconut_cream}).",
+                      "Pulse and blend until a thick, sticky, well-emulsified paste forms.",
+                      "Transfer the mixture to a bowl and fold in the sliced green beans ({green_beans}) and shredded lime leaves ({lime_leaves}).",
+                      "Lightly oil your hands and shape the mixture into 15 flat round discs (about 4 cm wide and 1.5 cm thick).",
+                      "Heat the coconut oil ({coconut_oil}) in a non-stick skillet over medium-high heat.",
+                      "Fry the fish cakes for 2 to 3 minutes per side until deeply golden brown and cooked through. Drain on paper towels and enjoy warm or cold."
+                  ]
+    },
+    {
+        "id":  21,
+        "title":  "Ginger-Scallion Pork Gyoza Bites",
+        "description":  "All the savory, aromatic depth of potstickers without refined dough. Tender, juicy baked pork meatballs loaded with fresh ginger, green onions, and toasted sesame oil.",
+        "image":  "assets/recipe_pork_gyoza_bites.png",
+        "author":  "Eve",
+        "category":  "Snacks",
+        "time":  "25 min",
+        "portions":  16,
+        "favorite":  false,
+        "ingredients":  [
+                            {
+                                "id":  "pork",
+                                "amount":  "400",
+                                "unit":  "g",
+                                "name":  "Ground pork (15–20% fat)",
+                                "group":  "Protein"
+                            },
+                            {
+                                "id":  "ginger",
+                                "amount":  "15",
+                                "unit":  "g",
+                                "name":  "Fresh ginger, finely grated",
+                                "group":  "Produce"
+                            },
+                            {
+                                "id":  "scallions",
+                                "amount":  "3",
+                                "unit":  "whole",
+                                "name":  "Medium scallions (green onions), finely sliced",
+                                "group":  "Produce"
+                            },
+                            {
+                                "id":  "egg",
+                                "amount":  "1",
+                                "unit":  "whole",
+                                "name":  "Large egg",
+                                "group":  "Dairy \u0026 Eggs"
+                            },
+                            {
+                                "id":  "flaxseed",
+                                "amount":  "25",
+                                "unit":  "g",
+                                "name":  "Finely ground flaxseed (moisture binder)",
+                                "group":  "Pantry"
+                            },
+                            {
+                                "id":  "tamari",
+                                "amount":  "15",
+                                "unit":  "ml",
+                                "name":  "Tamari or soy sauce",
+                                "group":  "Seasoning"
+                            },
+                            {
+                                "id":  "sesame_oil",
+                                "amount":  "5",
+                                "unit":  "ml",
+                                "name":  "Toasted sesame oil",
+                                "group":  "Seasoning"
+                            },
+                            {
+                                "id":  "garlic",
+                                "amount":  "1",
+                                "unit":  "clove",
+                                "name":  "Garlic clove, finely grated",
+                                "group":  "Produce"
+                            },
+                            {
+                                "id":  "white_pepper",
+                                "amount":  "0.25",
+                                "unit":  "tsp",
+                                "name":  "Ground white pepper",
+                                "group":  "Seasoning"
+                            }
+                        ],
+        "steps":  [
+                      "In a large bowl, combine the ground pork ({pork}), grated ginger ({ginger}), sliced scallions ({scallions}), egg ({egg}), ground flaxseed ({flaxseed}), tamari ({tamari}), toasted sesame oil ({sesame_oil}), grated garlic ({garlic}), and white pepper ({white_pepper}).",
+                      "Mix with clean hands for 1–2 minutes until the mixture becomes sticky, cohesive, and evenly blended.",
+                      "Preheat your oven to 190°C (375°F) and line a baking sheet with parchment paper.",
+                      "Roll into 16 smooth, golf-ball-sized meatballs (~30 g each) and place onto the baking sheet.",
+                      "Bake for 14 to 16 minutes until lightly browned and cooked through (reaching an internal temperature of 74°C / 165°F). Enjoy warm or chilled as meal-prep snacks."
+                  ]
+    },
+    {
+        "id":  22,
+        "title":  "Mini Guacamole \u0026 Carnitas Bites",
+        "description":  "Fresh, crisp cucumber rounds loaded with zesty citrus guacamole and savory crisped pork carnitas. High in protein, healthy fats, and full of bright Mexican flavors.",
+        "image":  "assets/recipe_guacamole_carnitas_bites.png",
+        "author":  "Eve",
+        "category":  "Snacks",
+        "time":  "15 min",
+        "portions":  12,
+        "favorite":  false,
+        "ingredients":  [
+                            {
+                                "id":  "carnitas",
+                                "amount":  "150",
+                                "unit":  "g",
+                                "name":  "Cooked pork carnitas, shredded",
+                                "group":  "Protein"
+                            },
+                            {
+                                "id":  "cucumber",
+                                "amount":  "1",
+                                "unit":  "whole",
+                                "name":  "English cucumber (or jicama/black radish), sliced into 1 cm rounds",
+                                "group":  "Produce"
+                            },
+                            {
+                                "id":  "avocado",
+                                "amount":  "1",
+                                "unit":  "whole",
+                                "name":  "Medium ripe avocado (approx. 150 g flesh)",
+                                "group":  "Produce"
+                            },
+                            {
+                                "id":  "lime_juice",
+                                "amount":  "15",
+                                "unit":  "ml",
+                                "name":  "Fresh lime juice",
+                                "group":  "Produce"
+                            },
+                            {
+                                "id":  "chili",
+                                "amount":  "1",
+                                "unit":  "whole",
+                                "name":  "Serrano or jalapeño pepper, finely minced",
+                                "group":  "Produce"
+                            },
+                            {
+                                "id":  "cilantro",
+                                "amount":  "15",
+                                "unit":  "g",
+                                "name":  "Fresh cilantro leaves, chopped",
+                                "group":  "Produce"
+                            },
+                            {
+                                "id":  "salt",
+                                "amount":  "0.5",
+                                "unit":  "tsp",
+                                "name":  "Fine sea salt",
+                                "group":  "Seasoning"
+                            }
+                        ],
+        "steps":  [
+                      "In a dry skillet over medium-high heat, toss the shredded carnitas ({carnitas}) for 2–3 minutes until heated through and crisp at the edges.",
+                      "In a bowl, mash the avocado ({avocado}) with lime juice ({lime_juice}), minced chili ({chili}), chopped cilantro ({cilantro}), and sea salt ({salt}) until chunky-smooth.",
+                      "Arrange the thick cucumber rounds ({cucumber}) on a serving board or plate.",
+                      "Top each cucumber disc with a generous spoonful of guacamole.",
+                      "Finish each bite with a cluster of crispy carnitas and serve immediately for peak crunch and freshness."
+                  ]
+    },
+    {
+        "id":  23,
+        "title":  "Black Bean, Chorizo \u0026 Queso Fresco Pucks",
+        "description":  "Smoky, satisfying pan-seared patties packed with black beans, savory chorizo, and crumbled queso fresco. High in fiber, resistant starch, and bold Latin flavors.",
+        "image":  "assets/recipe_black_bean_chorizo_pucks.png",
+        "author":  "Eve",
+        "category":  "Snacks",
+        "time":  "20 min",
+        "portions":  11,
+        "favorite":  false,
+        "ingredients":  [
+                            {
+                                "id":  "black_beans",
+                                "amount":  "200",
+                                "unit":  "g",
+                                "name":  "Cooked black beans (canned, rinsed, drained)",
+                                "group":  "Pantry"
+                            },
+                            {
+                                "id":  "chorizo",
+                                "amount":  "100",
+                                "unit":  "g",
+                                "name":  "Chorizo (Spanish or Mexican), finely minced",
+                                "group":  "Protein"
+                            },
+                            {
+                                "id":  "queso_fresco",
+                                "amount":  "60",
+                                "unit":  "g",
+                                "name":  "Queso Fresco, Cotija, or mild feta, crumbled",
+                                "group":  "Dairy \u0026 Cheese"
+                            },
+                            {
+                                "id":  "egg",
+                                "amount":  "1",
+                                "unit":  "whole",
+                                "name":  "Large egg",
+                                "group":  "Dairy \u0026 Eggs"
+                            },
+                            {
+                                "id":  "chia_seeds",
+                                "amount":  "20",
+                                "unit":  "g",
+                                "name":  "Ground chia seeds or ground flaxseed",
+                                "group":  "Pantry"
+                            },
+                            {
+                                "id":  "cumin",
+                                "amount":  "0.5",
+                                "unit":  "tsp",
+                                "name":  "Ground cumin",
+                                "group":  "Seasoning"
+                            },
+                            {
+                                "id":  "smoked_paprika",
+                                "amount":  "0.5",
+                                "unit":  "tsp",
+                                "name":  "Smoked paprika",
+                                "group":  "Seasoning"
+                            },
+                            {
+                                "id":  "cilantro",
+                                "amount":  "10",
+                                "unit":  "g",
+                                "name":  "Fresh cilantro, minced",
+                                "group":  "Produce"
+                            },
+                            {
+                                "id":  "oil",
+                                "amount":  "15",
+                                "unit":  "ml",
+                                "name":  "Olive or avocado oil (for frying)",
+                                "group":  "Pantry"
+                            }
+                        ],
+        "steps":  [
+                      "In a bowl, roughly mash about half of the black beans ({black_beans}) with a fork, leaving the remaining half whole for texture.",
+                      "If using raw chorizo ({chorizo}), brown in a skillet for 4 minutes and cool slightly; if using cured chorizo, finely mince.",
+                      "Add the beans, chorizo, crumbled cheese ({queso_fresco}), egg ({egg}), ground chia seeds ({chia_seeds}), cumin ({cumin}), smoked paprika ({smoked_paprika}), and cilantro ({cilantro}).",
+                      "Mix until cohesive and let rest for 5 minutes so the chia/flax seeds bind the mixture.",
+                      "Shape into 11 flat, round pucks (about 4 cm wide and 45 g each).",
+                      "Heat the oil ({oil}) in a skillet over medium heat and sear for 3 to 4 minutes per side until a deep, flavorful crust forms."
+                  ]
+    },
+    {
+        "id":  24,
+        "title":  "Jalapeño Popper Chicken \u0026 Cheddar Bites",
+        "description":  "Creamy, cheesy, and spicy low-carb bites that stay tender and juicy whether served warm or chilled. Packed with ground chicken, sharp cheddar, cream cheese, and fresh jalapeños.",
+        "image":  "assets/recipe_jalapeno_chicken_bites.png",
+        "author":  "Eve",
+        "category":  "Snacks",
+        "time":  "25 min",
+        "portions":  16,
+        "favorite":  false,
+        "ingredients":  [
+                            {
+                                "id":  "chicken",
+                                "amount":  "400",
+                                "unit":  "g",
+                                "name":  "Ground chicken thigh (or ground turkey)",
+                                "group":  "Protein"
+                            },
+                            {
+                                "id":  "cheddar",
+                                "amount":  "100",
+                                "unit":  "g",
+                                "name":  "Mature sharp cheddar, finely grated",
+                                "group":  "Dairy \u0026 Cheese"
+                            },
+                            {
+                                "id":  "cream_cheese",
+                                "amount":  "60",
+                                "unit":  "g",
+                                "name":  "Cream cheese, softened",
+                                "group":  "Dairy \u0026 Cheese"
+                            },
+                            {
+                                "id":  "jalapenos",
+                                "amount":  "2",
+                                "unit":  "whole",
+                                "name":  "Fresh jalapeños, seeded and finely diced (~30 g)",
+                                "group":  "Produce"
+                            },
+                            {
+                                "id":  "almond_flour",
+                                "amount":  "30",
+                                "unit":  "g",
+                                "name":  "Fine almond flour",
+                                "group":  "Dry Ingredients"
+                            },
+                            {
+                                "id":  "garlic_powder",
+                                "amount":  "1",
+                                "unit":  "tsp",
+                                "name":  "Garlic powder",
+                                "group":  "Seasoning"
+                            },
+                            {
+                                "id":  "onion_powder",
+                                "amount":  "0.5",
+                                "unit":  "tsp",
+                                "name":  "Onion powder",
+                                "group":  "Seasoning"
+                            },
+                            {
+                                "id":  "salt",
+                                "amount":  "0.5",
+                                "unit":  "tsp",
+                                "name":  "Fine sea salt",
+                                "group":  "Seasoning"
+                            }
+                        ],
+        "steps":  [
+                      "Preheat your oven to 200°C (400°F) and line a baking sheet with parchment paper.",
+                      "In a large bowl, stir the softened cream cheese ({cream_cheese}), garlic powder ({garlic_powder}), onion powder ({onion_powder}), and salt ({salt}) together until smooth.",
+                      "Add the ground chicken ({chicken}), grated cheddar ({cheddar}), diced jalapeños ({jalapenos}), and almond flour ({almond_flour}). Mix gently until evenly combined.",
+                      "Roll into 16 even meatballs (~35 g each) and place onto the baking sheet.",
+                      "Bake for 15 to 18 minutes until golden on top and fully cooked through. Excellent served with ranch or guacamole."
+                  ]
+    },
+    {
+        "id":  25,
+        "title":  "Spiced Lentil \u0026 Feta Mini-Fritters",
+        "description":  "Earthy, cumin-infused vegetarian bites that firm up into a satisfying, chewy snack. Packed with plant-based protein from brown lentils and tangy Greek feta.",
+        "image":  "assets/recipe_lentil_feta_fritters.png",
+        "author":  "Eve",
+        "category":  "Snacks",
+        "time":  "20 min",
+        "portions":  12,
+        "favorite":  false,
+        "ingredients":  [
+                            {
+                                "id":  "lentils",
+                                "amount":  "240",
+                                "unit":  "g",
+                                "name":  "Cooked brown or green lentils (rinsed and drained very well)",
+                                "group":  "Pantry"
+                            },
+                            {
+                                "id":  "feta",
+                                "amount":  "80",
+                                "unit":  "g",
+                                "name":  "Greek feta cheese, crumbled",
+                                "group":  "Dairy \u0026 Cheese"
+                            },
+                            {
+                                "id":  "egg",
+                                "amount":  "1",
+                                "unit":  "whole",
+                                "name":  "Large egg",
+                                "group":  "Dairy \u0026 Eggs"
+                            },
+                            {
+                                "id":  "flaxseed",
+                                "amount":  "25",
+                                "unit":  "g",
+                                "name":  "Ground flaxseed",
+                                "group":  "Pantry"
+                            },
+                            {
+                                "id":  "scallions",
+                                "amount":  "2",
+                                "unit":  "whole",
+                                "name":  "Scallions, finely sliced",
+                                "group":  "Produce"
+                            },
+                            {
+                                "id":  "cumin",
+                                "amount":  "1",
+                                "unit":  "tsp",
+                                "name":  "Ground cumin",
+                                "group":  "Seasoning"
+                            },
+                            {
+                                "id":  "coriander",
+                                "amount":  "0.5",
+                                "unit":  "tsp",
+                                "name":  "Ground coriander",
+                                "group":  "Seasoning"
+                            },
+                            {
+                                "id":  "chili_flakes",
+                                "amount":  "1",
+                                "unit":  "pinch",
+                                "name":  "Red chili flakes",
+                                "group":  "Seasoning"
+                            },
+                            {
+                                "id":  "olive_oil",
+                                "amount":  "15",
+                                "unit":  "ml",
+                                "name":  "Olive oil (for frying)",
+                                "group":  "Pantry"
+                            }
+                        ],
+        "steps":  [
+                      "Place half of the drained lentils ({lentils}) into a bowl and mash thoroughly with a fork, then fold in the remaining whole lentils.",
+                      "Stir in the crumbled feta ({feta}), egg ({egg}), ground flaxseed ({flaxseed}), sliced scallions ({scallions}), cumin ({cumin}), coriander ({coriander}), and chili flakes ({chili_flakes}). Let stand for 5 minutes.",
+                      "Heat the olive oil ({olive_oil}) in a large skillet over medium heat.",
+                      "Drop rounded tablespoons of batter into the pan and press down gently to form 12 small discs.",
+                      "Fry for about 3 minutes per side until deep golden brown and firm. Let cool completely before serving with tzatziki or lemon wedges."
+                  ]
+    },
+    {
+        "id":  26,
+        "title":  "Ham, Gruyère \u0026 Cornichon Pinwheels",
+        "description":  "Zero cooking required: savory, sharp, and crunchy French bistro bites made with sliced cooked ham, whole-grain mustard cream cheese, aged Gruyère cheese, and tangy cornichons.",
+        "image":  "assets/recipe_ham_gruyere_pinwheels.png",
+        "author":  "Eve",
+        "category":  "Snacks",
+        "time":  "15 min",
+        "portions":  15,
+        "favorite":  false,
+        "ingredients":  [
+                            {
+                                "id":  "ham",
+                                "amount":  "200",
+                                "unit":  "g",
+                                "name":  "Quality cooked ham (or prosciutto cotto), medium-thick rectangular slices",
+                                "group":  "Protein"
+                            },
+                            {
+                                "id":  "cream_cheese",
+                                "amount":  "80",
+                                "unit":  "g",
+                                "name":  "Cream cheese, softened",
+                                "group":  "Dairy \u0026 Cheese"
+                            },
+                            {
+                                "id":  "dijon",
+                                "amount":  "15",
+                                "unit":  "g",
+                                "name":  "Coarse whole-grain Dijon mustard",
+                                "group":  "Seasoning"
+                            },
+                            {
+                                "id":  "gruyere",
+                                "amount":  "80",
+                                "unit":  "g",
+                                "name":  "Aged Gruyère cheese, sliced into thin matchsticks",
+                                "group":  "Dairy \u0026 Cheese"
+                            },
+                            {
+                                "id":  "cornichons",
+                                "amount":  "10",
+                                "unit":  "whole",
+                                "name":  "Mini cornichons (French gherkins), dried on paper towels",
+                                "group":  "Pantry"
+                            },
+                            {
+                                "id":  "black_pepper",
+                                "amount":  "0.25",
+                                "unit":  "tsp",
+                                "name":  "Freshly cracked black pepper",
+                                "group":  "Seasoning"
+                            }
+                        ],
+        "steps":  [
+                      "In a small bowl, stir the softened cream cheese ({cream_cheese}), whole-grain mustard ({dijon}), and cracked black pepper ({black_pepper}) until smooth.",
+                      "Lay half of the ham slices ({ham}) overlapping slightly on a sheet of plastic wrap.",
+                      "Spread half of the seasoned cream cheese evenly over the ham.",
+                      "Lay a horizontal line of Gruyère cheese matchsticks ({gruyere}) and whole cornichons ({cornichons}) along the bottom third of the ham.",
+                      "Roll up tightly into a firm cylindrical log using the plastic wrap to guide. Repeat with the remaining ingredients to make two logs.",
+                      "Chill in the refrigerator for at least 1 hour to set, then slice into 2 cm rounds and serve chilled."
+                  ]
+    },
+    {
+        "id":  27,
+        "title":  "Broccoli, Cheddar \u0026 Almond Flour Scone Bites",
+        "description":  "Low-carb, high-calcium mini baked savory scone bites that hold together cleanly without crumbs. Loaded with steamed broccoli and mature sharp cheddar.",
+        "image":  "assets/recipe_broccoli_cheddar_scones.png",
+        "author":  "Eve",
+        "category":  "Snacks",
+        "time":  "25 min",
+        "portions":  12,
+        "favorite":  false,
+        "ingredients":  [
+                            {
+                                "id":  "broccoli",
+                                "amount":  "150",
+                                "unit":  "g",
+                                "name":  "Fresh broccoli florets",
+                                "group":  "Produce"
+                            },
+                            {
+                                "id":  "almond_flour",
+                                "amount":  "100",
+                                "unit":  "g",
+                                "name":  "Blanched almond flour",
+                                "group":  "Dry Ingredients"
+                            },
+                            {
+                                "id":  "cheddar",
+                                "amount":  "100",
+                                "unit":  "g",
+                                "name":  "Sharp mature cheddar cheese, finely grated",
+                                "group":  "Dairy \u0026 Cheese"
+                            },
+                            {
+                                "id":  "eggs",
+                                "amount":  "2",
+                                "unit":  "whole",
+                                "name":  "Large eggs",
+                                "group":  "Dairy \u0026 Eggs"
+                            },
+                            {
+                                "id":  "baking_powder",
+                                "amount":  "0.5",
+                                "unit":  "tsp",
+                                "name":  "Baking powder",
+                                "group":  "Dry Ingredients"
+                            },
+                            {
+                                "id":  "garlic_powder",
+                                "amount":  "0.5",
+                                "unit":  "tsp",
+                                "name":  "Garlic powder",
+                                "group":  "Seasoning"
+                            },
+                            {
+                                "id":  "salt",
+                                "amount":  "0.5",
+                                "unit":  "tsp",
+                                "name":  "Fine sea salt",
+                                "group":  "Seasoning"
+                            }
+                        ],
+        "steps":  [
+                      "Steam the broccoli florets ({broccoli}) for 4–5 minutes until tender. Wrap in a clean kitchen towel, squeeze out all excess liquid, and chop finely.",
+                      "In a bowl, whisk the eggs ({eggs}), salt ({salt}), garlic powder ({garlic_powder}), and baking powder ({baking_powder}).",
+                      "Fold in the almond flour ({almond_flour}), grated cheddar cheese ({cheddar}), and chopped broccoli until a thick dough forms.",
+                      "Preheat oven to 180°C (350°F) and line a baking sheet with parchment paper.",
+                      "Scoop 12 rounded mounds onto the parchment sheet using a spoon or small cookie scoop.",
+                      "Bake for 16 to 18 minutes until golden brown around the edges and firm to the touch. Serve warm or cold."
+                  ]
+    },
+    {
+        "id":  28,
+        "title":  "Mini Baked Quark Cheesecake Pucks",
+        "description":  "Velvety, tangy, high-protein bites with a light citrus lift. Naturally low-carb, lightly sweetened with erythritol, and baked gently in individual mini muffin molds.",
+        "image":  "assets/recipe_quark_cheesecake_pucks.png",
+        "author":  "Eve",
+        "category":  "Snacks",
+        "time":  "30 min",
+        "portions":  12,
+        "favorite":  false,
+        "ingredients":  [
+                            {
+                                "id":  "quark",
+                                "amount":  "250",
+                                "unit":  "g",
+                                "name":  "Quark (Halbfett or whole-milk)",
+                                "group":  "Dairy \u0026 Cheese"
+                            },
+                            {
+                                "id":  "egg",
+                                "amount":  "1",
+                                "unit":  "whole",
+                                "name":  "Large egg",
+                                "group":  "Dairy \u0026 Eggs"
+                            },
+                            {
+                                "id":  "erythritol",
+                                "amount":  "35",
+                                "unit":  "g",
+                                "name":  "Powdered erythritol",
+                                "group":  "Dry Ingredients"
+                            },
+                            {
+                                "id":  "almond_flour",
+                                "amount":  "15",
+                                "unit":  "g",
+                                "name":  "Fine almond flour",
+                                "group":  "Dry Ingredients"
+                            },
+                            {
+                                "id":  "lemon_zest",
+                                "amount":  "1",
+                                "unit":  "whole",
+                                "name":  "Zest of 1 unwaxed lemon, finely grated",
+                                "group":  "Produce"
+                            },
+                            {
+                                "id":  "vanilla",
+                                "amount":  "5",
+                                "unit":  "ml",
+                                "name":  "Pure vanilla extract",
+                                "group":  "Seasoning"
+                            },
+                            {
+                                "id":  "salt",
+                                "amount":  "1",
+                                "unit":  "pinch",
+                                "name":  "Fine sea salt",
+                                "group":  "Seasoning"
+                            }
+                        ],
+        "steps":  [
+                      "Preheat your oven to 160°C (320°F) and arrange 12 silicone mini-muffin cups on a baking tray.",
+                      "In a bowl, whisk together the quark ({quark}), egg ({egg}), powdered erythritol ({erythritol}), lemon zest ({lemon_zest}), vanilla ({vanilla}), and salt ({salt}) until smooth and silky.",
+                      "Whisk in the almond flour ({almond_flour}) until just incorporated.",
+                      "Divide the batter evenly among the 12 mini-muffin cups (approx. 25–28 g each).",
+                      "Bake at 160°C for 18 to 20 minutes until puffed and set around the edges with a gentle center wobble.",
+                      "Turn off the oven, prop the door open slightly, and leave the cheesecakes inside for 10 minutes.",
+                      "Transfer to the refrigerator and chill for at least 3 hours until completely firm and set. Pop out of molds and enjoy chilled."
+                  ]
+    },
+    {
+        "id":  29,
+        "title":  "Fudgy Avocado \u0026 Walnut Brownie Bites",
+        "description":  "Deep cocoa flavor, fudgy rich texture, and healthy fats that mask any avocado flavor entirely. Sugar-free, grain-free bite-sized brownies loaded with crunchy walnuts and dark chocolate chunks.",
+        "image":  "assets/recipe_avocado_brownie_bites.png",
+        "author":  "Eve",
+        "category":  "Snacks",
+        "time":  "25 min",
+        "portions":  16,
+        "favorite":  false,
+        "ingredients":  [
+                            {
+                                "id":  "avocado",
+                                "amount":  "150",
+                                "unit":  "g",
+                                "name":  "Medium ripe avocado, peeled flesh",
+                                "group":  "Produce"
+                            },
+                            {
+                                "id":  "eggs",
+                                "amount":  "2",
+                                "unit":  "whole",
+                                "name":  "Large eggs",
+                                "group":  "Dairy \u0026 Eggs"
+                            },
+                            {
+                                "id":  "cocoa",
+                                "amount":  "40",
+                                "unit":  "g",
+                                "name":  "Unsweetened Dutch-process cocoa powder",
+                                "group":  "Dry Ingredients"
+                            },
+                            {
+                                "id":  "erythritol",
+                                "amount":  "50",
+                                "unit":  "g",
+                                "name":  "Powdered erythritol",
+                                "group":  "Dry Ingredients"
+                            },
+                            {
+                                "id":  "almond_flour",
+                                "amount":  "30",
+                                "unit":  "g",
+                                "name":  "Fine almond flour",
+                                "group":  "Dry Ingredients"
+                            },
+                            {
+                                "id":  "vanilla",
+                                "amount":  "5",
+                                "unit":  "ml",
+                                "name":  "Pure vanilla extract",
+                                "group":  "Seasoning"
+                            },
+                            {
+                                "id":  "baking_soda",
+                                "amount":  "0.5",
+                                "unit":  "tsp",
+                                "name":  "Baking soda",
+                                "group":  "Dry Ingredients"
+                            },
+                            {
+                                "id":  "salt",
+                                "amount":  "1",
+                                "unit":  "pinch",
+                                "name":  "Fine salt",
+                                "group":  "Seasoning"
+                            },
+                            {
+                                "id":  "walnuts",
+                                "amount":  "40",
+                                "unit":  "g",
+                                "name":  "Raw walnuts, roughly chopped",
+                                "group":  "Nuts"
+                            },
+                            {
+                                "id":  "dark_chocolate",
+                                "amount":  "30",
+                                "unit":  "g",
+                                "name":  "85%+ dark chocolate, chopped into small chunks",
+                                "group":  "Chocolate"
+                            }
+                        ],
+        "steps":  [
+                      "Preheat your oven to 175°C (350°F) and line an 8x8 inch (20x20 cm) square pan with parchment paper.",
+                      "In a food processor, blend the avocado flesh ({avocado}), eggs ({eggs}), cocoa powder ({cocoa}), powdered erythritol ({erythritol}), almond flour ({almond_flour}), vanilla ({vanilla}), baking soda ({baking_soda}), and salt ({salt}) until silky and smooth.",
+                      "Using a spatula, gently fold the chopped walnuts ({walnuts}) and dark chocolate chunks ({dark_chocolate}) into the batter.",
+                      "Spread the batter into the prepared pan, smoothing the surface evenly.",
+                      "Bake for 16 to 18 minutes (do not overbake, the center sets firmly upon cooling).",
+                      "Cool completely to room temperature, then refrigerate for at least 2 hours before slicing into 16 fudgy squares."
+                  ]
+    },
+    {
+        "id":  30,
+        "title":  "Frozen Dark Chocolate Mousse Cups",
+        "description":  "Rich, airy bite-sized mousse treats with an ice-cream-like texture that melt on your tongue. Sugar-free, topped with flaky sea salt, and served directly from the freezer.",
+        "image":  "assets/recipe_frozen_chocolate_mousse_cups.png",
+        "author":  "Eve",
+        "category":  "Snacks",
+        "time":  "15 min",
+        "portions":  16,
+        "favorite":  false,
+        "ingredients":  [
+                            {
+                                "id":  "dark_chocolate",
+                                "amount":  "80",
+                                "unit":  "g",
+                                "name":  "Dark chocolate (85% or higher), chopped",
+                                "group":  "Chocolate"
+                            },
+                            {
+                                "id":  "coconut_milk",
+                                "amount":  "30",
+                                "unit":  "ml",
+                                "name":  "Full-fat coconut milk or heavy cream (for melting)",
+                                "group":  "Dairy \u0026 Eggs"
+                            },
+                            {
+                                "id":  "heavy_cream",
+                                "amount":  "150",
+                                "unit":  "g",
+                                "name":  "Heavy whipping cream (min. 35% fat), chilled",
+                                "group":  "Dairy \u0026 Eggs"
+                            },
+                            {
+                                "id":  "erythritol",
+                                "amount":  "25",
+                                "unit":  "g",
+                                "name":  "Powdered erythritol",
+                                "group":  "Dry Ingredients"
+                            },
+                            {
+                                "id":  "vanilla",
+                                "amount":  "2.5",
+                                "unit":  "ml",
+                                "name":  "Pure vanilla extract",
+                                "group":  "Seasoning"
+                            },
+                            {
+                                "id":  "sea_salt",
+                                "amount":  "1",
+                                "unit":  "pinch",
+                                "name":  "Coarse flaky sea salt (for topping)",
+                                "group":  "Seasoning"
+                            }
+                        ],
+        "steps":  [
+                      "In a heatproof bowl set over simmering water (or in short microwave bursts), melt the dark chocolate ({dark_chocolate}) with the coconut milk ({coconut_milk}) until silky and glossy. Let cool to lukewarm.",
+                      "In a separate bowl, whip the chilled heavy cream ({heavy_cream}), powdered erythritol ({erythritol}), and vanilla ({vanilla}) until medium-stiff peaks form.",
+                      "Gently fold one-third of the whipped cream into the melted chocolate to loosen the mixture.",
+                      "Fold in the remaining whipped cream with a spatula just until uniform with no white streaks remaining.",
+                      "Spoon or pipe into 16 mini silicone muffin cups or ice cube molds.",
+                      "Sprinkle a light pinch of flaky sea salt ({sea_salt}) over the top of each cup.",
+                      "Freeze for at least 1.5 to 2 hours. Pop out of the molds and serve directly from the freezer as bite-sized frosty treats."
+                  ]
+    },
+    {
         "id":  101,
         "title":  "Truffle Mushroom Pasta",
         "description":  "A rich and creamy pasta dish infused with the earthy aroma of black truffles, finished with a sprinkle of aged parmesan.",

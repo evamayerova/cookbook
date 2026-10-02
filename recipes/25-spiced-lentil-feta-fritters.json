@@ -1,0 +1,83 @@
+{
+    "id": 25,
+    "title": "Spiced Lentil & Feta Mini-Fritters",
+    "description": "Earthy, cumin-infused vegetarian bites that firm up into a satisfying, chewy snack. Packed with plant-based protein from brown lentils and tangy Greek feta.",
+    "image": "assets/recipe_lentil_feta_fritters.png",
+    "author": "Eve",
+    "category": "Snacks",
+    "time": "20 min",
+    "portions": 12,
+    "favorite": false,
+    "ingredients": [
+        {
+            "id": "lentils",
+            "amount": "240",
+            "unit": "g",
+            "name": "Cooked brown or green lentils (rinsed and drained very well)",
+            "group": "Pantry"
+        },
+        {
+            "id": "feta",
+            "amount": "80",
+            "unit": "g",
+            "name": "Greek feta cheese, crumbled",
+            "group": "Dairy & Cheese"
+        },
+        {
+            "id": "egg",
+            "amount": "1",
+            "unit": "whole",
+            "name": "Large egg",
+            "group": "Dairy & Eggs"
+        },
+        {
+            "id": "flaxseed",
+            "amount": "25",
+            "unit": "g",
+            "name": "Ground flaxseed",
+            "group": "Pantry"
+        },
+        {
+            "id": "scallions",
+            "amount": "2",
+            "unit": "whole",
+            "name": "Scallions, finely sliced",
+            "group": "Produce"
+        },
+        {
+            "id": "cumin",
+            "amount": "1",
+            "unit": "tsp",
+            "name": "Ground cumin",
+            "group": "Seasoning"
+        },
+        {
+            "id": "coriander",
+            "amount": "0.5",
+            "unit": "tsp",
+            "name": "Ground coriander",
+            "group": "Seasoning"
+        },
+        {
+            "id": "chili_flakes",
+            "amount": "1",
+            "unit": "pinch",
+            "name": "Red chili flakes",
+            "group": "Seasoning"
+        },
+        {
+            "id": "olive_oil",
+            "amount": "15",
+            "unit": "ml",
+            "name": "Olive oil (for frying)",
+            "group": "Pantry"
+        }
+    ],
+    "steps": [
+        "Place half of the drained lentils ({lentils}) into a bowl and mash thoroughly with a fork, then fold in the remaining whole lentils.",
+        "Stir in the crumbled feta ({feta}), egg ({egg}), ground flaxseed ({flaxseed}), sliced scallions ({scallions}), cumin ({cumin}), coriander ({coriander}), and chili flakes ({chili_flakes}). Let stand for 5 minutes.",
+        "Heat the olive oil ({olive_oil}) in a large skillet over medium heat.",
+        "Drop rounded tablespoons of batter into the pan and press down gently to form 12 small discs.",
+        "Fry for about 3 minutes per side until deep golden brown and firm. Let cool completely before serving with tzatziki or lemon wedges."
+    ]
+}

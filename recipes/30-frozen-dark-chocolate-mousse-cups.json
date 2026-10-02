@@ -1,0 +1,64 @@
+{
+    "id": 30,
+    "title": "Frozen Dark Chocolate Mousse Cups",
+    "description": "Rich, airy bite-sized mousse treats with an ice-cream-like texture that melt on your tongue. Sugar-free, topped with flaky sea salt, and served directly from the freezer.",
+    "image": "assets/recipe_frozen_chocolate_mousse_cups.png",
+    "author": "Eve",
+    "category": "Snacks",
+    "time": "15 min",
+    "portions": 16,
+    "favorite": false,
+    "ingredients": [
+        {
+            "id": "dark_chocolate",
+            "amount": "80",
+            "unit": "g",
+            "name": "Dark chocolate (85% or higher), chopped",
+            "group": "Chocolate"
+        },
+        {
+            "id": "coconut_milk",
+            "amount": "30",
+            "unit": "ml",
+            "name": "Full-fat coconut milk or heavy cream (for melting)",
+            "group": "Dairy & Eggs"
+        },
+        {
+            "id": "heavy_cream",
+            "amount": "150",
+            "unit": "g",
+            "name": "Heavy whipping cream (min. 35% fat), chilled",
+            "group": "Dairy & Eggs"
+        },
+        {
+            "id": "erythritol",
+            "amount": "25",
+            "unit": "g",
+            "name": "Powdered erythritol",
+            "group": "Dry Ingredients"
+        },
+        {
+            "id": "vanilla",
+            "amount": "2.5",
+            "unit": "ml",
+            "name": "Pure vanilla extract",
+            "group": "Seasoning"
+        },
+        {
+            "id": "sea_salt",
+            "amount": "1",
+            "unit": "pinch",
+            "name": "Coarse flaky sea salt (for topping)",
+            "group": "Seasoning"
+        }
+    ],
+    "steps": [
+        "In a heatproof bowl set over simmering water (or in short microwave bursts), melt the dark chocolate ({dark_chocolate}) with the coconut milk ({coconut_milk}) until silky and glossy. Let cool to lukewarm.",
+        "In a separate bowl, whip the chilled heavy cream ({heavy_cream}), powdered erythritol ({erythritol}), and vanilla ({vanilla}) until medium-stiff peaks form.",
+        "Gently fold one-third of the whipped cream into the melted chocolate to loosen the mixture.",
+        "Fold in the remaining whipped cream with a spatula just until uniform with no white streaks remaining.",
+        "Spoon or pipe into 16 mini silicone muffin cups or ice cube molds.",
+        "Sprinkle a light pinch of flaky sea salt ({sea_salt}) over the top of each cup.",
+        "Freeze for at least 1.5 to 2 hours. Pop out of the molds and serve directly from the freezer as bite-sized frosty treats."
+    ]
+}

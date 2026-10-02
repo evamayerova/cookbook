@@ -1,0 +1,71 @@
+{
+    "id": 28,
+    "title": "Mini Baked Quark Cheesecake Pucks",
+    "description": "Velvety, tangy, high-protein bites with a light citrus lift. Naturally low-carb, lightly sweetened with erythritol, and baked gently in individual mini muffin molds.",
+    "image": "assets/recipe_quark_cheesecake_pucks.png",
+    "author": "Eve",
+    "category": "Snacks",
+    "time": "30 min",
+    "portions": 12,
+    "favorite": false,
+    "ingredients": [
+        {
+            "id": "quark",
+            "amount": "250",
+            "unit": "g",
+            "name": "Quark (Halbfett or whole-milk)",
+            "group": "Dairy & Cheese"
+        },
+        {
+            "id": "egg",
+            "amount": "1",
+            "unit": "whole",
+            "name": "Large egg",
+            "group": "Dairy & Eggs"
+        },
+        {
+            "id": "erythritol",
+            "amount": "35",
+            "unit": "g",
+            "name": "Powdered erythritol",
+            "group": "Dry Ingredients"
+        },
+        {
+            "id": "almond_flour",
+            "amount": "15",
+            "unit": "g",
+            "name": "Fine almond flour",
+            "group": "Dry Ingredients"
+        },
+        {
+            "id": "lemon_zest",
+            "amount": "1",
+            "unit": "whole",
+            "name": "Zest of 1 unwaxed lemon, finely grated",
+            "group": "Produce"
+        },
+        {
+            "id": "vanilla",
+            "amount": "5",
+            "unit": "ml",
+            "name": "Pure vanilla extract",
+            "group": "Seasoning"
+        },
+        {
+            "id": "salt",
+            "amount": "1",
+            "unit": "pinch",
+            "name": "Fine sea salt",
+            "group": "Seasoning"
+        }
+    ],
+    "steps": [
+        "Preheat your oven to 160°C (320°F) and arrange 12 silicone mini-muffin cups on a baking tray.",
+        "In a bowl, whisk together the quark ({quark}), egg ({egg}), powdered erythritol ({erythritol}), lemon zest ({lemon_zest}), vanilla ({vanilla}), and salt ({salt}) until smooth and silky.",
+        "Whisk in the almond flour ({almond_flour}) until just incorporated.",
+        "Divide the batter evenly among the 12 mini-muffin cups (approx. 25–28 g each).",
+        "Bake at 160°C for 18 to 20 minutes until puffed and set around the edges with a gentle center wobble.",
+        "Turn off the oven, prop the door open slightly, and leave the cheesecakes inside for 10 minutes.",
+        "Transfer to the refrigerator and chill for at least 3 hours until completely firm and set. Pop out of molds and enjoy chilled."
+    ]
+}

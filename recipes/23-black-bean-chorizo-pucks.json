@@ -1,0 +1,84 @@
+{
+    "id": 23,
+    "title": "Black Bean, Chorizo & Queso Fresco Pucks",
+    "description": "Smoky, satisfying pan-seared patties packed with black beans, savory chorizo, and crumbled queso fresco. High in fiber, resistant starch, and bold Latin flavors.",
+    "image": "assets/recipe_black_bean_chorizo_pucks.png",
+    "author": "Eve",
+    "category": "Snacks",
+    "time": "20 min",
+    "portions": 11,
+    "favorite": false,
+    "ingredients": [
+        {
+            "id": "black_beans",
+            "amount": "200",
+            "unit": "g",
+            "name": "Cooked black beans (canned, rinsed, drained)",
+            "group": "Pantry"
+        },
+        {
+            "id": "chorizo",
+            "amount": "100",
+            "unit": "g",
+            "name": "Chorizo (Spanish or Mexican), finely minced",
+            "group": "Protein"
+        },
+        {
+            "id": "queso_fresco",
+            "amount": "60",
+            "unit": "g",
+            "name": "Queso Fresco, Cotija, or mild feta, crumbled",
+            "group": "Dairy & Cheese"
+        },
+        {
+            "id": "egg",
+            "amount": "1",
+            "unit": "whole",
+            "name": "Large egg",
+            "group": "Dairy & Eggs"
+        },
+        {
+            "id": "chia_seeds",
+            "amount": "20",
+            "unit": "g",
+            "name": "Ground chia seeds or ground flaxseed",
+            "group": "Pantry"
+        },
+        {
+            "id": "cumin",
+            "amount": "0.5",
+            "unit": "tsp",
+            "name": "Ground cumin",
+            "group": "Seasoning"
+        },
+        {
+            "id": "smoked_paprika",
+            "amount": "0.5",
+            "unit": "tsp",
+            "name": "Smoked paprika",
+            "group": "Seasoning"
+        },
+        {
+            "id": "cilantro",
+            "amount": "10",
+            "unit": "g",
+            "name": "Fresh cilantro, minced",
+            "group": "Produce"
+        },
+        {
+            "id": "oil",
+            "amount": "15",
+            "unit": "ml",
+            "name": "Olive or avocado oil (for frying)",
+            "group": "Pantry"
+        }
+    ],
+    "steps": [
+        "In a bowl, roughly mash about half of the black beans ({black_beans}) with a fork, leaving the remaining half whole for texture.",
+        "If using raw chorizo ({chorizo}), brown in a skillet for 4 minutes and cool slightly; if using cured chorizo, finely mince.",
+        "Add the beans, chorizo, crumbled cheese ({queso_fresco}), egg ({egg}), ground chia seeds ({chia_seeds}), cumin ({cumin}), smoked paprika ({smoked_paprika}), and cilantro ({cilantro}).",
+        "Mix until cohesive and let rest for 5 minutes so the chia/flax seeds bind the mixture.",
+        "Shape into 11 flat, round pucks (about 4 cm wide and 45 g each).",
+        "Heat the oil ({oil}) in a skillet over medium heat and sear for 3 to 4 minutes per side until a deep, flavorful crust forms."
+    ]
+}

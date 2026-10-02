@@ -1,0 +1,76 @@
+{
+    "id": 24,
+    "title": "Jalapeño Popper Chicken & Cheddar Bites",
+    "description": "Creamy, cheesy, and spicy low-carb bites that stay tender and juicy whether served warm or chilled. Packed with ground chicken, sharp cheddar, cream cheese, and fresh jalapeños.",
+    "image": "assets/recipe_jalapeno_chicken_bites.png",
+    "author": "Eve",
+    "category": "Snacks",
+    "time": "25 min",
+    "portions": 16,
+    "favorite": false,
+    "ingredients": [
+        {
+            "id": "chicken",
+            "amount": "400",
+            "unit": "g",
+            "name": "Ground chicken thigh (or ground turkey)",
+            "group": "Protein"
+        },
+        {
+            "id": "cheddar",
+            "amount": "100",
+            "unit": "g",
+            "name": "Mature sharp cheddar, finely grated",
+            "group": "Dairy & Cheese"
+        },
+        {
+            "id": "cream_cheese",
+            "amount": "60",
+            "unit": "g",
+            "name": "Cream cheese, softened",
+            "group": "Dairy & Cheese"
+        },
+        {
+            "id": "jalapenos",
+            "amount": "2",
+            "unit": "whole",
+            "name": "Fresh jalapeños, seeded and finely diced (~30 g)",
+            "group": "Produce"
+        },
+        {
+            "id": "almond_flour",
+            "amount": "30",
+            "unit": "g",
+            "name": "Fine almond flour",
+            "group": "Dry Ingredients"
+        },
+        {
+            "id": "garlic_powder",
+            "amount": "1",
+            "unit": "tsp",
+            "name": "Garlic powder",
+            "group": "Seasoning"
+        },
+        {
+            "id": "onion_powder",
+            "amount": "0.5",
+            "unit": "tsp",
+            "name": "Onion powder",
+            "group": "Seasoning"
+        },
+        {
+            "id": "salt",
+            "amount": "0.5",
+            "unit": "tsp",
+            "name": "Fine sea salt",
+            "group": "Seasoning"
+        }
+    ],
+    "steps": [
+        "Preheat your oven to 200°C (400°F) and line a baking sheet with parchment paper.",
+        "In a large bowl, stir the softened cream cheese ({cream_cheese}), garlic powder ({garlic_powder}), onion powder ({onion_powder}), and salt ({salt}) together until smooth.",
+        "Add the ground chicken ({chicken}), grated cheddar ({cheddar}), diced jalapeños ({jalapenos}), and almond flour ({almond_flour}). Mix gently until evenly combined.",
+        "Roll into 16 even meatballs (~35 g each) and place onto the baking sheet.",
+        "Bake for 15 to 18 minutes until golden on top and fully cooked through. Excellent served with ranch or guacamole."
+    ]
+}

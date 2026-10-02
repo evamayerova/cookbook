@@ -1,0 +1,83 @@
+{
+    "id": 21,
+    "title": "Ginger-Scallion Pork Gyoza Bites",
+    "description": "All the savory, aromatic depth of potstickers without refined dough. Tender, juicy baked pork meatballs loaded with fresh ginger, green onions, and toasted sesame oil.",
+    "image": "assets/recipe_pork_gyoza_bites.png",
+    "author": "Eve",
+    "category": "Snacks",
+    "time": "25 min",
+    "portions": 16,
+    "favorite": false,
+    "ingredients": [
+        {
+            "id": "pork",
+            "amount": "400",
+            "unit": "g",
+            "name": "Ground pork (15–20% fat)",
+            "group": "Protein"
+        },
+        {
+            "id": "ginger",
+            "amount": "15",
+            "unit": "g",
+            "name": "Fresh ginger, finely grated",
+            "group": "Produce"
+        },
+        {
+            "id": "scallions",
+            "amount": "3",
+            "unit": "whole",
+            "name": "Medium scallions (green onions), finely sliced",
+            "group": "Produce"
+        },
+        {
+            "id": "egg",
+            "amount": "1",
+            "unit": "whole",
+            "name": "Large egg",
+            "group": "Dairy & Eggs"
+        },
+        {
+            "id": "flaxseed",
+            "amount": "25",
+            "unit": "g",
+            "name": "Finely ground flaxseed (moisture binder)",
+            "group": "Pantry"
+        },
+        {
+            "id": "tamari",
+            "amount": "15",
+            "unit": "ml",
+            "name": "Tamari or soy sauce",
+            "group": "Seasoning"
+        },
+        {
+            "id": "sesame_oil",
+            "amount": "5",
+            "unit": "ml",
+            "name": "Toasted sesame oil",
+            "group": "Seasoning"
+        },
+        {
+            "id": "garlic",
+            "amount": "1",
+            "unit": "clove",
+            "name": "Garlic clove, finely grated",
+            "group": "Produce"
+        },
+        {
+            "id": "white_pepper",
+            "amount": "0.25",
+            "unit": "tsp",
+            "name": "Ground white pepper",
+            "group": "Seasoning"
+        }
+    ],
+    "steps": [
+        "In a large bowl, combine the ground pork ({pork}), grated ginger ({ginger}), sliced scallions ({scallions}), egg ({egg}), ground flaxseed ({flaxseed}), tamari ({tamari}), toasted sesame oil ({sesame_oil}), grated garlic ({garlic}), and white pepper ({white_pepper}).",
+        "Mix with clean hands for 1–2 minutes until the mixture becomes sticky, cohesive, and evenly blended.",
+        "Preheat your oven to 190°C (375°F) and line a baking sheet with parchment paper.",
+        "Roll into 16 smooth, golf-ball-sized meatballs (~30 g each) and place onto the baking sheet.",
+        "Bake for 14 to 16 minutes until lightly browned and cooked through (reaching an internal temperature of 74°C / 165°F). Enjoy warm or chilled as meal-prep snacks."
+    ]
+}
