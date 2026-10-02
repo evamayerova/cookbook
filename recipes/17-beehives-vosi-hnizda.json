@@ -1,0 +1,108 @@
+{
+    "id": 17,
+    "title": "Beehive Cookies (Vosí hnízda / Včelí úly)",
+    "description": "Iconic no-bake Czech Christmas cookies shaped like little beehives, made with a cocoa-nut biscuit shell, filled with fragrant rum buttercream, and sealed on a round sponge biscuit base.",
+    "image": "assets/recipe_vosi_hnizda.png",
+    "author": "Eve",
+    "category": "Christmas cookies",
+    "time": "40 min",
+    "portions": 25,
+    "favorite": true,
+    "ingredients": [
+        {
+            "id": "piskoty_dough",
+            "amount": "150",
+            "unit": "g",
+            "name": "Czech sponge biscuits (piškoty) or ladyfingers, finely crushed",
+            "group": "No-Bake Dough"
+        },
+        {
+            "id": "nuts",
+            "amount": "50",
+            "unit": "g",
+            "name": "Finely ground hazelnuts or walnuts",
+            "group": "No-Bake Dough"
+        },
+        {
+            "id": "sugar_dough",
+            "amount": "100",
+            "unit": "g",
+            "name": "Powdered sugar (for dough)",
+            "group": "No-Bake Dough"
+        },
+        {
+            "id": "butter_dough",
+            "amount": "60",
+            "unit": "g",
+            "name": "Butter, softened",
+            "group": "No-Bake Dough"
+        },
+        {
+            "id": "cocoa",
+            "amount": "2",
+            "unit": "tbsp",
+            "name": "Dutch-process cocoa powder",
+            "group": "No-Bake Dough"
+        },
+        {
+            "id": "egg_white",
+            "amount": "1",
+            "unit": "whole",
+            "name": "Egg white",
+            "group": "No-Bake Dough"
+        },
+        {
+            "id": "milk",
+            "amount": "1",
+            "unit": "tbsp",
+            "name": "Milk",
+            "group": "No-Bake Dough"
+        },
+        {
+            "id": "butter_filling",
+            "amount": "60",
+            "unit": "g",
+            "name": "Butter (for filling), softened",
+            "group": "Buttercream"
+        },
+        {
+            "id": "sugar_filling",
+            "amount": "50",
+            "unit": "g",
+            "name": "Powdered sugar (for filling)",
+            "group": "Buttercream"
+        },
+        {
+            "id": "egg_yolk",
+            "amount": "1",
+            "unit": "whole",
+            "name": "Egg yolk (or 1 tbsp egg liqueur)",
+            "group": "Buttercream"
+        },
+        {
+            "id": "rum",
+            "amount": "1",
+            "unit": "tbsp",
+            "name": "Czech dark rum (Tuzemák)",
+            "group": "Buttercream"
+        },
+        {
+            "id": "piskoty_base",
+            "amount": "25",
+            "unit": "whole",
+            "name": "Round sponge biscuits (piškoty) for base",
+            "group": "Base"
+        }
+    ],
+    "steps": [
+        "In a food processor or with a rolling pin, finely crush the sponge biscuits ({piskoty_dough}) and finely grind the nuts ({nuts}).",
+        "In a mixing bowl, combine the crushed biscuits, ground nuts, powdered sugar ({sugar_dough}), cocoa powder ({cocoa}), softened butter ({butter_dough}), egg white ({egg_white}), and milk ({milk}). Knead into a smooth, dark, pliable dough. Chill for 20 minutes if sticky.",
+        "Prepare the filling: beat the softened butter ({butter_filling}), powdered sugar ({sugar_filling}), egg yolk ({egg_yolk}), and dark rum ({rum}) until creamy and smooth. Spoon into a small piping bag.",
+        "Lightly dust the inside of a beehive/conical mold with powdered sugar so the dough releases easily.",
+        "Pinch off a small ball of dough, press it firmly into the mold, and use your thumb or the mold plunger to hollow out the center.",
+        "Pipe the rum buttercream into the hollow center cavity until almost level with the rim.",
+        "Cover the open bottom with a whole round sponge biscuit ({piskoty_base}), pressing gently so it sticks firmly.",
+        "Carefully tap or unclip the mold to release the finished beehive. Stand upright on a serving plate.",
+        "Store in an airtight container in the refrigerator for at least 24 hours before serving to let the biscuit base soften slightly."
+    ]
+}

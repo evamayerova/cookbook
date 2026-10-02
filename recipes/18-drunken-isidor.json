@@ -1,0 +1,157 @@
+{
+    "id": 18,
+    "title": "Drunken Isidor (Opilý izidor)",
+    "description": "A legendary, decadent Czech Christmas layered confection: delicate walnut sponge, tart fruit jam, boozy rum-walnut paste, velvety chocolate buttercream, and a glossy chocolate glaze.",
+    "image": "assets/recipe_opily_izidor.png",
+    "author": "Eve",
+    "category": "Christmas cookies",
+    "time": "1 hr 15 min",
+    "portions": 24,
+    "favorite": true,
+    "ingredients": [
+        {
+            "id": "butter_base",
+            "amount": "150",
+            "unit": "g",
+            "name": "Butter (for sponge base)",
+            "group": "Walnut Sponge Base"
+        },
+        {
+            "id": "sugar_base",
+            "amount": "150",
+            "unit": "g",
+            "name": "Powdered sugar (for sponge base)",
+            "group": "Walnut Sponge Base"
+        },
+        {
+            "id": "eggs_base",
+            "amount": "4",
+            "unit": "whole",
+            "name": "Eggs, separated",
+            "group": "Walnut Sponge Base"
+        },
+        {
+            "id": "flour_base",
+            "amount": "70",
+            "unit": "g",
+            "name": "Semi-coarse or all-purpose flour",
+            "group": "Walnut Sponge Base"
+        },
+        {
+            "id": "walnuts_base",
+            "amount": "120",
+            "unit": "g",
+            "name": "Finely ground walnuts (for sponge base)",
+            "group": "Walnut Sponge Base"
+        },
+        {
+            "id": "cocoa_base",
+            "amount": "1",
+            "unit": "tbsp",
+            "name": "Dutch-process cocoa powder (for base)",
+            "group": "Walnut Sponge Base"
+        },
+        {
+            "id": "baking_powder",
+            "amount": "1",
+            "unit": "packet",
+            "name": "Baking powder (approx. 12 g)",
+            "group": "Walnut Sponge Base"
+        },
+        {
+            "id": "jam",
+            "amount": "120",
+            "unit": "g",
+            "name": "Tart red currant or apricot jam",
+            "group": "Walnut Sponge Base"
+        },
+        {
+            "id": "walnuts_filling",
+            "amount": "200",
+            "unit": "g",
+            "name": "Finely ground walnuts (for rum layer)",
+            "group": "Rum-Walnut Layer"
+        },
+        {
+            "id": "sugar_filling",
+            "amount": "100",
+            "unit": "g",
+            "name": "Powdered sugar (for rum layer)",
+            "group": "Rum-Walnut Layer"
+        },
+        {
+            "id": "vanilla_sugar",
+            "amount": "1",
+            "unit": "packet",
+            "name": "Vanilla sugar (approx. 10 g)",
+            "group": "Rum-Walnut Layer"
+        },
+        {
+            "id": "rum",
+            "amount": "200",
+            "unit": "ml",
+            "name": "Dark rum (or egg liqueur)",
+            "group": "Rum-Walnut Layer"
+        },
+        {
+            "id": "eggs_cream",
+            "amount": "6",
+            "unit": "whole",
+            "name": "Whole eggs (for cooked cream)",
+            "group": "Chocolate Buttercream"
+        },
+        {
+            "id": "sugar_cream",
+            "amount": "100",
+            "unit": "g",
+            "name": "Powdered sugar (for cooked cream)",
+            "group": "Chocolate Buttercream"
+        },
+        {
+            "id": "cocoa_cream",
+            "amount": "3",
+            "unit": "tbsp",
+            "name": "Dutch-process cocoa powder (for cream)",
+            "group": "Chocolate Buttercream"
+        },
+        {
+            "id": "butter_cream",
+            "amount": "250",
+            "unit": "g",
+            "name": "Unsalted butter, softened (for buttercream)",
+            "group": "Chocolate Buttercream"
+        },
+        {
+            "id": "chocolate_glaze",
+            "amount": "100",
+            "unit": "g",
+            "name": "Dark baking chocolate",
+            "group": "Chocolate Glaze"
+        },
+        {
+            "id": "butter_glaze",
+            "amount": "100",
+            "unit": "g",
+            "name": "Butter (for chocolate glaze)",
+            "group": "Chocolate Glaze"
+        },
+        {
+            "id": "cocoa_glaze",
+            "amount": "1",
+            "unit": "tsp",
+            "name": "Cocoa powder (for glaze sheen)",
+            "group": "Chocolate Glaze"
+        }
+    ],
+    "steps": [
+        "Preheat your oven to 180°C (350°F) and line a 25x35 cm baking sheet with parchment paper.",
+        "To make the sponge base: in a bowl, beat the butter ({butter_base}) and powdered sugar ({sugar_base}) until creamy, then beat in the egg yolks ({eggs_base}).",
+        "Stir in the flour ({flour_base}), ground walnuts ({walnuts_base}), cocoa ({cocoa_base}), and baking powder ({baking_powder}). In a separate bowl, whip the egg whites to stiff peaks and gently fold into the batter.",
+        "Spread the batter evenly onto the baking sheet and bake for 18 to 20 minutes until a toothpick comes out clean. Let cool completely, then spread with a layer of tart jam ({jam}).",
+        "Make the boozy walnut layer: mix the ground walnuts ({walnuts_filling}), powdered sugar ({sugar_filling}), vanilla sugar ({vanilla_sugar}), and dark rum ({rum}) until a thick, spreadable paste forms. Spread evenly over the jam.",
+        "Make the chocolate custard: in a heatproof bowl set over simmering water (water bath), whisk the eggs ({eggs_cream}), powdered sugar ({sugar_cream}), and cocoa ({cocoa_cream}) continuously until thickened into a warm custard. Remove from heat and cool to room temperature.",
+        "Beat the softened butter ({butter_cream}) until light and fluffy, then gradually beat in the cooled chocolate custard to create a luscious buttercream. Spread evenly over the walnut layer.",
+        "Make the glaze: melt the dark chocolate ({chocolate_glaze}), butter ({butter_glaze}), and cocoa ({cocoa_glaze}) together over low heat until glossy and smooth. Pour over the top of the cake and smooth with a spatula.",
+        "Refrigerate for at least 6 hours (ideally overnight). Slice into neat small bars using a knife dipped in hot water."
+    ]
+}

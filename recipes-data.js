@@ -1116,6 +1116,674 @@ window.recipesData = [
                   ]
     },
     {
+        "id":  14,
+        "title":  "Linzer Cookies (Linecké cukroví)",
+        "description":  "Tender, melt-in-your-mouth Czech Christmas sandwich cookies with a hint of lemon, dusted with powdered sugar and filled with tart red currant jam.",
+        "image":  "assets/recipe_linzer_cookies.png",
+        "author":  "Eve",
+        "category":  "Christmas cookies",
+        "time":  "45 min",
+        "portions":  30,
+        "favorite":  false,
+        "ingredients":  [
+                            {
+                                "id":  "flour",
+                                "amount":  "210",
+                                "unit":  "g",
+                                "name":  "Plain all-purpose flour",
+                                "group":  "Dry Ingredients"
+                            },
+                            {
+                                "id":  "butter",
+                                "amount":  "140",
+                                "unit":  "g",
+                                "name":  "Butter, chilled and cubed",
+                                "group":  "Dairy \u0026 Eggs"
+                            },
+                            {
+                                "id":  "powdered_sugar",
+                                "amount":  "70",
+                                "unit":  "g",
+                                "name":  "Powdered sugar, sifted",
+                                "group":  "Dry Ingredients"
+                            },
+                            {
+                                "id":  "egg_yolks",
+                                "amount":  "2",
+                                "unit":  "whole",
+                                "name":  "Egg yolks",
+                                "group":  "Dairy \u0026 Eggs"
+                            },
+                            {
+                                "id":  "vanilla_sugar",
+                                "amount":  "1",
+                                "unit":  "packet",
+                                "name":  "Vanilla sugar (approx. 10 g)",
+                                "group":  "Dry Ingredients"
+                            },
+                            {
+                                "id":  "lemon_juice",
+                                "amount":  "1",
+                                "unit":  "tsp",
+                                "name":  "Fresh lemon juice",
+                                "group":  "Seasoning"
+                            },
+                            {
+                                "id":  "jam",
+                                "amount":  "150",
+                                "unit":  "g",
+                                "name":  "Tart red currant or raspberry jam",
+                                "group":  "Filling \u0026 Topping"
+                            },
+                            {
+                                "id":  "dusting_sugar",
+                                "amount":  "30",
+                                "unit":  "g",
+                                "name":  "Powdered sugar for dusting and rolling",
+                                "group":  "Filling \u0026 Topping"
+                            }
+                        ],
+        "steps":  [
+                      "Sift the flour ({flour}), powdered sugar ({powdered_sugar}), and vanilla sugar ({vanilla_sugar}) onto a clean work surface or into a large mixing bowl.",
+                      "Add the cold cubed butter ({butter}), egg yolks ({egg_yolks}), and lemon juice ({lemon_juice}). Quickly work with your fingertips or a pastry blender into a smooth, cohesive dough.",
+                      "Wrap the dough tightly in plastic wrap and rest in the refrigerator for at least 1 to 2 hours (or overnight).",
+                      "Preheat your oven to 170°C (340°F) and line baking sheets with parchment paper.",
+                      "On a work surface lightly dusted with powdered sugar ({dusting_sugar}), roll out the dough to 2–3 mm thickness. Cut out an equal number of solid bases and decorative cutout tops.",
+                      "Bake for 7 to 9 minutes until pale and set, with bottom edges just turning faint golden. Let cool completely on the baking sheet.",
+                      "Dust the top cutout cookies generously with powdered sugar ({dusting_sugar}). Spread a dollop of tart red currant jam ({jam}) on each solid base and sandwich the cookies together.",
+                      "Store in a closed cookie tin in a cool room for at least 3–5 days before serving to allow the cookies to soften to perfection."
+                  ]
+    },
+    {
+        "id":  15,
+        "title":  "Vanilla Crescents (Vanilkové rohlíčky)",
+        "description":  "The crowning jewel of the Czech Christmas cookie spread. Fragrant walnut crescent cookies baked until tender and gently tossed in vanilla powdered sugar while still warm.",
+        "image":  "assets/recipe_vanilla_crescents.png",
+        "author":  "Eve",
+        "category":  "Christmas cookies",
+        "time":  "45 min",
+        "portions":  40,
+        "favorite":  true,
+        "ingredients":  [
+                            {
+                                "id":  "flour",
+                                "amount":  "300",
+                                "unit":  "g",
+                                "name":  "Plain all-purpose flour",
+                                "group":  "Dry Ingredients"
+                            },
+                            {
+                                "id":  "powdered_sugar",
+                                "amount":  "40",
+                                "unit":  "g",
+                                "name":  "Powdered sugar (for dough)",
+                                "group":  "Dry Ingredients"
+                            },
+                            {
+                                "id":  "walnuts",
+                                "amount":  "100",
+                                "unit":  "g",
+                                "name":  "Finely ground walnuts",
+                                "group":  "Nuts"
+                            },
+                            {
+                                "id":  "butter",
+                                "amount":  "200",
+                                "unit":  "g",
+                                "name":  "Unsalted butter, chilled and cubed",
+                                "group":  "Dairy \u0026 Eggs"
+                            },
+                            {
+                                "id":  "egg_yolks",
+                                "amount":  "2",
+                                "unit":  "whole",
+                                "name":  "Egg yolks",
+                                "group":  "Dairy \u0026 Eggs"
+                            },
+                            {
+                                "id":  "lemon_zest",
+                                "amount":  "1",
+                                "unit":  "tsp",
+                                "name":  "Freshly grated lemon zest",
+                                "group":  "Seasoning"
+                            },
+                            {
+                                "id":  "vanilla_sugar",
+                                "amount":  "2",
+                                "unit":  "packets",
+                                "name":  "Vanilla sugar (approx. 20 g)",
+                                "group":  "Coating"
+                            },
+                            {
+                                "id":  "coating_sugar",
+                                "amount":  "100",
+                                "unit":  "g",
+                                "name":  "Powdered sugar for coating",
+                                "group":  "Coating"
+                            }
+                        ],
+        "steps":  [
+                      "In a large bowl, whisk together the flour ({flour}), ground walnuts ({walnuts}), powdered sugar ({powdered_sugar}), and lemon zest ({lemon_zest}).",
+                      "Add the chilled cubed butter ({butter}) and egg yolks ({egg_yolks}). Swiftly knead with your hands into a smooth, pliable dough.",
+                      "Wrap the dough tightly in plastic wrap and chill in the refrigerator for at least 1 hour (or up to 2 days).",
+                      "Preheat your oven to 170°C (340°F) and line baking sheets with parchment paper.",
+                      "Roll portions of the chilled dough into ropes about 1.5 cm thick. Cut into even small pieces and gently shape each into a tapered crescent.",
+                      "Arrange on baking sheets with slight spacing and bake for 9 to 11 minutes until set and the tips are just barely starting to turn golden.",
+                      "While baking, thoroughly mix the coating powdered sugar ({coating_sugar}) with the vanilla sugar ({vanilla_sugar}) in a wide shallow bowl.",
+                      "Let the baked crescents sit on the baking sheet for 2 minutes to stabilize, then very gently roll each warm crescent in the vanilla sugar mixture.",
+                      "Place on a cooling rack to cool completely, then store in an airtight tin in a cool pantry for 1–2 weeks before the holidays."
+                  ]
+    },
+    {
+        "id":  16,
+        "title":  "Coconut Sandwich Cookies (Střapáče)",
+        "description":  "Festive Czech cocoa-coconut sandwich cookies filled with rich coconut rum buttercream, their edges rolled in shredded coconut and tops drizzled with dark chocolate.",
+        "image":  "assets/recipe_strapace.png",
+        "author":  "Eve",
+        "category":  "Christmas cookies",
+        "time":  "1 hr",
+        "portions":  35,
+        "favorite":  false,
+        "ingredients":  [
+                            {
+                                "id":  "flour",
+                                "amount":  "330",
+                                "unit":  "g",
+                                "name":  "Plain all-purpose flour",
+                                "group":  "Dry Ingredients"
+                            },
+                            {
+                                "id":  "butter_dough",
+                                "amount":  "250",
+                                "unit":  "g",
+                                "name":  "Butter, softened",
+                                "group":  "Dairy \u0026 Eggs"
+                            },
+                            {
+                                "id":  "sugar_dough",
+                                "amount":  "90",
+                                "unit":  "g",
+                                "name":  "Powdered sugar (for dough)",
+                                "group":  "Dry Ingredients"
+                            },
+                            {
+                                "id":  "vanilla_sugar",
+                                "amount":  "1",
+                                "unit":  "packet",
+                                "name":  "Vanilla sugar (approx. 10 g)",
+                                "group":  "Dry Ingredients"
+                            },
+                            {
+                                "id":  "cocoa",
+                                "amount":  "1",
+                                "unit":  "tbsp",
+                                "name":  "Dutch-process cocoa powder",
+                                "group":  "Dry Ingredients"
+                            },
+                            {
+                                "id":  "coconut_dough",
+                                "amount":  "200",
+                                "unit":  "g",
+                                "name":  "Desiccated shredded coconut",
+                                "group":  "Coconut"
+                            },
+                            {
+                                "id":  "egg_yolks",
+                                "amount":  "3",
+                                "unit":  "whole",
+                                "name":  "Egg yolks",
+                                "group":  "Dairy \u0026 Eggs"
+                            },
+                            {
+                                "id":  "lemon_zest",
+                                "amount":  "1",
+                                "unit":  "tsp",
+                                "name":  "Grated lemon zest",
+                                "group":  "Seasoning"
+                            },
+                            {
+                                "id":  "butter_cream",
+                                "amount":  "200",
+                                "unit":  "g",
+                                "name":  "Butter (for buttercream), softened",
+                                "group":  "Buttercream"
+                            },
+                            {
+                                "id":  "sugar_cream",
+                                "amount":  "80",
+                                "unit":  "g",
+                                "name":  "Powdered sugar (for buttercream)",
+                                "group":  "Buttercream"
+                            },
+                            {
+                                "id":  "coconut_cream",
+                                "amount":  "80",
+                                "unit":  "g",
+                                "name":  "Finely ground coconut (for buttercream)",
+                                "group":  "Buttercream"
+                            },
+                            {
+                                "id":  "rum",
+                                "amount":  "1",
+                                "unit":  "tsp",
+                                "name":  "Dark rum",
+                                "group":  "Buttercream"
+                            },
+                            {
+                                "id":  "chocolate",
+                                "amount":  "100",
+                                "unit":  "g",
+                                "name":  "Dark chocolate (for drizzle)",
+                                "group":  "Decoration"
+                            },
+                            {
+                                "id":  "coconut_coating",
+                                "amount":  "50",
+                                "unit":  "g",
+                                "name":  "Shredded coconut for coating edges",
+                                "group":  "Decoration"
+                            }
+                        ],
+        "steps":  [
+                      "In a large bowl, whisk together the flour ({flour}), cocoa powder ({cocoa}), powdered sugar ({sugar_dough}), vanilla sugar ({vanilla_sugar}), shredded coconut ({coconut_dough}), and lemon zest ({lemon_zest}).",
+                      "Add the softened butter ({butter_dough}) and egg yolks ({egg_yolks}). Work into a cohesive, soft cookie dough.",
+                      "Wrap the dough tightly in cling film and chill in the refrigerator for at least 1 hour.",
+                      "Preheat your oven to 170°C (340°F) and line baking sheets with parchment paper.",
+                      "Roll out the dough to about 3 mm thickness and cut out small rounds. Bake for 8 to 10 minutes until set and fragrant. Allow cookies to cool completely.",
+                      "To make the buttercream: in a bowl, beat the softened butter ({butter_cream}) and powdered sugar ({sugar_cream}) until light and fluffy. Beat in the finely ground coconut ({coconut_cream}) and dark rum ({rum}).",
+                      "Sandwich pairs of cooled cookies together with a generous layer of coconut buttercream.",
+                      "Roll the creamy edges in shredded coconut ({coconut_coating}) so that it clings all around the sides (giving them their shaggy \u0027střapáče\u0027 look!).",
+                      "Melt the dark chocolate ({chocolate}) gently over a water bath and drizzle over the tops of the assembled cookies. Rest in a cool place to set."
+                  ]
+    },
+    {
+        "id":  17,
+        "title":  "Beehive Cookies (Vosí hnízda / Včelí úly)",
+        "description":  "Iconic no-bake Czech Christmas cookies shaped like little beehives, made with a cocoa-nut biscuit shell, filled with fragrant rum buttercream, and sealed on a round sponge biscuit base.",
+        "image":  "assets/recipe_vosi_hnizda.png",
+        "author":  "Eve",
+        "category":  "Christmas cookies",
+        "time":  "40 min",
+        "portions":  25,
+        "favorite":  true,
+        "ingredients":  [
+                            {
+                                "id":  "piskoty_dough",
+                                "amount":  "150",
+                                "unit":  "g",
+                                "name":  "Czech sponge biscuits (piškoty) or ladyfingers, finely crushed",
+                                "group":  "No-Bake Dough"
+                            },
+                            {
+                                "id":  "nuts",
+                                "amount":  "50",
+                                "unit":  "g",
+                                "name":  "Finely ground hazelnuts or walnuts",
+                                "group":  "No-Bake Dough"
+                            },
+                            {
+                                "id":  "sugar_dough",
+                                "amount":  "100",
+                                "unit":  "g",
+                                "name":  "Powdered sugar (for dough)",
+                                "group":  "No-Bake Dough"
+                            },
+                            {
+                                "id":  "butter_dough",
+                                "amount":  "60",
+                                "unit":  "g",
+                                "name":  "Butter, softened",
+                                "group":  "No-Bake Dough"
+                            },
+                            {
+                                "id":  "cocoa",
+                                "amount":  "2",
+                                "unit":  "tbsp",
+                                "name":  "Dutch-process cocoa powder",
+                                "group":  "No-Bake Dough"
+                            },
+                            {
+                                "id":  "egg_white",
+                                "amount":  "1",
+                                "unit":  "whole",
+                                "name":  "Egg white",
+                                "group":  "No-Bake Dough"
+                            },
+                            {
+                                "id":  "milk",
+                                "amount":  "1",
+                                "unit":  "tbsp",
+                                "name":  "Milk",
+                                "group":  "No-Bake Dough"
+                            },
+                            {
+                                "id":  "butter_filling",
+                                "amount":  "60",
+                                "unit":  "g",
+                                "name":  "Butter (for filling), softened",
+                                "group":  "Buttercream"
+                            },
+                            {
+                                "id":  "sugar_filling",
+                                "amount":  "50",
+                                "unit":  "g",
+                                "name":  "Powdered sugar (for filling)",
+                                "group":  "Buttercream"
+                            },
+                            {
+                                "id":  "egg_yolk",
+                                "amount":  "1",
+                                "unit":  "whole",
+                                "name":  "Egg yolk (or 1 tbsp egg liqueur)",
+                                "group":  "Buttercream"
+                            },
+                            {
+                                "id":  "rum",
+                                "amount":  "1",
+                                "unit":  "tbsp",
+                                "name":  "Czech dark rum (Tuzemák)",
+                                "group":  "Buttercream"
+                            },
+                            {
+                                "id":  "piskoty_base",
+                                "amount":  "25",
+                                "unit":  "whole",
+                                "name":  "Round sponge biscuits (piškoty) for base",
+                                "group":  "Base"
+                            }
+                        ],
+        "steps":  [
+                      "In a food processor or with a rolling pin, finely crush the sponge biscuits ({piskoty_dough}) and finely grind the nuts ({nuts}).",
+                      "In a mixing bowl, combine the crushed biscuits, ground nuts, powdered sugar ({sugar_dough}), cocoa powder ({cocoa}), softened butter ({butter_dough}), egg white ({egg_white}), and milk ({milk}). Knead into a smooth, dark, pliable dough. Chill for 20 minutes if sticky.",
+                      "Prepare the filling: beat the softened butter ({butter_filling}), powdered sugar ({sugar_filling}), egg yolk ({egg_yolk}), and dark rum ({rum}) until creamy and smooth. Spoon into a small piping bag.",
+                      "Lightly dust the inside of a beehive/conical mold with powdered sugar so the dough releases easily.",
+                      "Pinch off a small ball of dough, press it firmly into the mold, and use your thumb or the mold plunger to hollow out the center.",
+                      "Pipe the rum buttercream into the hollow center cavity until almost level with the rim.",
+                      "Cover the open bottom with a whole round sponge biscuit ({piskoty_base}), pressing gently so it sticks firmly.",
+                      "Carefully tap or unclip the mold to release the finished beehive. Stand upright on a serving plate.",
+                      "Store in an airtight container in the refrigerator for at least 24 hours before serving to let the biscuit base soften slightly."
+                  ]
+    },
+    {
+        "id":  18,
+        "title":  "Drunken Isidor (Opilý izidor)",
+        "description":  "A legendary, decadent Czech Christmas layered confection: delicate walnut sponge, tart fruit jam, boozy rum-walnut paste, velvety chocolate buttercream, and a glossy chocolate glaze.",
+        "image":  "assets/recipe_opily_izidor.png",
+        "author":  "Eve",
+        "category":  "Christmas cookies",
+        "time":  "1 hr 15 min",
+        "portions":  24,
+        "favorite":  true,
+        "ingredients":  [
+                            {
+                                "id":  "butter_base",
+                                "amount":  "150",
+                                "unit":  "g",
+                                "name":  "Butter (for sponge base)",
+                                "group":  "Walnut Sponge Base"
+                            },
+                            {
+                                "id":  "sugar_base",
+                                "amount":  "150",
+                                "unit":  "g",
+                                "name":  "Powdered sugar (for sponge base)",
+                                "group":  "Walnut Sponge Base"
+                            },
+                            {
+                                "id":  "eggs_base",
+                                "amount":  "4",
+                                "unit":  "whole",
+                                "name":  "Eggs, separated",
+                                "group":  "Walnut Sponge Base"
+                            },
+                            {
+                                "id":  "flour_base",
+                                "amount":  "70",
+                                "unit":  "g",
+                                "name":  "Semi-coarse or all-purpose flour",
+                                "group":  "Walnut Sponge Base"
+                            },
+                            {
+                                "id":  "walnuts_base",
+                                "amount":  "120",
+                                "unit":  "g",
+                                "name":  "Finely ground walnuts (for sponge base)",
+                                "group":  "Walnut Sponge Base"
+                            },
+                            {
+                                "id":  "cocoa_base",
+                                "amount":  "1",
+                                "unit":  "tbsp",
+                                "name":  "Dutch-process cocoa powder (for base)",
+                                "group":  "Walnut Sponge Base"
+                            },
+                            {
+                                "id":  "baking_powder",
+                                "amount":  "1",
+                                "unit":  "packet",
+                                "name":  "Baking powder (approx. 12 g)",
+                                "group":  "Walnut Sponge Base"
+                            },
+                            {
+                                "id":  "jam",
+                                "amount":  "120",
+                                "unit":  "g",
+                                "name":  "Tart red currant or apricot jam",
+                                "group":  "Walnut Sponge Base"
+                            },
+                            {
+                                "id":  "walnuts_filling",
+                                "amount":  "200",
+                                "unit":  "g",
+                                "name":  "Finely ground walnuts (for rum layer)",
+                                "group":  "Rum-Walnut Layer"
+                            },
+                            {
+                                "id":  "sugar_filling",
+                                "amount":  "100",
+                                "unit":  "g",
+                                "name":  "Powdered sugar (for rum layer)",
+                                "group":  "Rum-Walnut Layer"
+                            },
+                            {
+                                "id":  "vanilla_sugar",
+                                "amount":  "1",
+                                "unit":  "packet",
+                                "name":  "Vanilla sugar (approx. 10 g)",
+                                "group":  "Rum-Walnut Layer"
+                            },
+                            {
+                                "id":  "rum",
+                                "amount":  "200",
+                                "unit":  "ml",
+                                "name":  "Dark rum (or egg liqueur)",
+                                "group":  "Rum-Walnut Layer"
+                            },
+                            {
+                                "id":  "eggs_cream",
+                                "amount":  "6",
+                                "unit":  "whole",
+                                "name":  "Whole eggs (for cooked cream)",
+                                "group":  "Chocolate Buttercream"
+                            },
+                            {
+                                "id":  "sugar_cream",
+                                "amount":  "100",
+                                "unit":  "g",
+                                "name":  "Powdered sugar (for cooked cream)",
+                                "group":  "Chocolate Buttercream"
+                            },
+                            {
+                                "id":  "cocoa_cream",
+                                "amount":  "3",
+                                "unit":  "tbsp",
+                                "name":  "Dutch-process cocoa powder (for cream)",
+                                "group":  "Chocolate Buttercream"
+                            },
+                            {
+                                "id":  "butter_cream",
+                                "amount":  "250",
+                                "unit":  "g",
+                                "name":  "Unsalted butter, softened (for buttercream)",
+                                "group":  "Chocolate Buttercream"
+                            },
+                            {
+                                "id":  "chocolate_glaze",
+                                "amount":  "100",
+                                "unit":  "g",
+                                "name":  "Dark baking chocolate",
+                                "group":  "Chocolate Glaze"
+                            },
+                            {
+                                "id":  "butter_glaze",
+                                "amount":  "100",
+                                "unit":  "g",
+                                "name":  "Butter (for chocolate glaze)",
+                                "group":  "Chocolate Glaze"
+                            },
+                            {
+                                "id":  "cocoa_glaze",
+                                "amount":  "1",
+                                "unit":  "tsp",
+                                "name":  "Cocoa powder (for glaze sheen)",
+                                "group":  "Chocolate Glaze"
+                            }
+                        ],
+        "steps":  [
+                      "Preheat your oven to 180°C (350°F) and line a 25x35 cm baking sheet with parchment paper.",
+                      "To make the sponge base: in a bowl, beat the butter ({butter_base}) and powdered sugar ({sugar_base}) until creamy, then beat in the egg yolks ({eggs_base}).",
+                      "Stir in the flour ({flour_base}), ground walnuts ({walnuts_base}), cocoa ({cocoa_base}), and baking powder ({baking_powder}). In a separate bowl, whip the egg whites to stiff peaks and gently fold into the batter.",
+                      "Spread the batter evenly onto the baking sheet and bake for 18 to 20 minutes until a toothpick comes out clean. Let cool completely, then spread with a layer of tart jam ({jam}).",
+                      "Make the boozy walnut layer: mix the ground walnuts ({walnuts_filling}), powdered sugar ({sugar_filling}), vanilla sugar ({vanilla_sugar}), and dark rum ({rum}) until a thick, spreadable paste forms. Spread evenly over the jam.",
+                      "Make the chocolate custard: in a heatproof bowl set over simmering water (water bath), whisk the eggs ({eggs_cream}), powdered sugar ({sugar_cream}), and cocoa ({cocoa_cream}) continuously until thickened into a warm custard. Remove from heat and cool to room temperature.",
+                      "Beat the softened butter ({butter_cream}) until light and fluffy, then gradually beat in the cooled chocolate custard to create a luscious buttercream. Spread evenly over the walnut layer.",
+                      "Make the glaze: melt the dark chocolate ({chocolate_glaze}), butter ({butter_glaze}), and cocoa ({cocoa_glaze}) together over low heat until glossy and smooth. Pour over the top of the cake and smooth with a spatula.",
+                      "Refrigerate for at least 6 hours (ideally overnight). Slice into neat small bars using a knife dipped in hot water."
+                  ]
+    },
+    {
+        "id":  19,
+        "title":  "Honey Cake Slices (Medové řezy)",
+        "description":  "A beloved Czech holiday classic consisting of thin golden honey pastry sheets layered with a velvety milk-roux rum buttercream that softens overnight into a melt-in-your-mouth delight.",
+        "image":  "assets/recipe_medove_rezy.png",
+        "author":  "Eve",
+        "category":  "Christmas cookies",
+        "time":  "1 hr 30 min",
+        "portions":  20,
+        "favorite":  false,
+        "ingredients":  [
+                            {
+                                "id":  "flour_dough",
+                                "amount":  "500",
+                                "unit":  "g",
+                                "name":  "Plain all-purpose flour",
+                                "group":  "Honey Pastry Sheets"
+                            },
+                            {
+                                "id":  "honey",
+                                "amount":  "2",
+                                "unit":  "tbsp",
+                                "name":  "Natural honey",
+                                "group":  "Honey Pastry Sheets"
+                            },
+                            {
+                                "id":  "baking_soda",
+                                "amount":  "1",
+                                "unit":  "tsp",
+                                "name":  "Baking soda",
+                                "group":  "Honey Pastry Sheets"
+                            },
+                            {
+                                "id":  "eggs_dough",
+                                "amount":  "2",
+                                "unit":  "whole",
+                                "name":  "Whole eggs",
+                                "group":  "Honey Pastry Sheets"
+                            },
+                            {
+                                "id":  "sugar_dough",
+                                "amount":  "200",
+                                "unit":  "g",
+                                "name":  "Granulated sugar",
+                                "group":  "Honey Pastry Sheets"
+                            },
+                            {
+                                "id":  "butter_dough",
+                                "amount":  "150",
+                                "unit":  "g",
+                                "name":  "Butter (or Hera baking fat)",
+                                "group":  "Honey Pastry Sheets"
+                            },
+                            {
+                                "id":  "vanilla_dough",
+                                "amount":  "1",
+                                "unit":  "packet",
+                                "name":  "Vanilla sugar (approx. 10 g)",
+                                "group":  "Honey Pastry Sheets"
+                            },
+                            {
+                                "id":  "milk",
+                                "amount":  "500",
+                                "unit":  "ml",
+                                "name":  "Whole milk",
+                                "group":  "Milk Pudding Base"
+                            },
+                            {
+                                "id":  "flour_pudding",
+                                "amount":  "70",
+                                "unit":  "g",
+                                "name":  "Plain all-purpose flour (for pudding)",
+                                "group":  "Milk Pudding Base"
+                            },
+                            {
+                                "id":  "sugar_pudding",
+                                "amount":  "20",
+                                "unit":  "g",
+                                "name":  "Granulated sugar (or 4 sugar cubes)",
+                                "group":  "Milk Pudding Base"
+                            },
+                            {
+                                "id":  "butter_cream",
+                                "amount":  "250",
+                                "unit":  "g",
+                                "name":  "Unsalted butter, softened to room temperature",
+                                "group":  "Rum Buttercream"
+                            },
+                            {
+                                "id":  "sugar_cream",
+                                "amount":  "200",
+                                "unit":  "g",
+                                "name":  "Powdered sugar, sifted",
+                                "group":  "Rum Buttercream"
+                            },
+                            {
+                                "id":  "vanilla_cream",
+                                "amount":  "1",
+                                "unit":  "packet",
+                                "name":  "Vanilla sugar (approx. 10 g)",
+                                "group":  "Rum Buttercream"
+                            },
+                            {
+                                "id":  "rum",
+                                "amount":  "100",
+                                "unit":  "ml",
+                                "name":  "Dark rum (Tuzemák)",
+                                "group":  "Rum Buttercream"
+                            }
+                        ],
+        "steps":  [
+                      "In a saucepan over low heat, gently warm the butter ({butter_dough}), honey ({honey}), granulated sugar ({sugar_dough}), and vanilla sugar ({vanilla_dough}) until melted and combined. Remove from heat and cool until lukewarm.",
+                      "Add the whole eggs ({eggs_dough}), baking soda ({baking_soda}), and flour ({flour_dough}). Knead into a soft, smooth dough while still warm.",
+                      "Divide the dough into 3 or 4 equal portions. While the dough is still warm and pliable, roll each portion out very thinly directly onto sheets of parchment paper.",
+                      "Preheat your oven to 180°C (350°F). Bake each honey sheet for 6 to 8 minutes until golden amber. Cool completely (they will crisp up as they cool).",
+                      "Prepare the cooked pudding base: in a saucepan, whisk the cold milk ({milk}), flour ({flour_pudding}), and sugar ({sugar_pudding}) until completely smooth. Cook over medium heat, whisking constantly, until it thickens into a thick, smooth pudding (béchamel). Cover the surface with plastic wrap and let cool completely to room temperature.",
+                      "Prepare the buttercream: in a large bowl, beat the softened butter ({butter_cream}) with powdered sugar ({sugar_cream}) and vanilla sugar ({vanilla_cream}) until pale and fluffy. Gradually beat in the rum ({rum}).",
+                      "Add the cooled pudding base into the butter mixture one spoonful at a time, beating continuously until a velvety, smooth buttercream forms.",
+                      "Assemble the slices: spread the buttercream evenly between the baked honey pastry sheets, stacking them carefully. Place a clean sheet of parchment and a light board or tray on top to press gently.",
+                      "Refrigerate for at least 12 to 24 hours. The dry honey pastry will absorb moisture from the cream and turn extraordinarily tender. Dust with powdered sugar or ground nuts/honey pastry crumbs before cutting into neat rectangular slices."
+                  ]
+    },
+    {
         "id":  101,
         "title":  "Truffle Mushroom Pasta",
         "description":  "A rich and creamy pasta dish infused with the earthy aroma of black truffles, finished with a sprinkle of aged parmesan.",

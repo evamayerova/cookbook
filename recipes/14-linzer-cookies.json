@@ -1,0 +1,79 @@
+{
+    "id": 14,
+    "title": "Linzer Cookies (Linecké cukroví)",
+    "description": "Tender, melt-in-your-mouth Czech Christmas sandwich cookies with a hint of lemon, dusted with powdered sugar and filled with tart red currant jam.",
+    "image": "assets/recipe_linzer_cookies.png",
+    "author": "Eve",
+    "category": "Christmas cookies",
+    "time": "45 min",
+    "portions": 30,
+    "favorite": false,
+    "ingredients": [
+        {
+            "id": "flour",
+            "amount": "210",
+            "unit": "g",
+            "name": "Plain all-purpose flour",
+            "group": "Dry Ingredients"
+        },
+        {
+            "id": "butter",
+            "amount": "140",
+            "unit": "g",
+            "name": "Butter, chilled and cubed",
+            "group": "Dairy & Eggs"
+        },
+        {
+            "id": "powdered_sugar",
+            "amount": "70",
+            "unit": "g",
+            "name": "Powdered sugar, sifted",
+            "group": "Dry Ingredients"
+        },
+        {
+            "id": "egg_yolks",
+            "amount": "2",
+            "unit": "whole",
+            "name": "Egg yolks",
+            "group": "Dairy & Eggs"
+        },
+        {
+            "id": "vanilla_sugar",
+            "amount": "1",
+            "unit": "packet",
+            "name": "Vanilla sugar (approx. 10 g)",
+            "group": "Dry Ingredients"
+        },
+        {
+            "id": "lemon_juice",
+            "amount": "1",
+            "unit": "tsp",
+            "name": "Fresh lemon juice",
+            "group": "Seasoning"
+        },
+        {
+            "id": "jam",
+            "amount": "150",
+            "unit": "g",
+            "name": "Tart red currant or raspberry jam",
+            "group": "Filling & Topping"
+        },
+        {
+            "id": "dusting_sugar",
+            "amount": "30",
+            "unit": "g",
+            "name": "Powdered sugar for dusting and rolling",
+            "group": "Filling & Topping"
+        }
+    ],
+    "steps": [
+        "Sift the flour ({flour}), powdered sugar ({powdered_sugar}), and vanilla sugar ({vanilla_sugar}) onto a clean work surface or into a large mixing bowl.",
+        "Add the cold cubed butter ({butter}), egg yolks ({egg_yolks}), and lemon juice ({lemon_juice}). Quickly work with your fingertips or a pastry blender into a smooth, cohesive dough.",
+        "Wrap the dough tightly in plastic wrap and rest in the refrigerator for at least 1 to 2 hours (or overnight).",
+        "Preheat your oven to 170°C (340°F) and line baking sheets with parchment paper.",
+        "On a work surface lightly dusted with powdered sugar ({dusting_sugar}), roll out the dough to 2–3 mm thickness. Cut out an equal number of solid bases and decorative cutout tops.",
+        "Bake for 7 to 9 minutes until pale and set, with bottom edges just turning faint golden. Let cool completely on the baking sheet.",
+        "Dust the top cutout cookies generously with powdered sugar ({dusting_sugar}). Spread a dollop of tart red currant jam ({jam}) on each solid base and sandwich the cookies together.",
+        "Store in a closed cookie tin in a cool room for at least 3–5 days before serving to allow the cookies to soften to perfection."
+    ]
+}

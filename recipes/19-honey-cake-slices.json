@@ -1,0 +1,122 @@
+{
+    "id": 19,
+    "title": "Honey Cake Slices (Medové řezy)",
+    "description": "A beloved Czech holiday classic consisting of thin golden honey pastry sheets layered with a velvety milk-roux rum buttercream that softens overnight into a melt-in-your-mouth delight.",
+    "image": "assets/recipe_medove_rezy.png",
+    "author": "Eve",
+    "category": "Christmas cookies",
+    "time": "1 hr 30 min",
+    "portions": 20,
+    "favorite": false,
+    "ingredients": [
+        {
+            "id": "flour_dough",
+            "amount": "500",
+            "unit": "g",
+            "name": "Plain all-purpose flour",
+            "group": "Honey Pastry Sheets"
+        },
+        {
+            "id": "honey",
+            "amount": "2",
+            "unit": "tbsp",
+            "name": "Natural honey",
+            "group": "Honey Pastry Sheets"
+        },
+        {
+            "id": "baking_soda",
+            "amount": "1",
+            "unit": "tsp",
+            "name": "Baking soda",
+            "group": "Honey Pastry Sheets"
+        },
+        {
+            "id": "eggs_dough",
+            "amount": "2",
+            "unit": "whole",
+            "name": "Whole eggs",
+            "group": "Honey Pastry Sheets"
+        },
+        {
+            "id": "sugar_dough",
+            "amount": "200",
+            "unit": "g",
+            "name": "Granulated sugar",
+            "group": "Honey Pastry Sheets"
+        },
+        {
+            "id": "butter_dough",
+            "amount": "150",
+            "unit": "g",
+            "name": "Butter (or Hera baking fat)",
+            "group": "Honey Pastry Sheets"
+        },
+        {
+            "id": "vanilla_dough",
+            "amount": "1",
+            "unit": "packet",
+            "name": "Vanilla sugar (approx. 10 g)",
+            "group": "Honey Pastry Sheets"
+        },
+        {
+            "id": "milk",
+            "amount": "500",
+            "unit": "ml",
+            "name": "Whole milk",
+            "group": "Milk Pudding Base"
+        },
+        {
+            "id": "flour_pudding",
+            "amount": "70",
+            "unit": "g",
+            "name": "Plain all-purpose flour (for pudding)",
+            "group": "Milk Pudding Base"
+        },
+        {
+            "id": "sugar_pudding",
+            "amount": "20",
+            "unit": "g",
+            "name": "Granulated sugar (or 4 sugar cubes)",
+            "group": "Milk Pudding Base"
+        },
+        {
+            "id": "butter_cream",
+            "amount": "250",
+            "unit": "g",
+            "name": "Unsalted butter, softened to room temperature",
+            "group": "Rum Buttercream"
+        },
+        {
+            "id": "sugar_cream",
+            "amount": "200",
+            "unit": "g",
+            "name": "Powdered sugar, sifted",
+            "group": "Rum Buttercream"
+        },
+        {
+            "id": "vanilla_cream",
+            "amount": "1",
+            "unit": "packet",
+            "name": "Vanilla sugar (approx. 10 g)",
+            "group": "Rum Buttercream"
+        },
+        {
+            "id": "rum",
+            "amount": "100",
+            "unit": "ml",
+            "name": "Dark rum (Tuzemák)",
+            "group": "Rum Buttercream"
+        }
+    ],
+    "steps": [
+        "In a saucepan over low heat, gently warm the butter ({butter_dough}), honey ({honey}), granulated sugar ({sugar_dough}), and vanilla sugar ({vanilla_dough}) until melted and combined. Remove from heat and cool until lukewarm.",
+        "Add the whole eggs ({eggs_dough}), baking soda ({baking_soda}), and flour ({flour_dough}). Knead into a soft, smooth dough while still warm.",
+        "Divide the dough into 3 or 4 equal portions. While the dough is still warm and pliable, roll each portion out very thinly directly onto sheets of parchment paper.",
+        "Preheat your oven to 180°C (350°F). Bake each honey sheet for 6 to 8 minutes until golden amber. Cool completely (they will crisp up as they cool).",
+        "Prepare the cooked pudding base: in a saucepan, whisk the cold milk ({milk}), flour ({flour_pudding}), and sugar ({sugar_pudding}) until completely smooth. Cook over medium heat, whisking constantly, until it thickens into a thick, smooth pudding (béchamel). Cover the surface with plastic wrap and let cool completely to room temperature.",
+        "Prepare the buttercream: in a large bowl, beat the softened butter ({butter_cream}) with powdered sugar ({sugar_cream}) and vanilla sugar ({vanilla_cream}) until pale and fluffy. Gradually beat in the rum ({rum}).",
+        "Add the cooled pudding base into the butter mixture one spoonful at a time, beating continuously until a velvety, smooth buttercream forms.",
+        "Assemble the slices: spread the buttercream evenly between the baked honey pastry sheets, stacking them carefully. Place a clean sheet of parchment and a light board or tray on top to press gently.",
+        "Refrigerate for at least 12 to 24 hours. The dry honey pastry will absorb moisture from the cream and turn extraordinarily tender. Dust with powdered sugar or ground nuts/honey pastry crumbs before cutting into neat rectangular slices."
+    ]
+}

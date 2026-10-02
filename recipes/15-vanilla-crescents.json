@@ -1,0 +1,80 @@
+{
+    "id": 15,
+    "title": "Vanilla Crescents (Vanilkové rohlíčky)",
+    "description": "The crowning jewel of the Czech Christmas cookie spread. Fragrant walnut crescent cookies baked until tender and gently tossed in vanilla powdered sugar while still warm.",
+    "image": "assets/recipe_vanilla_crescents.png",
+    "author": "Eve",
+    "category": "Christmas cookies",
+    "time": "45 min",
+    "portions": 40,
+    "favorite": true,
+    "ingredients": [
+        {
+            "id": "flour",
+            "amount": "300",
+            "unit": "g",
+            "name": "Plain all-purpose flour",
+            "group": "Dry Ingredients"
+        },
+        {
+            "id": "powdered_sugar",
+            "amount": "40",
+            "unit": "g",
+            "name": "Powdered sugar (for dough)",
+            "group": "Dry Ingredients"
+        },
+        {
+            "id": "walnuts",
+            "amount": "100",
+            "unit": "g",
+            "name": "Finely ground walnuts",
+            "group": "Nuts"
+        },
+        {
+            "id": "butter",
+            "amount": "200",
+            "unit": "g",
+            "name": "Unsalted butter, chilled and cubed",
+            "group": "Dairy & Eggs"
+        },
+        {
+            "id": "egg_yolks",
+            "amount": "2",
+            "unit": "whole",
+            "name": "Egg yolks",
+            "group": "Dairy & Eggs"
+        },
+        {
+            "id": "lemon_zest",
+            "amount": "1",
+            "unit": "tsp",
+            "name": "Freshly grated lemon zest",
+            "group": "Seasoning"
+        },
+        {
+            "id": "vanilla_sugar",
+            "amount": "2",
+            "unit": "packets",
+            "name": "Vanilla sugar (approx. 20 g)",
+            "group": "Coating"
+        },
+        {
+            "id": "coating_sugar",
+            "amount": "100",
+            "unit": "g",
+            "name": "Powdered sugar for coating",
+            "group": "Coating"
+        }
+    ],
+    "steps": [
+        "In a large bowl, whisk together the flour ({flour}), ground walnuts ({walnuts}), powdered sugar ({powdered_sugar}), and lemon zest ({lemon_zest}).",
+        "Add the chilled cubed butter ({butter}) and egg yolks ({egg_yolks}). Swiftly knead with your hands into a smooth, pliable dough.",
+        "Wrap the dough tightly in plastic wrap and chill in the refrigerator for at least 1 hour (or up to 2 days).",
+        "Preheat your oven to 170°C (340°F) and line baking sheets with parchment paper.",
+        "Roll portions of the chilled dough into ropes about 1.5 cm thick. Cut into even small pieces and gently shape each into a tapered crescent.",
+        "Arrange on baking sheets with slight spacing and bake for 9 to 11 minutes until set and the tips are just barely starting to turn golden.",
+        "While baking, thoroughly mix the coating powdered sugar ({coating_sugar}) with the vanilla sugar ({vanilla_sugar}) in a wide shallow bowl.",
+        "Let the baked crescents sit on the baking sheet for 2 minutes to stabilize, then very gently roll each warm crescent in the vanilla sugar mixture.",
+        "Place on a cooling rack to cool completely, then store in an airtight tin in a cool pantry for 1–2 weeks before the holidays."
+    ]
+}

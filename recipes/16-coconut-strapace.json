@@ -1,0 +1,122 @@
+{
+    "id": 16,
+    "title": "Coconut Sandwich Cookies (Střapáče)",
+    "description": "Festive Czech cocoa-coconut sandwich cookies filled with rich coconut rum buttercream, their edges rolled in shredded coconut and tops drizzled with dark chocolate.",
+    "image": "assets/recipe_strapace.png",
+    "author": "Eve",
+    "category": "Christmas cookies",
+    "time": "1 hr",
+    "portions": 35,
+    "favorite": false,
+    "ingredients": [
+        {
+            "id": "flour",
+            "amount": "330",
+            "unit": "g",
+            "name": "Plain all-purpose flour",
+            "group": "Dry Ingredients"
+        },
+        {
+            "id": "butter_dough",
+            "amount": "250",
+            "unit": "g",
+            "name": "Butter, softened",
+            "group": "Dairy & Eggs"
+        },
+        {
+            "id": "sugar_dough",
+            "amount": "90",
+            "unit": "g",
+            "name": "Powdered sugar (for dough)",
+            "group": "Dry Ingredients"
+        },
+        {
+            "id": "vanilla_sugar",
+            "amount": "1",
+            "unit": "packet",
+            "name": "Vanilla sugar (approx. 10 g)",
+            "group": "Dry Ingredients"
+        },
+        {
+            "id": "cocoa",
+            "amount": "1",
+            "unit": "tbsp",
+            "name": "Dutch-process cocoa powder",
+            "group": "Dry Ingredients"
+        },
+        {
+            "id": "coconut_dough",
+            "amount": "200",
+            "unit": "g",
+            "name": "Desiccated shredded coconut",
+            "group": "Coconut"
+        },
+        {
+            "id": "egg_yolks",
+            "amount": "3",
+            "unit": "whole",
+            "name": "Egg yolks",
+            "group": "Dairy & Eggs"
+        },
+        {
+            "id": "lemon_zest",
+            "amount": "1",
+            "unit": "tsp",
+            "name": "Grated lemon zest",
+            "group": "Seasoning"
+        },
+        {
+            "id": "butter_cream",
+            "amount": "200",
+            "unit": "g",
+            "name": "Butter (for buttercream), softened",
+            "group": "Buttercream"
+        },
+        {
+            "id": "sugar_cream",
+            "amount": "80",
+            "unit": "g",
+            "name": "Powdered sugar (for buttercream)",
+            "group": "Buttercream"
+        },
+        {
+            "id": "coconut_cream",
+            "amount": "80",
+            "unit": "g",
+            "name": "Finely ground coconut (for buttercream)",
+            "group": "Buttercream"
+        },
+        {
+            "id": "rum",
+            "amount": "1",
+            "unit": "tsp",
+            "name": "Dark rum",
+            "group": "Buttercream"
+        },
+        {
+            "id": "chocolate",
+            "amount": "100",
+            "unit": "g",
+            "name": "Dark chocolate (for drizzle)",
+            "group": "Decoration"
+        },
+        {
+            "id": "coconut_coating",
+            "amount": "50",
+            "unit": "g",
+            "name": "Shredded coconut for coating edges",
+            "group": "Decoration"
+        }
+    ],
+    "steps": [
+        "In a large bowl, whisk together the flour ({flour}), cocoa powder ({cocoa}), powdered sugar ({sugar_dough}), vanilla sugar ({vanilla_sugar}), shredded coconut ({coconut_dough}), and lemon zest ({lemon_zest}).",
+        "Add the softened butter ({butter_dough}) and egg yolks ({egg_yolks}). Work into a cohesive, soft cookie dough.",
+        "Wrap the dough tightly in cling film and chill in the refrigerator for at least 1 hour.",
+        "Preheat your oven to 170°C (340°F) and line baking sheets with parchment paper.",
+        "Roll out the dough to about 3 mm thickness and cut out small rounds. Bake for 8 to 10 minutes until set and fragrant. Allow cookies to cool completely.",
+        "To make the buttercream: in a bowl, beat the softened butter ({butter_cream}) and powdered sugar ({sugar_cream}) until light and fluffy. Beat in the finely ground coconut ({coconut_cream}) and dark rum ({rum}).",
+        "Sandwich pairs of cooled cookies together with a generous layer of coconut buttercream.",
+        "Roll the creamy edges in shredded coconut ({coconut_coating}) so that it clings all around the sides (giving them their shaggy 'střapáče' look!).",
+        "Melt the dark chocolate ({chocolate}) gently over a water bath and drizzle over the tops of the assembled cookies. Rest in a cool place to set."
+    ]
+}
