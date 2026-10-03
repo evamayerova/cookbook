@@ -2758,6 +2758,103 @@ window.recipesData = [
                   ]
     },
     {
+        "id":  32,
+        "title":  "Chocolate Crinkles (Čokoládové crinkles)",
+        "description":  "Rich, fudgy chocolate crinkle cookies bursting with dark chocolate and rum-soaked cranberries, rolled in powdered sugar for a snowy cracked exterior.",
+        "image":  "assets/recipe_chocolate_crinkles.png",
+        "author":  "Apetit Online",
+        "tags":  [
+                     "Christmas cookies",
+                     "Dessert"
+                 ],
+        "time":  "45 min",
+        "portions":  30,
+        "favorite":  true,
+        "ingredients":  [
+                            {
+                                "id":  "cranberries",
+                                "amount":  "60",
+                                "unit":  "g",
+                                "name":  "Dried cranberries",
+                                "group":  "Fruit"
+                            },
+                            {
+                                "id":  "rum",
+                                "amount":  "40",
+                                "unit":  "ml",
+                                "name":  "Dark rum (tuzemák)",
+                                "group":  "Other"
+                            },
+                            {
+                                "id":  "butter",
+                                "amount":  "50",
+                                "unit":  "g",
+                                "name":  "Unsalted butter",
+                                "group":  "Dairy \u0026 Eggs"
+                            },
+                            {
+                                "id":  "dark_chocolate",
+                                "amount":  "200",
+                                "unit":  "g",
+                                "name":  "Dark chocolate, finely chopped",
+                                "group":  "Chocolate"
+                            },
+                            {
+                                "id":  "eggs",
+                                "amount":  "2",
+                                "unit":  "whole",
+                                "name":  "Eggs",
+                                "group":  "Dairy \u0026 Eggs"
+                            },
+                            {
+                                "id":  "granulated_sugar",
+                                "amount":  "110",
+                                "unit":  "g",
+                                "name":  "Granulated sugar",
+                                "group":  "Dry Ingredients"
+                            },
+                            {
+                                "id":  "flour",
+                                "amount":  "100",
+                                "unit":  "g",
+                                "name":  "Plain all-purpose flour",
+                                "group":  "Dry Ingredients"
+                            },
+                            {
+                                "id":  "baking_soda",
+                                "amount":  "0.5",
+                                "unit":  "tsp",
+                                "name":  "Baking soda",
+                                "group":  "Dry Ingredients"
+                            },
+                            {
+                                "id":  "salt",
+                                "amount":  "1",
+                                "unit":  "pinch",
+                                "name":  "Fine salt",
+                                "group":  "Seasoning"
+                            },
+                            {
+                                "id":  "coating_sugar",
+                                "amount":  "100",
+                                "unit":  "g",
+                                "name":  "Powdered sugar (for rolling)",
+                                "group":  "Coating"
+                            }
+                        ],
+        "steps":  [
+                      "In a small bowl, soak the dried cranberries ({cranberries}) in the dark rum ({rum}) for a few hours, ideally overnight, until plump.",
+                      "Gently melt the butter ({butter}) and chopped dark chocolate ({dark_chocolate}) together in a heatproof bowl set over a pot of barely simmering water (or in brief microwave bursts). Stir until smooth and glossy, then fold in the soaked cranberries ({cranberries}) along with any remaining rum ({rum}).",
+                      "In a large mixing bowl, beat the eggs ({eggs}) and granulated sugar ({granulated_sugar}) with an electric mixer for about 5 minutes until thick, pale, and ribbony.",
+                      "With the mixer running on low speed, slowly stream the warm melted chocolate mixture into the whipped eggs until thoroughly combined.",
+                      "In a separate bowl, whisk together the all-purpose flour ({flour}), baking soda ({baking_soda}), and salt ({salt}). Fold into the chocolate batter tablespoon by tablespoon until just incorporated. The dough will be thin and sticky—cover the bowl and refrigerate for at least 2 hours until chilled and firm.",
+                      "Preheat the oven to 160°C (320°F / fan 140°C) and line two baking sheets with parchment paper.",
+                      "Scoop out portions of the chilled dough and quickly roll into 3 cm (about 1 inch) balls. Roll each ball generously in powdered sugar ({coating_sugar}) to create a thick, opaque white coating. Arrange on the baking sheets spaced at least 5 cm (2 inches) apart, as they spread during baking.",
+                      "Bake for 10 to 12 minutes. The cookies should be set on the outside with dramatic snowy cracks, while the centers remain soft and fudgy (if gently pressed, the center should spring back slowly). Do not overbake.",
+                      "Let the cookies rest on the baking sheet for 1 minute to set, then transfer to a wire cooling rack to cool completely."
+                  ]
+    },
+    {
         "id":  101,
         "title":  "Truffle Mushroom Pasta",
         "description":  "A rich and creamy pasta dish infused with the earthy aroma of black truffles, finished with a sprinkle of aged parmesan.",
