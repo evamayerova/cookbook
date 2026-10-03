@@ -107,11 +107,13 @@ The frontend JavaScript automatically parses `{id}` and dynamically calculates a
 2. Set the new ID = `highest_id + 1`.
 
 ### Step 3: Generate Recipe Image
-1. Use `generate_image` with an appetizing, high-resolution food photography prompt:
+1. **CRITICAL MANDATE: NEVER REUSE EXISTING IMAGES.** Every recipe must have its own unique, newly generated photography specifically depicting the dish. Never copy, alias, or reuse an image from another recipe.
+2. If the image generation model is temporarily rate-limited or unavailable, wait for quota reset or notify the user—NEVER duplicate an existing image file as a shortcut.
+3. Use `generate_image` with an appetizing, high-resolution food photography prompt:
    - Tool: `generate_image`
    - ImageName: `recipe_<slug>`
    - Prompt: e.g. `"Professional food photography of <Dish Name>, appetizing lighting, garnished, close-up, rustic table..."`
-2. Copy the resulting image file from the brain directory to `c:\Users\evcam\source\repos\cookbook\assets\recipe_<slug>.png` using `run_command` (`Copy-Item`).
+4. Copy the resulting image file from the brain directory to `c:\Users\evcam\source\repos\cookbook\assets\recipe_<slug>.png` using `run_command` (`Copy-Item`).
 
 ### Step 4: Write JSON File
 1. Create `recipes/<id>-<slug>.json` using `write_to_file`.

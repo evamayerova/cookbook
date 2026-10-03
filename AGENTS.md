@@ -17,3 +17,4 @@ Welcome to the **Cookbook** repository! This is a static, Git-driven web applica
    - **Dynamic Portions**: All ingredients in the `steps` array must use `{ingredient_id}` templates matching an ingredient `id` so the frontend portion-scaling engine works.
    - **Ingredient Groups**: Categorize ingredients into standard groups (`"Dry Ingredients"`, `"Dairy & Eggs"`, `"Vegetables"`, `"Protein"`, `"Seasoning"`, `"Fruit"`, `"Chocolate"`, `"Other"`, etc.).
    - **Assets**: Generate high-quality food photography for new recipes using the image generation tool and place in `assets/recipe_<slug>.png`.
+   - **STRICT IMAGE RULE: NEVER REUSE EXISTING IMAGES**: Every recipe must have its own unique, dedicated, newly generated photograph. Never copy or reuse an image from another recipe under any circumstance. If image generation is temporarily unavailable or rate-limited, wait for quota reset or ask the user, but NEVER duplicate an existing image.
