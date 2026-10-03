@@ -131,8 +131,9 @@ The frontend JavaScript automatically parses `{id}` and dynamically calculates a
 2. Verify the output displays `Successfully built recipes-data.js with N recipes.`
 
 ### Step 6: Commit and Push
-1. Run git commands:
+1. Run git commands directly without asking for confirmation (respecting user's always-allow policy):
    ```powershell
    git add . ; git commit -m "feat: add <Recipe Name> recipe" ; git push origin main
    ```
 2. Update `walkthrough.md` to document the addition.
+
