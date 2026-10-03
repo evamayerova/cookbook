@@ -238,14 +238,10 @@ if (recipesGrid) {
             return a.localeCompare(b);
         })];
 
-        tagFiltersContainer.innerHTML = '';
-        sortedTags.forEach(tag => {
-            const btn = document.createElement('button');
-            btn.type = 'button';
-            btn.className = `tag-filter-btn ${tag === activeTag ? 'active' : ''}`;
-            btn.dataset.tag = tag;
-            btn.textContent = tag;
-            btn.addEventListener('click', () => {
+        function bindTagButton(btn) {
+            btn.addEventListener('click', (e) => {
+                e.preventDefault();
+                const tag = btn.dataset.tag;
                 if (activeTag === tag && tag !== 'All') {
                     activeTag = 'All';
                 } else {
@@ -254,8 +250,34 @@ if (recipesGrid) {
                 updateTagButtons();
                 applyFilters();
             });
-            tagFiltersContainer.appendChild(btn);
-        });
+        }
+
+        const existingButtons = tagFiltersContainer.querySelectorAll('.tag-filter-btn');
+        if (existingButtons.length > 0) {
+            existingButtons.forEach(bindTagButton);
+            const existingTags = new Set(Array.from(existingButtons).map(b => b.dataset.tag));
+            sortedTags.forEach(tag => {
+                if (!existingTags.has(tag)) {
+                    const btn = document.createElement('button');
+                    btn.type = 'button';
+                    btn.className = `tag-filter-btn ${tag === activeTag ? 'active' : ''}`;
+                    btn.dataset.tag = tag;
+                    btn.textContent = tag;
+                    bindTagButton(btn);
+                    tagFiltersContainer.appendChild(btn);
+                }
+            });
+        } else {
+            sortedTags.forEach(tag => {
+                const btn = document.createElement('button');
+                btn.type = 'button';
+                btn.className = `tag-filter-btn ${tag === activeTag ? 'active' : ''}`;
+                btn.dataset.tag = tag;
+                btn.textContent = tag;
+                bindTagButton(btn);
+                tagFiltersContainer.appendChild(btn);
+            });
+        }
 
         function updateTagButtons() {
             const buttons = tagFiltersContainer.querySelectorAll('.tag-filter-btn');
