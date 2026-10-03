@@ -218,7 +218,7 @@ if (recipesGrid) {
     const tagFiltersContainer = document.getElementById('tagFilters');
     const timeFilter = document.getElementById('timeFilter');
     const favoriteFilter = document.getElementById('favoriteFilter');
-    let activeTag = 'All';
+    const selectedTags = new Set();
 
     // Populate tag filter buttons
     if (tagFiltersContainer) {
@@ -242,10 +242,14 @@ if (recipesGrid) {
             btn.addEventListener('click', (e) => {
                 e.preventDefault();
                 const tag = btn.dataset.tag;
-                if (activeTag === tag && tag !== 'All') {
-                    activeTag = 'All';
+                if (tag === 'All') {
+                    selectedTags.clear();
                 } else {
-                    activeTag = tag;
+                    if (selectedTags.has(tag)) {
+                        selectedTags.delete(tag);
+                    } else {
+                        selectedTags.add(tag);
+                    }
                 }
                 updateTagButtons();
                 applyFilters();
@@ -260,7 +264,10 @@ if (recipesGrid) {
                 if (!existingTags.has(tag)) {
                     const btn = document.createElement('button');
                     btn.type = 'button';
-                    btn.className = `tag-filter-btn ${tag === activeTag ? 'active' : ''}`;
+                    const isAll = (tag === 'All' && selectedTags.size === 0);
+                    const isActive = isAll || selectedTags.has(tag);
+                    btn.className = `tag-filter-btn ${isActive ? 'active' : ''}`;
+                    btn.setAttribute('aria-pressed', isActive ? 'true' : 'false');
                     btn.dataset.tag = tag;
                     btn.textContent = tag;
                     bindTagButton(btn);
@@ -271,7 +278,10 @@ if (recipesGrid) {
             sortedTags.forEach(tag => {
                 const btn = document.createElement('button');
                 btn.type = 'button';
-                btn.className = `tag-filter-btn ${tag === activeTag ? 'active' : ''}`;
+                const isAll = (tag === 'All' && selectedTags.size === 0);
+                const isActive = isAll || selectedTags.has(tag);
+                btn.className = `tag-filter-btn ${isActive ? 'active' : ''}`;
+                btn.setAttribute('aria-pressed', isActive ? 'true' : 'false');
                 btn.dataset.tag = tag;
                 btn.textContent = tag;
                 bindTagButton(btn);
@@ -280,12 +290,17 @@ if (recipesGrid) {
         }
 
         function updateTagButtons() {
+            const isAllActive = selectedTags.size === 0;
             const buttons = tagFiltersContainer.querySelectorAll('.tag-filter-btn');
             buttons.forEach(b => {
-                if (b.dataset.tag === activeTag) {
+                const tag = b.dataset.tag;
+                const isActive = (tag === 'All' && isAllActive) || selectedTags.has(tag);
+                if (isActive) {
                     b.classList.add('active');
+                    b.setAttribute('aria-pressed', 'true');
                 } else {
                     b.classList.remove('active');
+                    b.setAttribute('aria-pressed', 'false');
                 }
             });
         }
@@ -307,7 +322,7 @@ if (recipesGrid) {
                 (recipe.ingredients && recipe.ingredients.some(i => i.name.toLowerCase().includes(searchTerm)));
 
             // Tag filter
-            const matchesTag = activeTag === 'All' || recipeTags.includes(activeTag);
+            const matchesTag = selectedTags.size === 0 || recipeTags.some(t => selectedTags.has(t));
 
             // Time filter
             let matchesTime = true;
