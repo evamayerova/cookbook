@@ -1,0 +1,64 @@
+{
+    "id": 31,
+    "title": "Flourless Espresso Brownie Truffle Pops",
+    "description": "Rich, dark, and ultra-fudgy flourless chocolate truffle bites infused with instant espresso powder. Naturally low-carb, packed with sustained energy, and eaten chilled straight from the fridge or freezer.",
+    "image": "assets/recipe_espresso_brownie_truffle_pops.png",
+    "author": "Eve",
+    "category": "Snacks",
+    "time": "20 min",
+    "portions": 12,
+    "favorite": false,
+    "ingredients": [
+        {
+            "id": "dark_chocolate",
+            "amount": "100",
+            "unit": "g",
+            "name": "85%+ dark chocolate, finely chopped",
+            "group": "Chocolate"
+        },
+        {
+            "id": "butter",
+            "amount": "40",
+            "unit": "g",
+            "name": "Butter or virgin coconut oil",
+            "group": "Dairy & Eggs"
+        },
+        {
+            "id": "erythritol",
+            "amount": "45",
+            "unit": "g",
+            "name": "Powdered or granulated erythritol",
+            "group": "Dry Ingredients"
+        },
+        {
+            "id": "espresso_powder",
+            "amount": "1",
+            "unit": "tsp",
+            "name": "Instant espresso powder",
+            "group": "Seasoning"
+        },
+        {
+            "id": "egg",
+            "amount": "1",
+            "unit": "whole",
+            "name": "Large egg",
+            "group": "Dairy & Eggs"
+        },
+        {
+            "id": "ground_almonds",
+            "amount": "30",
+            "unit": "g",
+            "name": "Ground almonds or fine almond flour",
+            "group": "Dry Ingredients"
+        }
+    ],
+    "steps": [
+        "Preheat your oven to 170°C (340°F) and arrange 12 silicone mini-muffin molds on a baking sheet.",
+        "In a heatproof bowl set over simmering water (or in short 20-second microwave bursts), melt the dark chocolate ({dark_chocolate}) with the butter or coconut oil ({butter}) until smooth and glossy.",
+        "Stir in the erythritol ({erythritol}), instant espresso powder ({espresso_powder}), and egg ({egg}) vigorously for about 1 minute until the mixture becomes thick, glossy, and emulsified.",
+        "Gently fold in the ground almonds ({ground_almonds}) until fully incorporated.",
+        "Spoon the batter evenly into the 12 silicone mini-muffin molds.",
+        "Bake at 170°C for 9 to 10 minutes until the edges are just set (do not overbake; the centers remain soft and fudgy).",
+        "Cool completely to room temperature, then transfer to the refrigerator or freezer. Serve cold like rich, decadent dark fudge squares."
+    ]
+}
