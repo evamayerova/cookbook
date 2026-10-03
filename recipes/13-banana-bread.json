@@ -4,7 +4,10 @@
     "description": "Super-moist and buttery with rich banana and brown sugar flavors and an ultra-soft crumb. An undeniably popular recipe from Sally's Baking Addiction.",
     "image": "assets/recipe_banana_bread.png",
     "author": "Sally McKenney",
-    "category": "Dessert",
+    "tags": [
+        "Dessert",
+        "Breakfast"
+    ],
     "time": "65 min",
     "portions": 10,
     "favorite": false,

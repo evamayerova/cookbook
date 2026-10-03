@@ -182,6 +182,8 @@ function renderRecipes(recipesToRender) {
         card.style.transform = 'translateY(20px)';
 
         const imgUrl = recipe.image || 'https://images.unsplash.com/photo-1495195134817-aeb325a55b65?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80';
+        const recipeTags = recipe.tags || (recipe.category ? [recipe.category] : []);
+        const tagsHtml = recipeTags.map(tag => `<span class="recipe-tag-badge">${tag}</span>`).join('');
 
         card.innerHTML = `
             <div class="image-container">
@@ -189,9 +191,13 @@ function renderRecipes(recipesToRender) {
             </div>
             <div class="recipe-content">
                 <div class="recipe-meta">
-                    <span>${recipe.category}</span>
-                    <span>⏱ ${recipe.time}</span>
-                    ${recipe.favorite ? '<span title="Favorite">❤️</span>' : ''}
+                    <div class="recipe-tags-list">
+                        ${tagsHtml}
+                    </div>
+                    <div class="recipe-meta-right">
+                        <span>⏱ ${recipe.time}</span>
+                        ${recipe.favorite ? '<span title="Favorite">❤️</span>' : ''}
+                    </div>
                 </div>
                 <h3 class="recipe-title">${recipe.title}</h3>
                 <p class="recipe-desc">${recipe.description}</p>
@@ -209,37 +215,77 @@ function renderRecipes(recipesToRender) {
 
 // Execute index.html specific logic
 if (recipesGrid) {
-    const categoryFilter = document.getElementById('categoryFilter');
+    const tagFiltersContainer = document.getElementById('tagFilters');
     const timeFilter = document.getElementById('timeFilter');
     const favoriteFilter = document.getElementById('favoriteFilter');
+    let activeTag = 'All';
 
-    // Populate category filter
-    if (categoryFilter) {
-        const categories = [...new Set(recipes.map(r => r.category))].filter(Boolean);
-        categories.forEach(cat => {
-            const option = document.createElement('option');
-            option.value = cat;
-            option.textContent = cat;
-            categoryFilter.appendChild(option);
+    // Populate tag filter buttons
+    if (tagFiltersContainer) {
+        const allTags = new Set();
+        recipes.forEach(r => {
+            const tags = r.tags || (r.category ? [r.category] : []);
+            tags.forEach(t => allTags.add(t));
         });
+
+        const preferredOrder = ['All', 'Main dish', 'Dessert', 'Snacks', 'Low-Carb', 'Breakfast', 'Christmas cookies'];
+        const sortedTags = ['All', ...Array.from(allTags).filter(t => t !== 'All').sort((a, b) => {
+            const idxA = preferredOrder.indexOf(a);
+            const idxB = preferredOrder.indexOf(b);
+            if (idxA !== -1 && idxB !== -1) return idxA - idxB;
+            if (idxA !== -1) return -1;
+            if (idxB !== -1) return 1;
+            return a.localeCompare(b);
+        })];
+
+        tagFiltersContainer.innerHTML = '';
+        sortedTags.forEach(tag => {
+            const btn = document.createElement('button');
+            btn.type = 'button';
+            btn.className = `tag-filter-btn ${tag === activeTag ? 'active' : ''}`;
+            btn.dataset.tag = tag;
+            btn.textContent = tag;
+            btn.addEventListener('click', () => {
+                if (activeTag === tag && tag !== 'All') {
+                    activeTag = 'All';
+                } else {
+                    activeTag = tag;
+                }
+                updateTagButtons();
+                applyFilters();
+            });
+            tagFiltersContainer.appendChild(btn);
+        });
+
+        function updateTagButtons() {
+            const buttons = tagFiltersContainer.querySelectorAll('.tag-filter-btn');
+            buttons.forEach(b => {
+                if (b.dataset.tag === activeTag) {
+                    b.classList.add('active');
+                } else {
+                    b.classList.remove('active');
+                }
+            });
+        }
     }
 
     function applyFilters() {
-        const searchTerm = searchInput ? searchInput.value.toLowerCase() : '';
-        const selectedCategory = categoryFilter ? categoryFilter.value : 'All';
+        const searchTerm = searchInput ? searchInput.value.toLowerCase().trim() : '';
         const selectedTime = timeFilter ? timeFilter.value : 'All';
         const showFavorites = favoriteFilter ? favoriteFilter.checked : false;
 
         const filteredRecipes = recipes.filter(recipe => {
+            const recipeTags = recipe.tags || (recipe.category ? [recipe.category] : []);
+
             // Search filter
             const matchesSearch = !searchTerm || 
                 recipe.title.toLowerCase().includes(searchTerm) ||
                 recipe.description.toLowerCase().includes(searchTerm) ||
-                recipe.category.toLowerCase().includes(searchTerm) ||
+                recipeTags.some(t => t.toLowerCase().includes(searchTerm)) ||
                 (recipe.ingredients && recipe.ingredients.some(i => i.name.toLowerCase().includes(searchTerm)));
 
-            // Category filter
-            const matchesCategory = selectedCategory === 'All' || recipe.category === selectedCategory;
+            // Tag filter
+            const matchesTag = activeTag === 'All' || recipeTags.includes(activeTag);
 
             // Time filter
             let matchesTime = true;
@@ -253,14 +299,13 @@ if (recipesGrid) {
             // Favorite filter
             const matchesFavorite = !showFavorites || recipe.favorite === true;
 
-            return matchesSearch && matchesCategory && matchesTime && matchesFavorite;
+            return matchesSearch && matchesTag && matchesTime && matchesFavorite;
         });
 
         renderRecipes(filteredRecipes);
     }
 
     if (searchInput) searchInput.addEventListener('input', applyFilters);
-    if (categoryFilter) categoryFilter.addEventListener('change', applyFilters);
     if (timeFilter) timeFilter.addEventListener('change', applyFilters);
     if (favoriteFilter) favoriteFilter.addEventListener('change', applyFilters);
 
@@ -277,7 +322,9 @@ if (recipeDetailContainer) {
 
     if (recipe) {
         document.getElementById('pageTitle').innerText = recipe.title;
-        document.getElementById('pageMeta').innerHTML = `<span>By ${recipe.author}</span><span>${recipe.category}</span><span>⏱ ${recipe.time}</span>`;
+        const recipeTags = recipe.tags || (recipe.category ? [recipe.category] : []);
+        const tagsHtml = recipeTags.map(tag => `<span class="recipe-tag-badge">${tag}</span>`).join('');
+        document.getElementById('pageMeta').innerHTML = `<span>By ${recipe.author}</span><div class="recipe-tags-list">${tagsHtml}</div><span>⏱ ${recipe.time}</span>`;
         document.getElementById('pageDesc').innerText = recipe.description;
         
         const imgUrl = recipe.image || 'https://images.unsplash.com/photo-1495195134817-aeb325a55b65?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80';

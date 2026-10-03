@@ -4,7 +4,10 @@
     "description": "A legendary, decadent Czech Christmas layered confection: delicate walnut sponge, tart fruit jam, boozy rum-walnut paste, velvety chocolate buttercream, and a glossy chocolate glaze.",
     "image": "assets/recipe_opily_izidor.png",
     "author": "Eve",
-    "category": "Christmas cookies",
+    "tags": [
+        "Christmas cookies",
+        "Dessert"
+    ],
     "time": "1 hr 15 min",
     "portions": 24,
     "favorite": true,

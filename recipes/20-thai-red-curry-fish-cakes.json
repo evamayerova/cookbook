@@ -4,7 +4,10 @@
     "description": "Dense, bouncy, and aromatic Thai fish cakes packed with red curry, kaffir lime leaves, and crisp green beans. High in protein and delicious served warm or cold.",
     "image": "assets/recipe_thai_fish_cakes.png",
     "author": "Eve",
-    "category": "Snacks",
+    "tags": [
+        "Snacks",
+        "Low-Carb"
+    ],
     "time": "25 min",
     "portions": 15,
     "favorite": false,

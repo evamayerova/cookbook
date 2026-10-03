@@ -4,7 +4,10 @@
     "description": "Festive Czech cocoa-coconut sandwich cookies filled with rich coconut rum buttercream, their edges rolled in shredded coconut and tops drizzled with dark chocolate.",
     "image": "assets/recipe_strapace.png",
     "author": "Eve",
-    "category": "Christmas cookies",
+    "tags": [
+        "Christmas cookies",
+        "Dessert"
+    ],
     "time": "1 hr",
     "portions": 35,
     "favorite": false,

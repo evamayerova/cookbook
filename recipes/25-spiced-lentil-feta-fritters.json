@@ -4,7 +4,9 @@
     "description": "Earthy, cumin-infused vegetarian bites that firm up into a satisfying, chewy snack. Packed with plant-based protein from brown lentils and tangy Greek feta.",
     "image": "assets/recipe_lentil_feta_fritters.png",
     "author": "Eve",
-    "category": "Snacks",
+    "tags": [
+        "Snacks"
+    ],
     "time": "20 min",
     "portions": 12,
     "favorite": false,

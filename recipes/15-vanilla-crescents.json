@@ -4,7 +4,10 @@
     "description": "The crowning jewel of the Czech Christmas cookie spread. Fragrant walnut crescent cookies baked until tender and gently tossed in vanilla powdered sugar while still warm.",
     "image": "assets/recipe_vanilla_crescents.png",
     "author": "Eve",
-    "category": "Christmas cookies",
+    "tags": [
+        "Christmas cookies",
+        "Dessert"
+    ],
     "time": "45 min",
     "portions": 40,
     "favorite": true,

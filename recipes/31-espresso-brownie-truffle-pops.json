@@ -4,7 +4,11 @@
     "description": "Rich, dark, and ultra-fudgy flourless chocolate truffle bites infused with instant espresso powder. Naturally low-carb, packed with sustained energy, and eaten chilled straight from the fridge or freezer.",
     "image": "assets/recipe_espresso_brownie_truffle_pops.png",
     "author": "Eve",
-    "category": "Snacks",
+    "tags": [
+        "Snacks",
+        "Dessert",
+        "Low-Carb"
+    ],
     "time": "20 min",
     "portions": 12,
     "favorite": false,

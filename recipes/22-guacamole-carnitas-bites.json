@@ -4,7 +4,10 @@
     "description": "Fresh, crisp cucumber rounds loaded with zesty citrus guacamole and savory crisped pork carnitas. High in protein, healthy fats, and full of bright Mexican flavors.",
     "image": "assets/recipe_guacamole_carnitas_bites.png",
     "author": "Eve",
-    "category": "Snacks",
+    "tags": [
+        "Snacks",
+        "Low-Carb"
+    ],
     "time": "15 min",
     "portions": 12,
     "favorite": false,

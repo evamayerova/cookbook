@@ -4,7 +4,10 @@
     "description": "All the savory, aromatic depth of potstickers without refined dough. Tender, juicy baked pork meatballs loaded with fresh ginger, green onions, and toasted sesame oil.",
     "image": "assets/recipe_pork_gyoza_bites.png",
     "author": "Eve",
-    "category": "Snacks",
+    "tags": [
+        "Snacks",
+        "Low-Carb"
+    ],
     "time": "25 min",
     "portions": 16,
     "favorite": false,

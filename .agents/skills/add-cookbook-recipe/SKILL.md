@@ -27,12 +27,16 @@ This skill provides the end-to-end procedure for seamlessly adding or updating r
 - Next ID: Inspect the existing files in `recipes/` to find the highest ID number, and increment by 1 (e.g., if `13-banana-bread.json` is highest, the next is `14-<recipe-name>.json`).
 - Slug: Lowercase, hyphen-separated name (e.g. `14-lemon-drizzle-cake.json`).
 
-### Standard Categories
-Use one of the existing primary categories whenever possible:
-- `"Main dish"` (for dinners, lunches, savories)
-- `"Dessert"` (for cakes, pies, sweet baked goods, ice cream)
+### Tags System (Multi-tag)
+Recipes use a `"tags"` array rather than a single category. A recipe can belong to multiple tags:
+- `"Main dish"` (for dinners, lunches, hearty savories)
+- `"Dessert"` (for cakes, pies, sweet baked goods, ice cream, truffles)
+- `"Snacks"` (for portable bites, patties, fritters, rolls)
+- `"Low-Carb"` (for keto, grain-free, sugar-free, or naturally low-carb dishes)
 - `"Breakfast"` (for waffles, pancakes, breakfast breads, morning dishes)
-*(Or introduce a clean, capitalized new category if requested by the user, e.g. `"Appetizer"` or `"Soup"`).*
+- `"Christmas cookies"` (for holiday baking, traditional cookies)
+
+*Example:* A low-carb sweet bite can have `"tags": ["Snacks", "Dessert", "Low-Carb"]`.
 
 ### Ingredient Grouping
 All ingredients must have a `group` property. Use standard group names:
@@ -73,7 +77,10 @@ The frontend JavaScript automatically parses `{id}` and dynamically calculates a
     "description": "Short appetizing 1-2 sentence description.",
     "image": "assets/recipe_<slug>.png",
     "author": "Chef Name / Website",
-    "category": "Main dish",
+    "tags": [
+        "Dessert",
+        "Low-Carb"
+    ],
     "time": "45 min",
     "portions": 4,
     "favorite": false,

@@ -4,7 +4,10 @@
     "description": "Perfectly crisp and golden on the outside while being light and fluffy on the inside. A classic breakfast staple that is easy to make at home.",
     "image": "assets/recipe_waffles.png",
     "author": "The Salty Marshmallow",
-    "category": "Breakfast",
+    "tags": [
+        "Breakfast",
+        "Dessert"
+    ],
     "time": "35 min",
     "portions": 6,
     "favorite": false,

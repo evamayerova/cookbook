@@ -4,7 +4,9 @@
     "description": "A rich and creamy pasta dish infused with the earthy aroma of black truffles, finished with a sprinkle of aged parmesan.",
     "image": "assets/recipe_pasta.png",
     "author": "Chef Luigi",
-    "category": "Main dish",
+    "tags": [
+        "Main dish"
+    ],
     "time": "30 min",
     "portions": 4,
     "favorite": false,

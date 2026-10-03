@@ -4,7 +4,9 @@
     "description": "A terrific Pad Thai recipe that truly stacks up to great Thai restaurants yet is totally doable for every home cook! Perfectly chewy noodles with a sweet and tangy tamarind sauce.",
     "image": "assets/recipe_pad_thai.png",
     "author": "RecipeTin Eats",
-    "category": "Main dish",
+    "tags": [
+        "Main dish"
+    ],
     "time": "30 min",
     "portions": 8,
     "favorite": true,

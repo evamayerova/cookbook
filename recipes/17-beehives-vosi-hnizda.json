@@ -4,7 +4,10 @@
     "description": "Iconic no-bake Czech Christmas cookies shaped like little beehives, made with a cocoa-nut biscuit shell, filled with fragrant rum buttercream, and sealed on a round sponge biscuit base.",
     "image": "assets/recipe_vosi_hnizda.png",
     "author": "Eve",
-    "category": "Christmas cookies",
+    "tags": [
+        "Christmas cookies",
+        "Dessert"
+    ],
     "time": "40 min",
     "portions": 25,
     "favorite": true,

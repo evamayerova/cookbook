@@ -4,7 +4,10 @@
     "description": "Tender, melt-in-your-mouth Czech Christmas sandwich cookies with a hint of lemon, dusted with powdered sugar and filled with tart red currant jam.",
     "image": "assets/recipe_linzer_cookies.png",
     "author": "Eve",
-    "category": "Christmas cookies",
+    "tags": [
+        "Christmas cookies",
+        "Dessert"
+    ],
     "time": "45 min",
     "portions": 30,
     "favorite": false,

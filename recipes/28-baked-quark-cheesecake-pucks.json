@@ -4,7 +4,11 @@
     "description": "Velvety, tangy, high-protein bites with a light citrus lift. Naturally low-carb, lightly sweetened with erythritol, and baked gently in individual mini muffin molds.",
     "image": "assets/recipe_quark_cheesecake_pucks.png",
     "author": "Eve",
-    "category": "Snacks",
+    "tags": [
+        "Snacks",
+        "Dessert",
+        "Low-Carb"
+    ],
     "time": "30 min",
     "portions": 12,
     "favorite": false,

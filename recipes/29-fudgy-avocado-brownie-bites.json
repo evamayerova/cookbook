@@ -4,7 +4,11 @@
     "description": "Deep cocoa flavor, fudgy rich texture, and healthy fats that mask any avocado flavor entirely. Sugar-free, grain-free bite-sized brownies loaded with crunchy walnuts and dark chocolate chunks.",
     "image": "assets/recipe_avocado_brownie_bites.png",
     "author": "Eve",
-    "category": "Snacks",
+    "tags": [
+        "Snacks",
+        "Dessert",
+        "Low-Carb"
+    ],
     "time": "25 min",
     "portions": 16,
     "favorite": false,

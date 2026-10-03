@@ -8,7 +8,9 @@ window.recipesData = [
         "description":  "Hearty chili with beef and beans served with sour cream and grated cheese, known as chili con carne, is the best comfort food. A warming dish perfect for any day.",
         "image":  "assets/recipe_chili.png",
         "author":  "chute-sveta.cz",
-        "category":  "Main dish",
+        "tags":  [
+                     "Main dish"
+                 ],
         "time":  "30 min",
         "portions":  6,
         "favorite":  true,
@@ -127,7 +129,9 @@ window.recipesData = [
         "description":  "A terrific Pad Thai recipe that truly stacks up to great Thai restaurants yet is totally doable for every home cook! Perfectly chewy noodles with a sweet and tangy tamarind sauce.",
         "image":  "assets/recipe_pad_thai.png",
         "author":  "RecipeTin Eats",
-        "category":  "Main dish",
+        "tags":  [
+                     "Main dish"
+                 ],
         "time":  "30 min",
         "portions":  8,
         "favorite":  true,
@@ -234,7 +238,10 @@ window.recipesData = [
         "description":  "Perfectly crisp and golden on the outside while being light and fluffy on the inside. A classic breakfast staple that is easy to make at home.",
         "image":  "assets/recipe_waffles.png",
         "author":  "The Salty Marshmallow",
-        "category":  "Breakfast",
+        "tags":  [
+                     "Breakfast",
+                     "Dessert"
+                 ],
         "time":  "35 min",
         "portions":  6,
         "favorite":  false,
@@ -320,7 +327,10 @@ window.recipesData = [
         "description":  "A low-carb, keto-friendly pie with a perfectly crisp almond flour crust and a creamy custard-rhubarb filling. Delightfully tart and sweet without the sugar.",
         "image":  "assets/recipe_rhubarb_pie.png",
         "author":  "Eve",
-        "category":  "Dessert",
+        "tags":  [
+                     "Dessert",
+                     "Low-Carb"
+                 ],
         "time":  "1 hr",
         "portions":  8,
         "favorite":  false,
@@ -430,7 +440,9 @@ window.recipesData = [
         "description":  "A classic, rich, and creamy vanilla ice cream made with real vanilla bean. Perfect for churning in your Kenwood mixer for that professional \u0027nappe\u0027 consistency.",
         "image":  "assets/recipe_ice_cream.png",
         "author":  "Eve",
-        "category":  "Dessert",
+        "tags":  [
+                     "Dessert"
+                 ],
         "time":  "1 hr",
         "portions":  10,
         "favorite":  false,
@@ -496,7 +508,9 @@ window.recipesData = [
         "description":  "A rich and creamy Indian classic featuring marinated paneer cheese baked to perfection and served in a deeply flavorful tomato and spice gravy.",
         "image":  "assets/recipe_paneer.png",
         "author":  "Harris Kallitsis / KitchenSync",
-        "category":  "Main dish",
+        "tags":  [
+                     "Main dish"
+                 ],
         "time":  "45 min",
         "portions":  1,
         "favorite":  false,
@@ -668,7 +682,9 @@ window.recipesData = [
         "description":  "Marion Grasby\u0027s classic Butter Chicken featuring tender spiced marinated chicken cooked in a velvety, rich tomato and cream sauce with cardamom, cinnamon, and kasoori methi.",
         "image":  "assets/recipe_butter_chicken.png",
         "author":  "Marion\u0027s Kitchen",
-        "category":  "Main dish",
+        "tags":  [
+                     "Main dish"
+                 ],
         "time":  "40 min",
         "portions":  8,
         "favorite":  true,
@@ -859,7 +875,9 @@ window.recipesData = [
         "description":  "Discover how to make traditional Italian spaghetti carbonara. This classic dish combines a silky cheese and egg sauce with crisp pancetta and freshly cracked black pepper.",
         "image":  "assets/recipe_carbonara.png",
         "author":  "Angela Nilsen",
-        "category":  "Main dish",
+        "tags":  [
+                     "Main dish"
+                 ],
         "time":  "35 min",
         "portions":  4,
         "favorite":  false,
@@ -942,7 +960,9 @@ window.recipesData = [
         "description":  "Rich, intensely chocolatey, and wonderfully fudgy brownies with a shiny crinkled crust. Made with melted dark chocolate, real butter, and Dutch cocoa for the ultimate texture.",
         "image":  "assets/recipe_brownies.png",
         "author":  "Eve",
-        "category":  "Dessert",
+        "tags":  [
+                     "Dessert"
+                 ],
         "time":  "35 min",
         "portions":  16,
         "favorite":  false,
@@ -1021,7 +1041,10 @@ window.recipesData = [
         "description":  "Super-moist and buttery with rich banana and brown sugar flavors and an ultra-soft crumb. An undeniably popular recipe from Sally\u0027s Baking Addiction.",
         "image":  "assets/recipe_banana_bread.png",
         "author":  "Sally McKenney",
-        "category":  "Dessert",
+        "tags":  [
+                     "Dessert",
+                     "Breakfast"
+                 ],
         "time":  "65 min",
         "portions":  10,
         "favorite":  false,
@@ -1121,7 +1144,10 @@ window.recipesData = [
         "description":  "Tender, melt-in-your-mouth Czech Christmas sandwich cookies with a hint of lemon, dusted with powdered sugar and filled with tart red currant jam.",
         "image":  "assets/recipe_linzer_cookies.png",
         "author":  "Eve",
-        "category":  "Christmas cookies",
+        "tags":  [
+                     "Christmas cookies",
+                     "Dessert"
+                 ],
         "time":  "45 min",
         "portions":  30,
         "favorite":  false,
@@ -1200,7 +1226,10 @@ window.recipesData = [
         "description":  "The crowning jewel of the Czech Christmas cookie spread. Fragrant walnut crescent cookies baked until tender and gently tossed in vanilla powdered sugar while still warm.",
         "image":  "assets/recipe_vanilla_crescents.png",
         "author":  "Eve",
-        "category":  "Christmas cookies",
+        "tags":  [
+                     "Christmas cookies",
+                     "Dessert"
+                 ],
         "time":  "45 min",
         "portions":  40,
         "favorite":  true,
@@ -1280,7 +1309,10 @@ window.recipesData = [
         "description":  "Festive Czech cocoa-coconut sandwich cookies filled with rich coconut rum buttercream, their edges rolled in shredded coconut and tops drizzled with dark chocolate.",
         "image":  "assets/recipe_strapace.png",
         "author":  "Eve",
-        "category":  "Christmas cookies",
+        "tags":  [
+                     "Christmas cookies",
+                     "Dessert"
+                 ],
         "time":  "1 hr",
         "portions":  35,
         "favorite":  false,
@@ -1402,7 +1434,10 @@ window.recipesData = [
         "description":  "Iconic no-bake Czech Christmas cookies shaped like little beehives, made with a cocoa-nut biscuit shell, filled with fragrant rum buttercream, and sealed on a round sponge biscuit base.",
         "image":  "assets/recipe_vosi_hnizda.png",
         "author":  "Eve",
-        "category":  "Christmas cookies",
+        "tags":  [
+                     "Christmas cookies",
+                     "Dessert"
+                 ],
         "time":  "40 min",
         "portions":  25,
         "favorite":  true,
@@ -1510,7 +1545,10 @@ window.recipesData = [
         "description":  "A legendary, decadent Czech Christmas layered confection: delicate walnut sponge, tart fruit jam, boozy rum-walnut paste, velvety chocolate buttercream, and a glossy chocolate glaze.",
         "image":  "assets/recipe_opily_izidor.png",
         "author":  "Eve",
-        "category":  "Christmas cookies",
+        "tags":  [
+                     "Christmas cookies",
+                     "Dessert"
+                 ],
         "time":  "1 hr 15 min",
         "portions":  24,
         "favorite":  true,
@@ -1667,7 +1705,10 @@ window.recipesData = [
         "description":  "A beloved Czech holiday classic consisting of thin golden honey pastry sheets layered with a velvety milk-roux rum buttercream that softens overnight into a melt-in-your-mouth delight.",
         "image":  "assets/recipe_medove_rezy.png",
         "author":  "Eve",
-        "category":  "Christmas cookies",
+        "tags":  [
+                     "Christmas cookies",
+                     "Dessert"
+                 ],
         "time":  "1 hr 30 min",
         "portions":  20,
         "favorite":  false,
@@ -1789,7 +1830,10 @@ window.recipesData = [
         "description":  "Dense, bouncy, and aromatic Thai fish cakes packed with red curry, kaffir lime leaves, and crisp green beans. High in protein and delicious served warm or cold.",
         "image":  "assets/recipe_thai_fish_cakes.png",
         "author":  "Eve",
-        "category":  "Snacks",
+        "tags":  [
+                     "Snacks",
+                     "Low-Carb"
+                 ],
         "time":  "25 min",
         "portions":  15,
         "favorite":  false,
@@ -1866,7 +1910,10 @@ window.recipesData = [
         "description":  "All the savory, aromatic depth of potstickers without refined dough. Tender, juicy baked pork meatballs loaded with fresh ginger, green onions, and toasted sesame oil.",
         "image":  "assets/recipe_pork_gyoza_bites.png",
         "author":  "Eve",
-        "category":  "Snacks",
+        "tags":  [
+                     "Snacks",
+                     "Low-Carb"
+                 ],
         "time":  "25 min",
         "portions":  16,
         "favorite":  false,
@@ -1949,7 +1996,10 @@ window.recipesData = [
         "description":  "Fresh, crisp cucumber rounds loaded with zesty citrus guacamole and savory crisped pork carnitas. High in protein, healthy fats, and full of bright Mexican flavors.",
         "image":  "assets/recipe_guacamole_carnitas_bites.png",
         "author":  "Eve",
-        "category":  "Snacks",
+        "tags":  [
+                     "Snacks",
+                     "Low-Carb"
+                 ],
         "time":  "15 min",
         "portions":  12,
         "favorite":  false,
@@ -2018,7 +2068,9 @@ window.recipesData = [
         "description":  "Smoky, satisfying pan-seared patties packed with black beans, savory chorizo, and crumbled queso fresco. High in fiber, resistant starch, and bold Latin flavors.",
         "image":  "assets/recipe_black_bean_chorizo_pucks.png",
         "author":  "Eve",
-        "category":  "Snacks",
+        "tags":  [
+                     "Snacks"
+                 ],
         "time":  "20 min",
         "portions":  11,
         "favorite":  false,
@@ -2102,7 +2154,10 @@ window.recipesData = [
         "description":  "Creamy, cheesy, and spicy low-carb bites that stay tender and juicy whether served warm or chilled. Packed with ground chicken, sharp cheddar, cream cheese, and fresh jalapeños.",
         "image":  "assets/recipe_jalapeno_chicken_bites.png",
         "author":  "Eve",
-        "category":  "Snacks",
+        "tags":  [
+                     "Snacks",
+                     "Low-Carb"
+                 ],
         "time":  "25 min",
         "portions":  16,
         "favorite":  false,
@@ -2178,7 +2233,9 @@ window.recipesData = [
         "description":  "Earthy, cumin-infused vegetarian bites that firm up into a satisfying, chewy snack. Packed with plant-based protein from brown lentils and tangy Greek feta.",
         "image":  "assets/recipe_lentil_feta_fritters.png",
         "author":  "Eve",
-        "category":  "Snacks",
+        "tags":  [
+                     "Snacks"
+                 ],
         "time":  "20 min",
         "portions":  12,
         "favorite":  false,
@@ -2261,7 +2318,10 @@ window.recipesData = [
         "description":  "Zero cooking required: savory, sharp, and crunchy French bistro bites made with sliced cooked ham, whole-grain mustard cream cheese, aged Gruyère cheese, and tangy cornichons.",
         "image":  "assets/recipe_ham_gruyere_pinwheels.png",
         "author":  "Eve",
-        "category":  "Snacks",
+        "tags":  [
+                     "Snacks",
+                     "Low-Carb"
+                 ],
         "time":  "15 min",
         "portions":  15,
         "favorite":  false,
@@ -2324,7 +2384,10 @@ window.recipesData = [
         "description":  "Low-carb, high-calcium mini baked savory scone bites that hold together cleanly without crumbs. Loaded with steamed broccoli and mature sharp cheddar.",
         "image":  "assets/recipe_broccoli_cheddar_scones.png",
         "author":  "Eve",
-        "category":  "Snacks",
+        "tags":  [
+                     "Snacks",
+                     "Low-Carb"
+                 ],
         "time":  "25 min",
         "portions":  12,
         "favorite":  false,
@@ -2394,7 +2457,11 @@ window.recipesData = [
         "description":  "Velvety, tangy, high-protein bites with a light citrus lift. Naturally low-carb, lightly sweetened with erythritol, and baked gently in individual mini muffin molds.",
         "image":  "assets/recipe_quark_cheesecake_pucks.png",
         "author":  "Eve",
-        "category":  "Snacks",
+        "tags":  [
+                     "Snacks",
+                     "Dessert",
+                     "Low-Carb"
+                 ],
         "time":  "30 min",
         "portions":  12,
         "favorite":  false,
@@ -2465,7 +2532,11 @@ window.recipesData = [
         "description":  "Deep cocoa flavor, fudgy rich texture, and healthy fats that mask any avocado flavor entirely. Sugar-free, grain-free bite-sized brownies loaded with crunchy walnuts and dark chocolate chunks.",
         "image":  "assets/recipe_avocado_brownie_bites.png",
         "author":  "Eve",
-        "category":  "Snacks",
+        "tags":  [
+                     "Snacks",
+                     "Dessert",
+                     "Low-Carb"
+                 ],
         "time":  "25 min",
         "portions":  16,
         "favorite":  false,
@@ -2556,7 +2627,11 @@ window.recipesData = [
         "description":  "Rich, airy bite-sized mousse treats with an ice-cream-like texture that melt on your tongue. Sugar-free, topped with flaky sea salt, and served directly from the freezer.",
         "image":  "assets/recipe_frozen_chocolate_mousse_cups.png",
         "author":  "Eve",
-        "category":  "Snacks",
+        "tags":  [
+                     "Snacks",
+                     "Dessert",
+                     "Low-Carb"
+                 ],
         "time":  "15 min",
         "portions":  16,
         "favorite":  false,
@@ -2620,7 +2695,11 @@ window.recipesData = [
         "description":  "Rich, dark, and ultra-fudgy flourless chocolate truffle bites infused with instant espresso powder. Naturally low-carb, packed with sustained energy, and eaten chilled straight from the fridge or freezer.",
         "image":  "assets/recipe_espresso_brownie_truffle_pops.png",
         "author":  "Eve",
-        "category":  "Snacks",
+        "tags":  [
+                     "Snacks",
+                     "Dessert",
+                     "Low-Carb"
+                 ],
         "time":  "20 min",
         "portions":  12,
         "favorite":  false,
@@ -2684,7 +2763,9 @@ window.recipesData = [
         "description":  "A rich and creamy pasta dish infused with the earthy aroma of black truffles, finished with a sprinkle of aged parmesan.",
         "image":  "assets/recipe_pasta.png",
         "author":  "Chef Luigi",
-        "category":  "Main dish",
+        "tags":  [
+                     "Main dish"
+                 ],
         "time":  "30 min",
         "portions":  4,
         "favorite":  false,
@@ -2739,7 +2820,10 @@ window.recipesData = [
         "description":  "Perfectly seared Atlantic salmon served over tender grilled asparagus, drizzled with a delicate lemon butter caper sauce.",
         "image":  "assets/recipe_salmon.png",
         "author":  "Sarah Jenkins",
-        "category":  "Main dish",
+        "tags":  [
+                     "Main dish",
+                     "Low-Carb"
+                 ],
         "time":  "25 min",
         "portions":  4,
         "favorite":  false,
@@ -2787,7 +2871,9 @@ window.recipesData = [
         "description":  "A rich chocolate cake with a molten center, served warm and complemented by a vibrant, tart raspberry coulis.",
         "image":  "assets/recipe_dessert.png",
         "author":  "Pastry Chef Mia",
-        "category":  "Dessert",
+        "tags":  [
+                     "Dessert"
+                 ],
         "time":  "40 min",
         "portions":  4,
         "favorite":  false,

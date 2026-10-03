@@ -4,7 +4,9 @@
     "description": "Rich, intensely chocolatey, and wonderfully fudgy brownies with a shiny crinkled crust. Made with melted dark chocolate, real butter, and Dutch cocoa for the ultimate texture.",
     "image": "assets/recipe_brownies.png",
     "author": "Eve",
-    "category": "Dessert",
+    "tags": [
+        "Dessert"
+    ],
     "time": "35 min",
     "portions": 16,
     "favorite": false,

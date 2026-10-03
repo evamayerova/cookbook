@@ -4,7 +4,10 @@
     "description": "Low-carb, high-calcium mini baked savory scone bites that hold together cleanly without crumbs. Loaded with steamed broccoli and mature sharp cheddar.",
     "image": "assets/recipe_broccoli_cheddar_scones.png",
     "author": "Eve",
-    "category": "Snacks",
+    "tags": [
+        "Snacks",
+        "Low-Carb"
+    ],
     "time": "25 min",
     "portions": 12,
     "favorite": false,

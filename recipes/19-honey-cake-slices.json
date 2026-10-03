@@ -4,7 +4,10 @@
     "description": "A beloved Czech holiday classic consisting of thin golden honey pastry sheets layered with a velvety milk-roux rum buttercream that softens overnight into a melt-in-your-mouth delight.",
     "image": "assets/recipe_medove_rezy.png",
     "author": "Eve",
-    "category": "Christmas cookies",
+    "tags": [
+        "Christmas cookies",
+        "Dessert"
+    ],
     "time": "1 hr 30 min",
     "portions": 20,
     "favorite": false,

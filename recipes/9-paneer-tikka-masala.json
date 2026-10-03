@@ -4,7 +4,9 @@
     "description": "A rich and creamy Indian classic featuring marinated paneer cheese baked to perfection and served in a deeply flavorful tomato and spice gravy.",
     "image": "assets/recipe_paneer.png",
     "author": "Harris Kallitsis / KitchenSync",
-    "category": "Main dish",
+    "tags": [
+        "Main dish"
+    ],
     "time": "45 min",
     "portions": 1,
     "favorite": false,

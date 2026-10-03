@@ -4,7 +4,11 @@
     "description": "Rich, airy bite-sized mousse treats with an ice-cream-like texture that melt on your tongue. Sugar-free, topped with flaky sea salt, and served directly from the freezer.",
     "image": "assets/recipe_frozen_chocolate_mousse_cups.png",
     "author": "Eve",
-    "category": "Snacks",
+    "tags": [
+        "Snacks",
+        "Dessert",
+        "Low-Carb"
+    ],
     "time": "15 min",
     "portions": 16,
     "favorite": false,

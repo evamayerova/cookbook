@@ -4,7 +4,10 @@
     "description": "Zero cooking required: savory, sharp, and crunchy French bistro bites made with sliced cooked ham, whole-grain mustard cream cheese, aged Gruyère cheese, and tangy cornichons.",
     "image": "assets/recipe_ham_gruyere_pinwheels.png",
     "author": "Eve",
-    "category": "Snacks",
+    "tags": [
+        "Snacks",
+        "Low-Carb"
+    ],
     "time": "15 min",
     "portions": 15,
     "favorite": false,

@@ -4,7 +4,10 @@
     "description": "Creamy, cheesy, and spicy low-carb bites that stay tender and juicy whether served warm or chilled. Packed with ground chicken, sharp cheddar, cream cheese, and fresh jalapeños.",
     "image": "assets/recipe_jalapeno_chicken_bites.png",
     "author": "Eve",
-    "category": "Snacks",
+    "tags": [
+        "Snacks",
+        "Low-Carb"
+    ],
     "time": "25 min",
     "portions": 16,
     "favorite": false,

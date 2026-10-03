@@ -4,7 +4,9 @@
     "description": "Marion Grasby's classic Butter Chicken featuring tender spiced marinated chicken cooked in a velvety, rich tomato and cream sauce with cardamom, cinnamon, and kasoori methi.",
     "image": "assets/recipe_butter_chicken.png",
     "author": "Marion's Kitchen",
-    "category": "Main dish",
+    "tags": [
+        "Main dish"
+    ],
     "time": "40 min",
     "portions": 8,
     "favorite": true,

@@ -4,7 +4,10 @@
     "description": "A low-carb, keto-friendly pie with a perfectly crisp almond flour crust and a creamy custard-rhubarb filling. Delightfully tart and sweet without the sugar.",
     "image": "assets/recipe_rhubarb_pie.png",
     "author": "Eve",
-    "category": "Dessert",
+    "tags": [
+        "Dessert",
+        "Low-Carb"
+    ],
     "time": "1 hr",
     "portions": 8,
     "favorite": false,

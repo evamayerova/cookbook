@@ -4,7 +4,9 @@
     "description": "Smoky, satisfying pan-seared patties packed with black beans, savory chorizo, and crumbled queso fresco. High in fiber, resistant starch, and bold Latin flavors.",
     "image": "assets/recipe_black_bean_chorizo_pucks.png",
     "author": "Eve",
-    "category": "Snacks",
+    "tags": [
+        "Snacks"
+    ],
     "time": "20 min",
     "portions": 11,
     "favorite": false,

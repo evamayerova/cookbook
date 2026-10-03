@@ -4,7 +4,10 @@
     "description": "Perfectly seared Atlantic salmon served over tender grilled asparagus, drizzled with a delicate lemon butter caper sauce.",
     "image": "assets/recipe_salmon.png",
     "author": "Sarah Jenkins",
-    "category": "Main dish",
+    "tags": [
+        "Main dish",
+        "Low-Carb"
+    ],
     "time": "25 min",
     "portions": 4,
     "favorite": false,

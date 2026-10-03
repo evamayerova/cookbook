@@ -4,7 +4,9 @@
     "description": "A rich chocolate cake with a molten center, served warm and complemented by a vibrant, tart raspberry coulis.",
     "image": "assets/recipe_dessert.png",
     "author": "Pastry Chef Mia",
-    "category": "Dessert",
+    "tags": [
+        "Dessert"
+    ],
     "time": "40 min",
     "portions": 4,
     "favorite": false,
