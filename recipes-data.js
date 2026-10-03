@@ -2855,6 +2855,119 @@ window.recipesData = [
                   ]
     },
     {
+        "id":  33,
+        "title":  "Peanut Butter Chocolate Meltaway Cookies",
+        "description":  "Tender, bite-sized peanut butter shortbread cookies with a melt-in-your-mouth texture, crowned with a silky chocolate glaze and crunchy salted peanuts.",
+        "image":  "assets/recipe_peanut_butter_chocolate_meltaways.png",
+        "author":  "Saving Room for Dessert",
+        "tags":  [
+                     "Christmas cookies",
+                     "Dessert"
+                 ],
+        "time":  "45 min",
+        "portions":  36,
+        "favorite":  false,
+        "ingredients":  [
+                            {
+                                "id":  "butter",
+                                "amount":  "140",
+                                "unit":  "g",
+                                "name":  "Unsalted butter, softened",
+                                "group":  "Cookie Dough"
+                            },
+                            {
+                                "id":  "peanut_butter_dough",
+                                "amount":  "130",
+                                "unit":  "g",
+                                "name":  "Creamy peanut butter",
+                                "group":  "Cookie Dough"
+                            },
+                            {
+                                "id":  "powdered_sugar_dough",
+                                "amount":  "60",
+                                "unit":  "g",
+                                "name":  "Powdered sugar, sifted",
+                                "group":  "Cookie Dough"
+                            },
+                            {
+                                "id":  "vanilla",
+                                "amount":  "1",
+                                "unit":  "tsp",
+                                "name":  "Vanilla extract",
+                                "group":  "Cookie Dough"
+                            },
+                            {
+                                "id":  "flour",
+                                "amount":  "195",
+                                "unit":  "g",
+                                "name":  "Plain all-purpose flour",
+                                "group":  "Cookie Dough"
+                            },
+                            {
+                                "id":  "cornstarch",
+                                "amount":  "30",
+                                "unit":  "g",
+                                "name":  "Cornstarch",
+                                "group":  "Cookie Dough"
+                            },
+                            {
+                                "id":  "salt",
+                                "amount":  "0.5",
+                                "unit":  "tsp",
+                                "name":  "Fine salt",
+                                "group":  "Cookie Dough"
+                            },
+                            {
+                                "id":  "chocolate",
+                                "amount":  "115",
+                                "unit":  "g",
+                                "name":  "Semi-sweet chocolate, finely chopped",
+                                "group":  "Chocolate Glaze"
+                            },
+                            {
+                                "id":  "milk",
+                                "amount":  "30",
+                                "unit":  "ml",
+                                "name":  "Milk",
+                                "group":  "Chocolate Glaze"
+                            },
+                            {
+                                "id":  "peanut_butter_glaze",
+                                "amount":  "30",
+                                "unit":  "g",
+                                "name":  "Creamy peanut butter",
+                                "group":  "Chocolate Glaze"
+                            },
+                            {
+                                "id":  "powdered_sugar_glaze",
+                                "amount":  "85",
+                                "unit":  "g",
+                                "name":  "Powdered sugar, sifted",
+                                "group":  "Chocolate Glaze"
+                            },
+                            {
+                                "id":  "peanuts",
+                                "amount":  "35",
+                                "unit":  "g",
+                                "name":  "Roasted salted peanuts, finely chopped",
+                                "group":  "Chocolate Glaze"
+                            }
+                        ],
+        "steps":  [
+                      "In a large mixing bowl, beat the softened butter ({butter}) and creamy peanut butter ({peanut_butter_dough}) with an electric mixer on medium speed until creamy and smooth.",
+                      "Add the powdered sugar ({powdered_sugar_dough}) and beat until light and fluffy. Scrape down the sides of the bowl, then gently mix in the vanilla extract ({vanilla}) on low speed until thoroughly combined.",
+                      "In a separate bowl, whisk together the all-purpose flour ({flour}), cornstarch ({cornstarch}), and salt ({salt}). Gradually add the flour mixture in three batches to the creamed butter mixture, blending on low speed until just incorporated. Shape the dough into a cohesive ball, cover the bowl with plastic wrap, and chill in the refrigerator for 1 hour.",
+                      "Preheat the oven to 175°C (350°F) and line baking sheets with parchment paper.",
+                      "Scoop 1-inch portions of chilled dough (about a level tablespoon each) and roll into smooth balls. Place them about 5 cm (2 inches) apart on the prepared baking sheets.",
+                      "Gently press each ball with the flat bottom of a drinking glass or measuring cup to flatten slightly into an even round disc.",
+                      "Bake for 11 to 13 minutes until the cookies are set and light golden around the bottom edges. Slide the parchment paper onto a wire rack and allow the cookies to cool completely before glazing.",
+                      "Prepare the glaze: combine the chopped chocolate ({chocolate}), milk ({milk}), and creamy peanut butter ({peanut_butter_glaze}) in a heatproof bowl set over a saucepan of gently simmering water (double boiler), ensuring the bottom doesn\u0027t touch the water. Stir until melted and silky smooth.",
+                      "Remove the bowl from the hot water, whisk in the powdered sugar ({powdered_sugar_glaze}) until smooth and glossy. The glaze will thicken slightly as it cools.",
+                      "Immediately top each cooled cookie with about 1 teaspoon of warm chocolate glaze, and quickly sprinkle with finely chopped roasted salted peanuts ({peanuts}) before the chocolate sets.",
+                      "Let the cookies rest on the wire rack at room temperature for 1 to 2 hours until the glaze is fully set and dry to the touch before packing or serving."
+                  ]
+    },
+    {
         "id":  101,
         "title":  "Truffle Mushroom Pasta",
         "description":  "A rich and creamy pasta dish infused with the earthy aroma of black truffles, finished with a sprinkle of aged parmesan.",
